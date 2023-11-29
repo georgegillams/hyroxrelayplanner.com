@@ -1,0 +1,1802 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MagicLogin /> should render correctly - index 1`] = `
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c4 {
+  position: relative;
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  color: #1e1e1e;
+  width: 2.375rem;
+  height: 2.375rem;
+}
+
+.c5 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.15000000000000002s;
+  animation-delay: -0.15000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c6 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-delay: -0.05000000000000002s;
+  animation-delay: -0.05000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c7 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: 0.04999999999999999s;
+  animation-delay: 0.04999999999999999s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c8 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-animation-delay: 0.15000000000000002s;
+  animation-delay: 0.15000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c9 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c10 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c11 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: 0.45000000000000007s;
+  animation-delay: 0.45000000000000007s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c12 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  -webkit-animation-delay: 0.55s;
+  animation-delay: 0.55s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c4 {
+    color: white;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Logging in
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      />
+      <div
+        class="c6"
+      />
+      <div
+        class="c7"
+      />
+      <div
+        class="c8"
+      />
+      <div
+        class="c9"
+      />
+      <div
+        class="c10"
+      />
+      <div
+        class="c11"
+      />
+      <div
+        class="c12"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MagicLogin /> should render correctly with initial state 1`] = `
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c4 {
+  position: relative;
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  color: #1e1e1e;
+  width: 2.375rem;
+  height: 2.375rem;
+}
+
+.c5 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.15000000000000002s;
+  animation-delay: -0.15000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c6 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-delay: -0.05000000000000002s;
+  animation-delay: -0.05000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c7 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: 0.04999999999999999s;
+  animation-delay: 0.04999999999999999s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c8 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-animation-delay: 0.15000000000000002s;
+  animation-delay: 0.15000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c9 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c10 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c11 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: 0.45000000000000007s;
+  animation-delay: 0.45000000000000007s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c12 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  -webkit-animation-delay: 0.55s;
+  animation-delay: 0.55s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c4 {
+    color: white;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Logging in
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      />
+      <div
+        class="c6"
+      />
+      <div
+        class="c7"
+      />
+      <div
+        class="c8"
+      />
+      <div
+        class="c9"
+      />
+      <div
+        class="c10"
+      />
+      <div
+        class="c11"
+      />
+      <div
+        class="c12"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MagicLogin /> should render correctly with logInError 1`] = `
+.c15 {
+  display: inline-block;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  color: darkorchid;
+  fill: darkorchid;
+}
+
+.c15:focus-within,
+.c15:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c15:focus-within::after,
+.c15:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c15:hover {
+  color: #44aeff;
+  fill: #44aeff;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c16 {
+  margin: 0;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c13 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c13:first-of-type {
+  margin-top: 0.86rem;
+}
+
+.c14 {
+  color: #E02626;
+  fill: #E02626;
+}
+
+.c4 {
+  position: relative;
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  color: #1e1e1e;
+  width: 2.375rem;
+  height: 2.375rem;
+}
+
+.c5 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.15000000000000002s;
+  animation-delay: -0.15000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c6 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-delay: -0.05000000000000002s;
+  animation-delay: -0.05000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c7 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: 0.04999999999999999s;
+  animation-delay: 0.04999999999999999s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c8 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-animation-delay: 0.15000000000000002s;
+  animation-delay: 0.15000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c9 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c10 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c11 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: 0.45000000000000007s;
+  animation-delay: 0.45000000000000007s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c12 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  -webkit-animation-delay: 0.55s;
+  animation-delay: 0.55s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:focus-within::after,
+  .c15:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15 {
+    color: orchid;
+    fill: orchid;
+  }
+
+  .c15:hover {
+    color: #44aeff;
+    fill: #44aeff;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14 {
+    color: #CA2020;
+    fill: #CA2020;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c4 {
+    color: white;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Logging in
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      />
+      <div
+        class="c6"
+      />
+      <div
+        class="c7"
+      />
+      <div
+        class="c8"
+      />
+      <div
+        class="c9"
+      />
+      <div
+        class="c10"
+      />
+      <div
+        class="c11"
+      />
+      <div
+        class="c12"
+      />
+    </div>
+    <span
+      class="c13"
+    >
+      <span
+        class="c14"
+      >
+        Something went wrong logging you in
+        <br />
+        Invalid session
+        <br />
+        <a
+          class="c15"
+          href="/login"
+        >
+          <span
+            class="c16"
+          >
+            Try logging in again
+          </span>
+        </a>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<MagicLogin /> should render correctly with loggingIn=true 1`] = `
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c4 {
+  position: relative;
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  color: #1e1e1e;
+  width: 2.375rem;
+  height: 2.375rem;
+}
+
+.c5 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.15000000000000002s;
+  animation-delay: -0.15000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c6 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-delay: -0.05000000000000002s;
+  animation-delay: -0.05000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c7 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: 0.04999999999999999s;
+  animation-delay: 0.04999999999999999s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c8 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-animation-delay: 0.15000000000000002s;
+  animation-delay: 0.15000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c9 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c10 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c11 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: 0.45000000000000007s;
+  animation-delay: 0.45000000000000007s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c12 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  -webkit-animation-delay: 0.55s;
+  animation-delay: 0.55s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c4 {
+    color: white;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Logging in
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      />
+      <div
+        class="c6"
+      />
+      <div
+        class="c7"
+      />
+      <div
+        class="c8"
+      />
+      <div
+        class="c9"
+      />
+      <div
+        class="c10"
+      />
+      <div
+        class="c11"
+      />
+      <div
+        class="c12"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MagicLogin /> should render correctly with user 1`] = `
+.c5 {
+  display: inline-block;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  color: darkorchid;
+  fill: darkorchid;
+}
+
+.c5:focus-within,
+.c5:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c5:focus-within::after,
+.c5:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c5:hover {
+  color: #44aeff;
+  fill: #44aeff;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c6 {
+  margin: 0;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c4 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c4:first-of-type {
+  margin-top: 0.86rem;
+}
+
+.c7 {
+  position: relative;
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  color: #1e1e1e;
+  width: 2.375rem;
+  height: 2.375rem;
+}
+
+.c8 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.15000000000000002s;
+  animation-delay: -0.15000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c9 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-delay: -0.05000000000000002s;
+  animation-delay: -0.05000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c10 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: 0.04999999999999999s;
+  animation-delay: 0.04999999999999999s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c11 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-animation-delay: 0.15000000000000002s;
+  animation-delay: 0.15000000000000002s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c12 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c13 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c14 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: 0.45000000000000007s;
+  animation-delay: 0.45000000000000007s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c15 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  -webkit-animation-delay: 0.55s;
+  animation-delay: 0.55s;
+  bottom: 0.1rem;
+  left: 1.05rem;
+  width: 0.25rem;
+  height: 0.8rem;
+  -webkit-transform-origin: center -0.34em;
+  -ms-transform-origin: center -0.34em;
+  transform-origin: center -0.34em;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus-within::after,
+  .c5:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    color: orchid;
+    fill: orchid;
+  }
+
+  .c5:hover {
+    color: #44aeff;
+    fill: #44aeff;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7 {
+    color: white;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Logged in
+      </h1>
+    </div>
+    <span
+      class="c4"
+    >
+      Logged in!
+      <br />
+      You will now be redirected to the 
+      account
+       page
+      <br />
+      <a
+        class="c5"
+        href="account"
+      >
+        <span
+          class="c6"
+        >
+          Not been redirected? Click here
+        </span>
+      </a>
+    </span>
+    <div
+      class="c7"
+    >
+      <div
+        class="c8"
+      />
+      <div
+        class="c9"
+      />
+      <div
+        class="c10"
+      />
+      <div
+        class="c11"
+      />
+      <div
+        class="c12"
+      />
+      <div
+        class="c13"
+      />
+      <div
+        class="c14"
+      />
+      <div
+        class="c15"
+      />
+    </div>
+  </div>
+</div>
+`;

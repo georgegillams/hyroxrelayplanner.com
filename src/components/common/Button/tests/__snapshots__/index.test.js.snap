@@ -1,0 +1,342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> Should render correctly 1`] = `
+.c0 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+  display: inline-block;
+}
+
+.c0:focus-within,
+.c0:focus {
+  outline: none !important;
+}
+
+.c0:focus-within::after,
+.c0:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c0:active {
+  background-color: #003E6F;
+}
+
+.c0:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:focus-within::after,
+  .c0:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:focus,
+  .c0:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <a
+    class="c0"
+    href="/test"
+  >
+    <span
+      class="c1"
+    />
+  </a>
+</div>
+`;
+
+exports[`<Button /> Should render correctly hrefExternal 1`] = `
+.c0 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+  display: inline-block;
+}
+
+.c0:focus-within,
+.c0:focus {
+  outline: none !important;
+}
+
+.c0:focus-within::after,
+.c0:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c0:active {
+  background-color: #003E6F;
+}
+
+.c0:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:focus-within::after,
+  .c0:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:focus,
+  .c0:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <a
+    class="c0"
+    href="https://duckduckgo.com/"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <span
+      class="c1"
+    />
+  </a>
+</div>
+`;
+
+exports[`<Button /> Should render with nextified href 1`] = `
+.c0 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+  display: inline-block;
+}
+
+.c0:focus-within,
+.c0:focus {
+  outline: none !important;
+}
+
+.c0:focus-within::after,
+.c0:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c0:active {
+  background-color: #003E6F;
+}
+
+.c0:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:focus-within::after,
+  .c0:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:focus,
+  .c0:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <a
+    class="c0"
+    href="/blog/test"
+  >
+    <span
+      class="c1"
+    />
+  </a>
+</div>
+`;

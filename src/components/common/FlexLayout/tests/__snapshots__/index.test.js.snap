@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> Should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100vh - 5.5rem);
+  padding: 0 1rem;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+
+@media (min-width:32.25rem) {
+  .c0 {
+    padding: 0 2rem;
+  }
+}
+
+<div>
+  <main
+    class="c0"
+    id="main"
+  >
+    <div>
+      some text
+    </div>
+  </main>
+</div>
+`;

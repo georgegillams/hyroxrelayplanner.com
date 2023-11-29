@@ -1,0 +1,3052 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdminNotifications /> should render correctly - index 1`] = `
+.c2 {
+  position: relative;
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: rgb(238,238,238);
+  overflow: hidden;
+  width: 8rem;
+  height: 2.2rem;
+  margin-top: 3.34rem;
+}
+
+.c4 {
+  position: relative;
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: rgb(238,238,238);
+  overflow: hidden;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  width: 13rem;
+  height: 100vh;
+  background-image: linear-gradient( 90deg, rgb(238,238,238), rgb(245,245,245), rgb(238,238,238) );
+  background-repeat: no-repeat;
+  background-size: 12.5rem 100%;
+  -webkit-animation: sjjMW 3.5s ease-in-out infinite;
+  animation: sjjMW 3.5s ease-in-out infinite;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c1 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c2 {
+    background-color: rgb(17,17,17);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c4 {
+    background-color: rgb(17,17,17);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3 {
+    background-image: linear-gradient( 90deg, rgb(17,17,17), rgb(50,50,50), rgb(17,17,17) );
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c1 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      aria-label="Loading"
+      class="c1 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+      width="default"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+          style="margin-left: -0px;"
+        />
+      </div>
+      <div
+        class="c4"
+        style="margin-top: 1.2rem;"
+      >
+        <div
+          class="c3"
+          style="margin-left: -0px;"
+        />
+      </div>
+      <div
+        class="c4"
+        style="margin-top: 1.2rem;"
+      >
+        <div
+          class="c3"
+          style="margin-left: -0px;"
+        />
+      </div>
+      <div
+        class="c4"
+        style="margin-top: 1.2rem;"
+      >
+        <div
+          class="c3"
+          style="margin-left: -0px;"
+        />
+      </div>
+      <div
+        class="c4"
+        style="margin-top: 1.2rem;"
+      >
+        <div
+          class="c3"
+          style="margin-left: -0px;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AdminNotifications /> should render correctly with admin user 1`] = `
+.c11 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.c3 {
+  display: inline-block;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  color: darkorchid;
+  fill: darkorchid;
+}
+
+.c3:focus-within,
+.c3:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c3:focus-within::after,
+.c3:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c3:hover {
+  color: #44aeff;
+  fill: #44aeff;
+}
+
+.c5 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c4 {
+  margin: 0;
+}
+
+.c6 {
+  margin: 2.3rem 0 0 0;
+  margin-top: 1.5rem;
+}
+
+.c2 {
+  margin: 1.5rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c15 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c15:focus-within,
+.c15:focus {
+  outline: none !important;
+}
+
+.c15:focus-within::after,
+.c15:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c15:focus,
+.c15:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c15:active {
+  background-color: #003E6F;
+}
+
+.c15:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px #b2b2bf solid;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+
+.c8:focus-within,
+.c8:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c16 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.c9 {
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c13 {
+  margin-bottom: 1rem;
+}
+
+.c7 {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 0.375rem 0.1rem;
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.c18 > *:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.c10 {
+  padding: 0.375rem 0.75rem;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+
+.c10:disabled {
+  color: #b2b2bf;
+}
+
+.c12 {
+  margin-right: 0.5rem;
+  color: #00a698;
+  fill: #00a698;
+}
+
+.c14 {
+  padding: 0.375rem 0.75rem;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+
+.c14:disabled {
+  color: #b2b2bf;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3:focus-within::after,
+  .c3:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3 {
+    color: orchid;
+    fill: orchid;
+  }
+
+  .c3:hover {
+    color: #44aeff;
+    fill: #44aeff;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:focus-within::after,
+  .c15:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:focus,
+  .c15:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    border-color: white;
+    background-color: black;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c10 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c10:disabled {
+    color: #7b7b86;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14:disabled {
+    color: #7b7b86;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div>
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        >
+          <a
+            class="c3"
+            href="/admin"
+          >
+            <span
+              class="c4"
+            >
+              ⇠ Admin
+            </span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="c1"
+      >
+        <h1
+          class="c5 c6"
+        >
+          Admin notifications
+        </h1>
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <label
+        class="c7"
+        for="message_FORM_ID"
+      >
+        Message
+      </label>
+      <div
+        class="c8 c9"
+        placeholder="Message"
+      >
+        <input
+          aria-disabled="false"
+          aria-invalid="false"
+          class="c10"
+          id="message_FORM_ID"
+          name="Message"
+          value=""
+        />
+        <svg
+          class="c11 c12"
+          height="18"
+          viewBox="0 0 24 24"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+          />
+        </svg>
+      </div>
+      <label
+        class="c7"
+        for="type_FORM_ID"
+      >
+        Type
+      </label>
+      <div
+        class="c13"
+        placeholder="Type"
+      >
+        <div
+          class="c8"
+        >
+          <select
+            aria-disabled="false"
+            aria-invalid="false"
+            class="c14"
+            id="type_FORM_ID"
+            name="Type"
+          >
+            <option
+              value="success"
+            >
+              Success (green)
+            </option>
+            <option
+              value="warn"
+            >
+              Warning (orange)
+            </option>
+            <option
+              value="error"
+            >
+              Error (red)
+            </option>
+          </select>
+          <svg
+            class="c11 c12"
+            height="18"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+            />
+          </svg>
+        </div>
+      </div>
+      <button
+        class="c15 c16"
+        type="button"
+      >
+        <span
+          class="c17"
+        >
+          Create notification
+        </span>
+      </button>
+    </div>
+    <button
+      class="c15 outer"
+      type="button"
+    >
+      <span
+        class="c17"
+      >
+        Reload notifications
+      </span>
+    </button>
+    <div
+      class="c18"
+    />
+  </div>
+</div>
+`;
+
+exports[`<AdminNotifications /> should render correctly with initial state 1`] = `
+.c2 {
+  position: relative;
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: rgb(238,238,238);
+  overflow: hidden;
+  width: 8rem;
+  height: 2.2rem;
+  margin-top: 3.34rem;
+}
+
+.c4 {
+  position: relative;
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: rgb(238,238,238);
+  overflow: hidden;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  width: 13rem;
+  height: 100vh;
+  background-image: linear-gradient( 90deg, rgb(238,238,238), rgb(245,245,245), rgb(238,238,238) );
+  background-repeat: no-repeat;
+  background-size: 12.5rem 100%;
+  -webkit-animation: sjjMW 3.5s ease-in-out infinite;
+  animation: sjjMW 3.5s ease-in-out infinite;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c1 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c2 {
+    background-color: rgb(17,17,17);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c4 {
+    background-color: rgb(17,17,17);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3 {
+    background-image: linear-gradient( 90deg, rgb(17,17,17), rgb(50,50,50), rgb(17,17,17) );
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c1 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      aria-label="Loading"
+      class="c1 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+      width="default"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+          style="margin-left: -0px;"
+        />
+      </div>
+      <div
+        class="c4"
+        style="margin-top: 1.2rem;"
+      >
+        <div
+          class="c3"
+          style="margin-left: -0px;"
+        />
+      </div>
+      <div
+        class="c4"
+        style="margin-top: 1.2rem;"
+      >
+        <div
+          class="c3"
+          style="margin-left: -0px;"
+        />
+      </div>
+      <div
+        class="c4"
+        style="margin-top: 1.2rem;"
+      >
+        <div
+          class="c3"
+          style="margin-left: -0px;"
+        />
+      </div>
+      <div
+        class="c4"
+        style="margin-top: 1.2rem;"
+      >
+        <div
+          class="c3"
+          style="margin-left: -0px;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AdminNotifications /> should render correctly with loadError 1`] = `
+.c11 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.c3 {
+  display: inline-block;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  color: darkorchid;
+  fill: darkorchid;
+}
+
+.c3:focus-within,
+.c3:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c3:focus-within::after,
+.c3:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c3:hover {
+  color: #44aeff;
+  fill: #44aeff;
+}
+
+.c5 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c4 {
+  margin: 0;
+}
+
+.c6 {
+  margin: 2.3rem 0 0 0;
+  margin-top: 1.5rem;
+}
+
+.c2 {
+  margin: 1.5rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c15 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c15:focus-within,
+.c15:focus {
+  outline: none !important;
+}
+
+.c15:focus-within::after,
+.c15:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c15:focus,
+.c15:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c15:active {
+  background-color: #003E6F;
+}
+
+.c15:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c19 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c19:first-of-type {
+  margin-top: 0.86rem;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c20 {
+  color: #E02626;
+  fill: #E02626;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px #b2b2bf solid;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+
+.c8:focus-within,
+.c8:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c16 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.c9 {
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c13 {
+  margin-bottom: 1rem;
+}
+
+.c7 {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 0.375rem 0.1rem;
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.c18 > *:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.c10 {
+  padding: 0.375rem 0.75rem;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+
+.c10:disabled {
+  color: #b2b2bf;
+}
+
+.c12 {
+  margin-right: 0.5rem;
+  color: #00a698;
+  fill: #00a698;
+}
+
+.c14 {
+  padding: 0.375rem 0.75rem;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+
+.c14:disabled {
+  color: #b2b2bf;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3:focus-within::after,
+  .c3:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3 {
+    color: orchid;
+    fill: orchid;
+  }
+
+  .c3:hover {
+    color: #44aeff;
+    fill: #44aeff;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:focus-within::after,
+  .c15:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:focus,
+  .c15:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c20 {
+    color: #CA2020;
+    fill: #CA2020;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    border-color: white;
+    background-color: black;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c10 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c10:disabled {
+    color: #7b7b86;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14:disabled {
+    color: #7b7b86;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div>
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        >
+          <a
+            class="c3"
+            href="/admin"
+          >
+            <span
+              class="c4"
+            >
+              ⇠ Admin
+            </span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="c1"
+      >
+        <h1
+          class="c5 c6"
+        >
+          Admin notifications
+        </h1>
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <label
+        class="c7"
+        for="message_FORM_ID"
+      >
+        Message
+      </label>
+      <div
+        class="c8 c9"
+        placeholder="Message"
+      >
+        <input
+          aria-disabled="false"
+          aria-invalid="false"
+          class="c10"
+          id="message_FORM_ID"
+          name="Message"
+          value=""
+        />
+        <svg
+          class="c11 c12"
+          height="18"
+          viewBox="0 0 24 24"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+          />
+        </svg>
+      </div>
+      <label
+        class="c7"
+        for="type_FORM_ID"
+      >
+        Type
+      </label>
+      <div
+        class="c13"
+        placeholder="Type"
+      >
+        <div
+          class="c8"
+        >
+          <select
+            aria-disabled="false"
+            aria-invalid="false"
+            class="c14"
+            id="type_FORM_ID"
+            name="Type"
+          >
+            <option
+              value="success"
+            >
+              Success (green)
+            </option>
+            <option
+              value="warn"
+            >
+              Warning (orange)
+            </option>
+            <option
+              value="error"
+            >
+              Error (red)
+            </option>
+          </select>
+          <svg
+            class="c11 c12"
+            height="18"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+            />
+          </svg>
+        </div>
+      </div>
+      <button
+        class="c15 c16"
+        type="button"
+      >
+        <span
+          class="c17"
+        >
+          Create notification
+        </span>
+      </button>
+    </div>
+    <button
+      class="c15 outer"
+      type="button"
+    >
+      <span
+        class="c17"
+      >
+        Reload notifications
+      </span>
+    </button>
+    <div
+      class="c18"
+    >
+      <span
+        class="c19"
+      >
+        <span
+          class="c20"
+        >
+          Could not load notifications
+          <br />
+          Something went wrong
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AdminNotifications /> should render correctly with loading=true 1`] = `
+.c11 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.c3 {
+  display: inline-block;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  color: darkorchid;
+  fill: darkorchid;
+}
+
+.c3:focus-within,
+.c3:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c3:focus-within::after,
+.c3:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c3:hover {
+  color: #44aeff;
+  fill: #44aeff;
+}
+
+.c5 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c4 {
+  margin: 0;
+}
+
+.c6 {
+  margin: 2.3rem 0 0 0;
+  margin-top: 1.5rem;
+}
+
+.c2 {
+  margin: 1.5rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c21 {
+  position: relative;
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  color: #1e1e1e;
+}
+
+.c22 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.15000000000000002s;
+  animation-delay: -0.15000000000000002s;
+}
+
+.c23 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-delay: -0.05000000000000002s;
+  animation-delay: -0.05000000000000002s;
+}
+
+.c24 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: 0.04999999999999999s;
+  animation-delay: 0.04999999999999999s;
+}
+
+.c25 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-animation-delay: 0.15000000000000002s;
+  animation-delay: 0.15000000000000002s;
+}
+
+.c26 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+
+.c27 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+}
+
+.c28 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: 0.45000000000000007s;
+  animation-delay: 0.45000000000000007s;
+}
+
+.c29 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  -webkit-animation-delay: 0.55s;
+  animation-delay: 0.55s;
+}
+
+.c15 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c15:focus-within,
+.c15:focus {
+  outline: none !important;
+}
+
+.c15:focus-within::after,
+.c15:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c15:focus,
+.c15:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c15:active {
+  background-color: #003E6F;
+}
+
+.c15:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c18 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+  cursor: default;
+}
+
+.c18:focus-within,
+.c18:focus {
+  outline: none !important;
+}
+
+.c18:focus-within::after,
+.c18:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c18:focus,
+.c18:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c18:active {
+  background-color: #003E6F;
+}
+
+.c18:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0.1;
+}
+
+.c20 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px #b2b2bf solid;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+
+.c8:focus-within,
+.c8:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c16 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.c9 {
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c13 {
+  margin-bottom: 1rem;
+}
+
+.c7 {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 0.375rem 0.1rem;
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.c30 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.c30 > *:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.c10 {
+  padding: 0.375rem 0.75rem;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+
+.c10:disabled {
+  color: #b2b2bf;
+}
+
+.c12 {
+  margin-right: 0.5rem;
+  color: #00a698;
+  fill: #00a698;
+}
+
+.c14 {
+  padding: 0.375rem 0.75rem;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+
+.c14:disabled {
+  color: #b2b2bf;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3:focus-within::after,
+  .c3:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3 {
+    color: orchid;
+    fill: orchid;
+  }
+
+  .c3:hover {
+    color: #44aeff;
+    fill: #44aeff;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c21 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:focus-within::after,
+  .c15:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:focus,
+  .c15:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c18:focus-within::after,
+  .c18:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c18 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c18:focus,
+  .c18:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c18:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c18:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    border-color: white;
+    background-color: black;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c10 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c10:disabled {
+    color: #7b7b86;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14:disabled {
+    color: #7b7b86;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div>
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        >
+          <a
+            class="c3"
+            href="/admin"
+          >
+            <span
+              class="c4"
+            >
+              ⇠ Admin
+            </span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="c1"
+      >
+        <h1
+          class="c5 c6"
+        >
+          Admin notifications
+        </h1>
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <label
+        class="c7"
+        for="message_FORM_ID"
+      >
+        Message
+      </label>
+      <div
+        class="c8 c9"
+        placeholder="Message"
+      >
+        <input
+          aria-disabled="false"
+          aria-invalid="false"
+          class="c10"
+          id="message_FORM_ID"
+          name="Message"
+          value=""
+        />
+        <svg
+          class="c11 c12"
+          height="18"
+          viewBox="0 0 24 24"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+          />
+        </svg>
+      </div>
+      <label
+        class="c7"
+        for="type_FORM_ID"
+      >
+        Type
+      </label>
+      <div
+        class="c13"
+        placeholder="Type"
+      >
+        <div
+          class="c8"
+        >
+          <select
+            aria-disabled="false"
+            aria-invalid="false"
+            class="c14"
+            id="type_FORM_ID"
+            name="Type"
+          >
+            <option
+              value="success"
+            >
+              Success (green)
+            </option>
+            <option
+              value="warn"
+            >
+              Warning (orange)
+            </option>
+            <option
+              value="error"
+            >
+              Error (red)
+            </option>
+          </select>
+          <svg
+            class="c11 c12"
+            height="18"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+            />
+          </svg>
+        </div>
+      </div>
+      <button
+        class="c15 c16"
+        type="button"
+      >
+        <span
+          class="c17"
+        >
+          Create notification
+        </span>
+      </button>
+    </div>
+    <button
+      class="c18 outer"
+      disabled=""
+      type="button"
+    >
+      <span
+        class="c19"
+      >
+        Reload notifications
+      </span>
+      <div
+        aria-hidden="true"
+        class="c20"
+      >
+        <div
+          class="c21"
+        >
+          <div
+            class="c22"
+          />
+          <div
+            class="c23"
+          />
+          <div
+            class="c24"
+          />
+          <div
+            class="c25"
+          />
+          <div
+            class="c26"
+          />
+          <div
+            class="c27"
+          />
+          <div
+            class="c28"
+          />
+          <div
+            class="c29"
+          />
+        </div>
+      </div>
+    </button>
+    <div
+      class="c30"
+    />
+  </div>
+</div>
+`;
+
+exports[`<AdminNotifications /> should render correctly with notifications 1`] = `
+.c11 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.c3 {
+  display: inline-block;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  color: darkorchid;
+  fill: darkorchid;
+}
+
+.c3:focus-within,
+.c3:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c3:focus-within::after,
+.c3:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c3:hover {
+  color: #44aeff;
+  fill: #44aeff;
+}
+
+.c5 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c4 {
+  margin: 0;
+}
+
+.c6 {
+  margin: 2.3rem 0 0 0;
+  margin-top: 1.5rem;
+}
+
+.c2 {
+  margin: 1.5rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c15 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c15:focus-within,
+.c15:focus {
+  outline: none !important;
+}
+
+.c15:focus-within::after,
+.c15:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c15:focus,
+.c15:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c15:active {
+  background-color: #003E6F;
+}
+
+.c15:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c20 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #E02626;
+  color: white;
+}
+
+.c20:focus-within,
+.c20:focus {
+  outline: none !important;
+}
+
+.c20:focus-within::after,
+.c20:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c20:focus,
+.c20:hover {
+  background-color: #BA2020;
+  color: white;
+}
+
+.c20:active {
+  background-color: #9F1717;
+}
+
+.c20:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c19 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.8rem;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  color: white;
+  background-color: darkgreen;
+}
+
+.c21 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.8rem;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  color: white;
+  background-color: darkorange;
+}
+
+.c22 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.8rem;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  color: white;
+  background-color: #e02626;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px #b2b2bf solid;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+
+.c8:focus-within,
+.c8:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c16 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.c9 {
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c13 {
+  margin-bottom: 1rem;
+}
+
+.c7 {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 0.375rem 0.1rem;
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.c18 > *:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.c10 {
+  padding: 0.375rem 0.75rem;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+
+.c10:disabled {
+  color: #b2b2bf;
+}
+
+.c12 {
+  margin-right: 0.5rem;
+  color: #00a698;
+  fill: #00a698;
+}
+
+.c14 {
+  padding: 0.375rem 0.75rem;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+
+.c14:disabled {
+  color: #b2b2bf;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3:focus-within::after,
+  .c3:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3 {
+    color: orchid;
+    fill: orchid;
+  }
+
+  .c3:hover {
+    color: #44aeff;
+    fill: #44aeff;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:focus-within::after,
+  .c15:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:focus,
+  .c15:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c20:focus-within::after,
+  .c20:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c20 {
+    background-color: #CA2020;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c20:focus,
+  .c20:hover {
+    background-color: #891111;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c20:active {
+    background-color: #730D0D;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c20:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    border-color: white;
+    background-color: black;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c10 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c10:disabled {
+    color: #7b7b86;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14:disabled {
+    color: #7b7b86;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div>
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        >
+          <a
+            class="c3"
+            href="/admin"
+          >
+            <span
+              class="c4"
+            >
+              ⇠ Admin
+            </span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="c1"
+      >
+        <h1
+          class="c5 c6"
+        >
+          Admin notifications
+        </h1>
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <label
+        class="c7"
+        for="message_FORM_ID"
+      >
+        Message
+      </label>
+      <div
+        class="c8 c9"
+        placeholder="Message"
+      >
+        <input
+          aria-disabled="false"
+          aria-invalid="false"
+          class="c10"
+          id="message_FORM_ID"
+          name="Message"
+          value=""
+        />
+        <svg
+          class="c11 c12"
+          height="18"
+          viewBox="0 0 24 24"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+          />
+        </svg>
+      </div>
+      <label
+        class="c7"
+        for="type_FORM_ID"
+      >
+        Type
+      </label>
+      <div
+        class="c13"
+        placeholder="Type"
+      >
+        <div
+          class="c8"
+        >
+          <select
+            aria-disabled="false"
+            aria-invalid="false"
+            class="c14"
+            id="type_FORM_ID"
+            name="Type"
+          >
+            <option
+              value="success"
+            >
+              Success (green)
+            </option>
+            <option
+              value="warn"
+            >
+              Warning (orange)
+            </option>
+            <option
+              value="error"
+            >
+              Error (red)
+            </option>
+          </select>
+          <svg
+            class="c11 c12"
+            height="18"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+            />
+          </svg>
+        </div>
+      </div>
+      <button
+        class="c15 c16"
+        type="button"
+      >
+        <span
+          class="c17"
+        >
+          Create notification
+        </span>
+      </button>
+    </div>
+    <button
+      class="c15 outer"
+      type="button"
+    >
+      <span
+        class="c17"
+      >
+        Reload notifications
+      </span>
+    </button>
+    <div
+      class="c18"
+    >
+      <div>
+        <div
+          class="c19"
+          type="success"
+        >
+          message1
+        </div>
+        <button
+          class="c20 outer"
+          type="button"
+        >
+          <span
+            class="c17"
+          >
+            Remove
+          </span>
+        </button>
+      </div>
+      <div>
+        <div
+          class="c21"
+          type="warn"
+        >
+          message2
+        </div>
+        <button
+          class="c20 outer"
+          type="button"
+        >
+          <span
+            class="c17"
+          >
+            Remove
+          </span>
+        </button>
+      </div>
+      <div>
+        <div
+          class="c22"
+          type="error"
+        >
+          message3
+        </div>
+        <button
+          class="c20 outer"
+          type="button"
+        >
+          <span
+            class="c17"
+          >
+            Remove
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AdminNotifications /> should render correctly with user 1`] = `
+.c5 {
+  display: inline-block;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  color: darkorchid;
+  fill: darkorchid;
+}
+
+.c5:focus-within,
+.c5:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c5:focus-within::after,
+.c5:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c5:hover {
+  color: #44aeff;
+  fill: #44aeff;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.c6 {
+  margin: 0;
+}
+
+.c1 {
+  width: 100%;
+  color: #1e1e1e;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3 {
+  margin: 3.34rem 0 0 0;
+}
+
+.c4 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c4:first-of-type {
+  margin-top: 0.86rem;
+}
+
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus-within::after,
+  .c5:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    color: orchid;
+    fill: orchid;
+  }
+
+  .c5:hover {
+    color: #44aeff;
+    fill: #44aeff;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c1 {
+    color: white;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+        id="admin-only"
+      >
+        Admin only
+      </h1>
+      <span
+        class="c4"
+      >
+        You need to be logged in with an admin account to view this content.
+        <br />
+        <a
+          class="c5"
+          href="/login"
+        >
+          <span
+            class="c6"
+          >
+            Got a different admin account? Log in here.
+          </span>
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
+`;

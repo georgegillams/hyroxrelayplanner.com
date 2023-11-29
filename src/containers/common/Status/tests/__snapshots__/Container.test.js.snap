@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Status /> should render correctly 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c4 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c4:first-of-type {
+  margin-top: 0.86rem;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c7 {
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c5 {
+  width: 100%;
+  color: #1e1e1e;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  margin: 3.34rem 0 0 0;
+}
+
+.c6 {
+  background-color: #ed75ff;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c6 {
+    background-color: #740086;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Status
+      </h1>
+    </div>
+    <span
+      class="c4"
+    >
+      <img
+        alt="Build status"
+        src="GITHUB_REPO_URL/workflows/CI/badge.svg"
+      />
+      <br />
+      Built 
+      over 53 years ago
+      <br />
+      Started 
+      over 53 years ago
+      <br />
+      Environment 
+      test-node-env
+    </span>
+    <div
+      class="c5 c6"
+    >
+      <h1
+        class="c7 c8"
+        id="app-config"
+      >
+        App config
+      </h1>
+      <div
+        role="button"
+        style="margin-left: 0rem;"
+        tabindex="0"
+      >
+        ▶️ top-level:
+      </div>
+    </div>
+  </div>
+</div>
+`;
