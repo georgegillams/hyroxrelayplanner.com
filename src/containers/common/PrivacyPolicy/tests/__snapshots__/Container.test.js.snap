@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrivacyPolicy /> should render correctly - index 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c7 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c5 {
+  padding-top: 0;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.c4 {
+  width: 100%;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c9 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c9:first-of-type {
+  margin-top: 0.86rem;
+}
+
+.c6 {
+  width: 100%;
+  color: #1e1e1e;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  margin: 2.13rem 0 0 0;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c6 {
+    color: white;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Privacy policy
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <style>
+        .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+      </style>
+      <div
+        class="c5 animated-content__wrapper--hidden"
+      >
+        <div
+          class="c6"
+        >
+          <h1
+            class="c7 c8"
+            id="accounts"
+          >
+            Accounts
+          </h1>
+          <span
+            class="c9"
+          >
+            When you sign-up for an account we ask for a username and email. We will never share these with third-parties. We store these only to enable access to your account.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c4"
+    >
+      <style>
+        .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+      </style>
+      <div
+        class="c5 animated-content__wrapper--hidden"
+      >
+        <div
+          class="c6"
+        >
+          <h1
+            class="c7 c8"
+            id="analytics"
+          >
+            Analytics
+          </h1>
+          <span
+            class="c9"
+          >
+            This site collects basic analytics information, namely the URL paths you visit within the site, and information about the device you are using. This is never shared with third-parties and never used to track you across other services.
+          </span>
+          <span
+            class="c9"
+          >
+            The information collected about your device includes browser, browser version, OS, OS version, and the first part of your IP address which gives a very, very rough location of access.
+          </span>
+          <span
+            class="c9"
+          >
+            As this data contains no personally identifiable information and is not used to track you, it can be collected without consent.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c4"
+    >
+      <style>
+        .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+      </style>
+      <div
+        class="c5 animated-content__wrapper--hidden"
+      >
+        <div
+          class="c6"
+        >
+          <h1
+            class="c7 c8"
+            id="cookies"
+          >
+            Cookies
+          </h1>
+          <span
+            class="c9"
+          >
+            To keep you logged in to your user account an authentication cookie will be stored on your machine. This will not be used to track you, and will not be shared with any third-parties. As this is a purely functional cookie, it can be used without consent.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c4"
+    >
+      <style>
+        .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+      </style>
+      <div
+        class="c5 animated-content__wrapper--hidden"
+      >
+        <div
+          class="c6"
+        >
+          <h1
+            class="c7 c8"
+            id="version"
+          >
+            Version
+          </h1>
+          <span
+            class="c9"
+          >
+            This is version 
+            3
+             of the privacy policy.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

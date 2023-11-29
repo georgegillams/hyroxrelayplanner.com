@@ -1,0 +1,911 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render correctly 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.c1 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c9 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c3 {
+  padding-top: 0;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c5 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c5:first-of-type {
+  margin-top: 0.86rem;
+}
+
+.c7 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+  min-width: 7rem;
+  padding: 0.455rem 1.4rem 0.345rem 1.4rem;
+  font-size: 1.6rem;
+}
+
+.c7:focus-within,
+.c7:focus {
+  outline: none !important;
+}
+
+.c7:focus-within::after,
+.c7:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c7:focus,
+.c7:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c7:active {
+  background-color: #003E6F;
+}
+
+.c7:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c12 {
+  margin: 0;
+}
+
+.c15 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.c6 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.c13 {
+  margin: 0;
+}
+
+.c14 {
+  width: 100%;
+  color: #1e1e1e;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c16 {
+  margin: 2.13rem 0 0 0;
+}
+
+.c10 {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c11 {
+  background-color: black;
+  padding: 1rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: auto 1fr;
+}
+
+.c4 {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:50.25rem) {
+  .c1 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c9 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7:focus-within::after,
+  .c7:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7:focus,
+  .c7:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14 {
+    color: white;
+  }
+}
+
+@media (min-width:32.25rem) {
+  .c10 {
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c4 {
+    padding: calc(2 * 2rem);
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="fullWidth"
+  >
+    <div
+      class="c1 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+      width="default"
+    >
+      <div
+        class="c2"
+      >
+        <style>
+          .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+        </style>
+        <div
+          class="c3 animated-content__wrapper--hidden"
+        >
+          <div
+            class="c4"
+          >
+            <span
+              class="c5"
+              style="margin-bottom: 1rem;"
+            >
+              <span
+                class="c6"
+              >
+                Get a free, personalised Hyrox Relay plan that plays to the strengths of your team.
+              </span>
+            </span>
+            <span
+              class="c5"
+              style="margin-bottom: 1rem;"
+            >
+              <button
+                class="c7 outer"
+                type="button"
+              >
+                <span
+                  class="c8"
+                >
+                  Create a team
+                </span>
+              </button>
+              <style>
+                @keyframes spin{to{transform:rotate(360deg)}}.tf-v1-popup{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.75);transition:opacity .25s ease-in-out;z-index:10001;display:flex;align-items:center;justify-content:center}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:360px;min-height:360px}.tf-v1-popup .tf-v1-iframe-wrapper iframe{width:100%;height:100%;border:none;overflow:hidden;border-radius:8px}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:-34px;right:0;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}@media(min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}.tf-v1-popup .tf-v1-spinner{border:3px solid #aaa;font-size:40px;width:1em;height:1em;border-radius:.5em;box-sizing:border-box;animation:spin 1s linear infinite;border-top-color:#fff;position:absolute;top:50%;left:50%;margin:-20px 0 0 -20px}@media(max-width: 480px){.tf-v1-popup{width:100% !important;height:100% !important}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:100%;min-height:100%}.tf-v1-popup .tf-v1-iframe-wrapper iframe{border-radius:0}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:6px;right:8px;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}}@media(max-width: 480px)and (min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}
+              </style>
+              <button
+                class=""
+                data-testid="tf-v1-popup"
+                id="tf-popup-button"
+                style="opacity: 0; width: 0px; height: 0px;"
+              >
+                click to open form in popup
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c9 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+      width="default"
+    >
+      <div
+        class="c2"
+      >
+        <style>
+          .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+        </style>
+        <div
+          class="c3 animated-content__wrapper--hidden"
+        >
+          <div
+            class="c10"
+          >
+            <div
+              class="c11"
+            >
+              <h1
+                class="c12"
+              >
+                Step 1
+              </h1>
+              <span
+                class="c13"
+              >
+                Choose a name for your team
+              </span>
+            </div>
+            <div
+              class="c11"
+            >
+              <h1
+                class="c12"
+              >
+                Step 2
+              </h1>
+              <span
+                class="c13"
+              >
+                Ask each athlete to submit their station preferences
+              </span>
+            </div>
+            <div
+              class="c11"
+            >
+              <h1
+                class="c12"
+              >
+                Step 3
+              </h1>
+              <span
+                class="c13"
+              >
+                Get your personalised relay plan that's optimised to get the best out of your team!
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <style>
+          .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+        </style>
+        <div
+          class="c3 animated-content__wrapper--hidden"
+        >
+          <div
+            class="c14"
+            style="color: rgb(255, 255, 255);"
+          >
+            <h1
+              class="c15 c16"
+              id="about"
+            >
+              About
+            </h1>
+            <span
+              class="c5"
+              style="margin-bottom: 1rem;"
+            >
+              I created the Hyrox Relay Planner to help relay teams decide which stations they should each do.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <style>
+          .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+        </style>
+        <div
+          class="c3 animated-content__wrapper--hidden"
+        >
+          <div
+            class="c14"
+            style="color: rgb(255, 255, 255);"
+          >
+            <h1
+              class="c15 c16"
+              id="how-does-the-planner-work?"
+            >
+              How does the planner work?
+            </h1>
+            <span
+              class="c5"
+              style="margin-bottom: 1rem;"
+            >
+              There's no AI magic here, just a server doing some calculations. This works by generating all 2520 possible permutations for how you could divide the 8 Hyrox stations between 4 of you. It then assesses each one according to the athlete's individual preferences as well as rest-time between stations, and decides which is best.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Home /> should render correctly with no teamId 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.c1 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c9 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c3 {
+  padding-top: 0;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c5 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c5:first-of-type {
+  margin-top: 0.86rem;
+}
+
+.c7 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+  min-width: 7rem;
+  padding: 0.455rem 1.4rem 0.345rem 1.4rem;
+  font-size: 1.6rem;
+}
+
+.c7:focus-within,
+.c7:focus {
+  outline: none !important;
+}
+
+.c7:focus-within::after,
+.c7:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c7:focus,
+.c7:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c7:active {
+  background-color: #003E6F;
+}
+
+.c7:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c12 {
+  margin: 0;
+}
+
+.c15 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.c6 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.c13 {
+  margin: 0;
+}
+
+.c14 {
+  width: 100%;
+  color: #1e1e1e;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c16 {
+  margin: 2.13rem 0 0 0;
+}
+
+.c10 {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c11 {
+  background-color: black;
+  padding: 1rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: auto 1fr;
+}
+
+.c4 {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:50.25rem) {
+  .c1 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c9 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7:focus-within::after,
+  .c7:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7:focus,
+  .c7:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c7:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14 {
+    color: white;
+  }
+}
+
+@media (min-width:32.25rem) {
+  .c10 {
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+  }
+}
+
+@media (min-width:50.25rem) {
+  .c4 {
+    padding: calc(2 * 2rem);
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="fullWidth"
+  >
+    <div
+      class="c1 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+      width="default"
+    >
+      <div
+        class="c2"
+      >
+        <style>
+          .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+        </style>
+        <div
+          class="c3 animated-content__wrapper--hidden"
+        >
+          <div
+            class="c4"
+          >
+            <span
+              class="c5"
+              style="margin-bottom: 1rem;"
+            >
+              <span
+                class="c6"
+              >
+                Get a free, personalised Hyrox Relay plan that plays to the strengths of your team.
+              </span>
+            </span>
+            <span
+              class="c5"
+              style="margin-bottom: 1rem;"
+            >
+              <button
+                class="c7 outer"
+                type="button"
+              >
+                <span
+                  class="c8"
+                >
+                  Create a team
+                </span>
+              </button>
+              <style>
+                @keyframes spin{to{transform:rotate(360deg)}}.tf-v1-popup{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.75);transition:opacity .25s ease-in-out;z-index:10001;display:flex;align-items:center;justify-content:center}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:360px;min-height:360px}.tf-v1-popup .tf-v1-iframe-wrapper iframe{width:100%;height:100%;border:none;overflow:hidden;border-radius:8px}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:-34px;right:0;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}@media(min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}.tf-v1-popup .tf-v1-spinner{border:3px solid #aaa;font-size:40px;width:1em;height:1em;border-radius:.5em;box-sizing:border-box;animation:spin 1s linear infinite;border-top-color:#fff;position:absolute;top:50%;left:50%;margin:-20px 0 0 -20px}@media(max-width: 480px){.tf-v1-popup{width:100% !important;height:100% !important}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:100%;min-height:100%}.tf-v1-popup .tf-v1-iframe-wrapper iframe{border-radius:0}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:6px;right:8px;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}}@media(max-width: 480px)and (min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}
+              </style>
+              <button
+                class=""
+                data-testid="tf-v1-popup"
+                id="tf-popup-button"
+                style="opacity: 0; width: 0px; height: 0px;"
+              >
+                click to open form in popup
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c9 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+      width="default"
+    >
+      <div
+        class="c2"
+      >
+        <style>
+          .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+        </style>
+        <div
+          class="c3 animated-content__wrapper--hidden"
+        >
+          <div
+            class="c10"
+          >
+            <div
+              class="c11"
+            >
+              <h1
+                class="c12"
+              >
+                Step 1
+              </h1>
+              <span
+                class="c13"
+              >
+                Choose a name for your team
+              </span>
+            </div>
+            <div
+              class="c11"
+            >
+              <h1
+                class="c12"
+              >
+                Step 2
+              </h1>
+              <span
+                class="c13"
+              >
+                Ask each athlete to submit their station preferences
+              </span>
+            </div>
+            <div
+              class="c11"
+            >
+              <h1
+                class="c12"
+              >
+                Step 3
+              </h1>
+              <span
+                class="c13"
+              >
+                Get your personalised relay plan that's optimised to get the best out of your team!
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <style>
+          .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+        </style>
+        <div
+          class="c3 animated-content__wrapper--hidden"
+        >
+          <div
+            class="c14"
+            style="color: rgb(255, 255, 255);"
+          >
+            <h1
+              class="c15 c16"
+              id="about"
+            >
+              About
+            </h1>
+            <span
+              class="c5"
+              style="margin-bottom: 1rem;"
+            >
+              I created the Hyrox Relay Planner to help relay teams decide which stations they should each do.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <style>
+          .js .animated-content__wrapper--hidden {
+  padding-top: 4rem;
+  opacity: 0.01;
+}
+        </style>
+        <div
+          class="c3 animated-content__wrapper--hidden"
+        >
+          <div
+            class="c14"
+            style="color: rgb(255, 255, 255);"
+          >
+            <h1
+              class="c15 c16"
+              id="how-does-the-planner-work?"
+            >
+              How does the planner work?
+            </h1>
+            <span
+              class="c5"
+              style="margin-bottom: 1rem;"
+            >
+              There's no AI magic here, just a server doing some calculations. This works by generating all 2520 possible permutations for how you could divide the 8 Hyrox stations between 4 of you. It then assesses each one according to the athlete's individual preferences as well as rest-time between stations, and decides which is best.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

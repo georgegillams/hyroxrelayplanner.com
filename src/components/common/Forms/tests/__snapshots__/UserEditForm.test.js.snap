@@ -1,0 +1,792 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserEditForm /> Should render correctly 1`] = `
+.c6 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c6:focus-within,
+.c6:focus {
+  outline: none !important;
+}
+
+.c6:focus-within::after,
+.c6:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c6:focus,
+.c6:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c6:active {
+  background-color: #003E6F;
+}
+
+.c6:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px #b2b2bf solid;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+
+.c1:focus-within,
+.c1:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c1:focus-within::after,
+.c1:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c7 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.c2 {
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c0 {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 0.375rem 0.1rem;
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.c3 {
+  padding: 0.375rem 0.75rem;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+
+.c3:disabled {
+  color: #b2b2bf;
+}
+
+.c5 {
+  margin-right: 0.5rem;
+  color: #00a698;
+  fill: #00a698;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c6:focus-within::after,
+  .c6:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c6 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c6:focus,
+  .c6:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c6:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c6:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c1:focus-within::after,
+  .c1:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c1 {
+    border-color: white;
+    background-color: black;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3:disabled {
+    color: #7b7b86;
+  }
+}
+
+<div>
+  <div
+    class=""
+  >
+    <label
+      class="c0"
+      for="uname_FORM_ID"
+    >
+      Display name
+    </label>
+    <div
+      class="c1 c2"
+      placeholder="Display name"
+    >
+      <input
+        aria-disabled="false"
+        aria-invalid="false"
+        class="c3"
+        id="uname_FORM_ID"
+        name="Display name"
+        spellcheck="false"
+        value=""
+      />
+      <svg
+        class="c4 c5"
+        height="18"
+        viewBox="0 0 24 24"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+        />
+      </svg>
+    </div>
+    <label
+      class="c0"
+      for="name_FORM_ID"
+    >
+      Real name
+    </label>
+    <div
+      class="c1 c2"
+      placeholder="Real name"
+    >
+      <input
+        aria-disabled="false"
+        aria-invalid="false"
+        autofill="name"
+        class="c3"
+        id="name_FORM_ID"
+        name="Real name"
+        spellcheck="false"
+        value=""
+      />
+      <svg
+        class="c4 c5"
+        height="18"
+        viewBox="0 0 24 24"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+        />
+      </svg>
+    </div>
+    <label
+      class="c0"
+      for="email_FORM_ID"
+    >
+      Email
+    </label>
+    <div
+      class="c1 c2"
+      placeholder="Email"
+    >
+      <input
+        aria-disabled="false"
+        aria-invalid="false"
+        autofill="email"
+        class="c3"
+        id="email_FORM_ID"
+        name="Email"
+        spellcheck="false"
+        value=""
+      />
+      <svg
+        class="c4 c5"
+        height="18"
+        viewBox="0 0 24 24"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+        />
+      </svg>
+    </div>
+    <button
+      class="c6 c7"
+      type="button"
+    >
+      <span
+        class="c8"
+      >
+        Update
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<UserEditForm /> Should render correctly with admin controls shown 1`] = `
+.c12 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c12:focus-within,
+.c12:focus {
+  outline: none !important;
+}
+
+.c12:focus-within::after,
+.c12:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c12:focus,
+.c12:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c12:active {
+  background-color: #003E6F;
+}
+
+.c12:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px #b2b2bf solid;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+
+.c1:focus-within,
+.c1:focus {
+  position: relative;
+  outline: none !important;
+}
+
+.c1:focus-within::after,
+.c1:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.c9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0.2rem;
+  background: white;
+  box-shadow: 0 0 0 1px #cdcdd7 inset;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c9:focus-within,
+.c9:focus {
+  outline: none !important;
+}
+
+.c9:focus-within::after,
+.c9:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c10 {
+  position: absolute;
+  top: 0.12rem;
+  left: 0.15rem;
+  display: none;
+  pointer-events: none;
+  color: #44aeff;
+  fill: #44aeff;
+}
+
+.c11 {
+  margin-left: 0.5rem;
+  color: #1e1e1e;
+  font-size: 1.2rem;
+}
+
+.c13 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.c2 {
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c7 {
+  margin-bottom: 1rem;
+}
+
+.c0 {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 0.375rem 0.1rem;
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.c3 {
+  padding: 0.375rem 0.75rem;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+
+.c3:disabled {
+  color: #b2b2bf;
+}
+
+.c5 {
+  margin-right: 0.5rem;
+  color: #00a698;
+  fill: #00a698;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c12:focus-within::after,
+  .c12:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c12 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c12:focus,
+  .c12:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c12:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c12:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c1:focus-within::after,
+  .c1:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c1 {
+    border-color: white;
+    background-color: black;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c9:focus-within::after,
+  .c9:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c9 {
+    background: black;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c10 {
+    color: white;
+    fill: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+
+}
+
+@media (prefers-color-scheme:dark) {
+  .c11 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c0 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3:disabled {
+    color: #7b7b86;
+  }
+}
+
+<div>
+  <div
+    class=""
+  >
+    <label
+      class="c0"
+      for="uname_FORM_ID"
+    >
+      Display name
+    </label>
+    <div
+      class="c1 c2"
+      placeholder="Display name"
+    >
+      <input
+        aria-disabled="false"
+        aria-invalid="false"
+        class="c3"
+        id="uname_FORM_ID"
+        name="Display name"
+        spellcheck="false"
+        value=""
+      />
+      <svg
+        class="c4 c5"
+        height="18"
+        viewBox="0 0 24 24"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+        />
+      </svg>
+    </div>
+    <label
+      class="c0"
+      for="name_FORM_ID"
+    >
+      Real name
+    </label>
+    <div
+      class="c1 c2"
+      placeholder="Real name"
+    >
+      <input
+        aria-disabled="false"
+        aria-invalid="false"
+        autofill="name"
+        class="c3"
+        id="name_FORM_ID"
+        name="Real name"
+        spellcheck="false"
+        value=""
+      />
+      <svg
+        class="c4 c5"
+        height="18"
+        viewBox="0 0 24 24"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+        />
+      </svg>
+    </div>
+    <label
+      class="c0"
+      for="email_FORM_ID"
+    >
+      Email
+    </label>
+    <div
+      class="c1 c2"
+      placeholder="Email"
+    >
+      <input
+        aria-disabled="false"
+        aria-invalid="false"
+        autofill="email"
+        class="c3"
+        id="email_FORM_ID"
+        name="Email"
+        spellcheck="false"
+        value=""
+      />
+      <svg
+        class="c4 c5"
+        height="18"
+        viewBox="0 0 24 24"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+        />
+      </svg>
+    </div>
+    <label
+      class="c6 c7"
+      id="admin_FORM_ID"
+    >
+      <div
+        class="c8"
+      >
+        <input
+          aria-invalid="false"
+          aria-label="Is admin"
+          class="c9"
+          name="Is admin"
+          type="checkbox"
+        />
+        <svg
+          class="c4 c10"
+          height="18"
+          viewBox="0 0 24 24"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.4 20c-.5 0-.9-.2-1.3-.5l-5.8-5.1c-.4-.4-.5-1-.1-1.4l1.3-1.5c.4-.4 1-.5 1.4-.1l4 3.5c.2.1.4.1.6 0l9.2-10.5c.4-.4 1-.5 1.4-.1l1.5 1.3c.4.4.5 1 .1 1.4L10.9 19.3c-.4.5-.9.7-1.5.7z"
+          />
+        </svg>
+      </div>
+      <div
+        aria-hidden="true"
+        class="c11"
+      >
+        Is admin
+      </div>
+    </label>
+    <button
+      class="c12 c13"
+      type="button"
+    >
+      <span
+        class="c14"
+      >
+        Update
+      </span>
+    </button>
+  </div>
+</div>
+`;

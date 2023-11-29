@@ -1,0 +1,46 @@
+export const hyroxYellow = '#ffed00';
+export const hyroxYellowDark1 = '#e5d600';
+export const hyroxYellowDark2 = '#dfbd00';
+export const hyroxBlack = '#000000';
+export const hyroxWhite = '#ffffff';
+
+export const HYROX_THEME = {
+  textLinkColor: hyroxYellow,
+  textLinkColorHover: hyroxYellowDark1,
+  textLinkColorDarkMode: hyroxYellow,
+  textLinkColorHoverDarkMode: hyroxYellowDark1,
+  checkboxTickColor: hyroxYellow,
+  checkboxTickColorDarkMode: hyroxYellow,
+  progressBarColor: hyroxYellow,
+  progressBarColorDarkMode: hyroxYellow,
+  quoteBarColor: hyroxYellowDark1,
+  quoteBarColorDarkMode: hyroxYellowDark1,
+  buttonprimaryBackgroundColor: hyroxYellow,
+  buttonprimaryBackgroundColorDarkMode: hyroxYellow,
+  buttonprimaryBackgroundColorHover: hyroxYellowDark1,
+  buttonprimaryBackgroundColorHoverDarkMode: hyroxYellowDark1,
+  buttonprimaryBackgroundColorActive: hyroxYellowDark2,
+  buttonprimaryBackgroundColorActiveDarkMode: hyroxYellowDark2,
+  buttonprimaryForegroundColor: hyroxBlack,
+  buttonprimaryForegroundColorDarkMode: hyroxBlack,
+  buttonprimaryForegroundColorHover: hyroxBlack,
+  buttonprimaryForegroundColorHoverDarkMode: hyroxBlack,
+  buttondestructiveBackgroundColor: hyroxBlack,
+  buttondestructiveBackgroundColorDarkMode: null,
+  buttondestructiveForegroundColor: hyroxBlack,
+  buttondestructiveForegroundColorDarkMode: hyroxBlack,
+  buttondestructiveForegroundColorHover: hyroxBlack,
+  buttondestructiveForegroundColorHoverDarkMode: hyroxBlack,
+  buttonbouncyBackgroundColor: null,
+  buttonbouncyBackgroundColorDarkMode: null,
+  buttonbouncyForegroundColor: hyroxYellow,
+  buttonbouncyForegroundColorDarkMode: hyroxYellow,
+  buttonbouncyForegroundColorHover: hyroxBlack,
+  buttonbouncyForegroundColorHoverDarkMode: hyroxBlack,
+  cardHighlightColor: null,
+  cardHighlightColorDarkMode: null,
+  cardHoverForegroundColor: null,
+  cardHoverForegroundColorDarkMode: null,
+  cardHoverForegroundColorHover: null,
+  cardHoverForegroundColorHoverDarkMode: null,
+};

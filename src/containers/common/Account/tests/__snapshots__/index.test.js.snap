@@ -1,0 +1,3151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Account /> should render correctly - index 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: rgb(238,238,238);
+  overflow: hidden;
+  width: 8rem;
+  height: 2.2rem;
+  margin-top: 3.34rem;
+}
+
+.c3 {
+  position: relative;
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: rgb(238,238,238);
+  overflow: hidden;
+  width: 12rem;
+  height: 2.6rem;
+  margin-bottom: 1.2rem;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  width: 13rem;
+  height: 100vh;
+  background-image: linear-gradient( 90deg, rgb(238,238,238), rgb(245,245,245), rgb(238,238,238) );
+  background-repeat: no-repeat;
+  background-size: 12.5rem 100%;
+  -webkit-animation: sjjMW 3.5s ease-in-out infinite;
+  animation: sjjMW 3.5s ease-in-out infinite;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c1 {
+    background-color: rgb(17,17,17);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3 {
+    background-color: rgb(17,17,17);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c2 {
+    background-image: linear-gradient( 90deg, rgb(17,17,17), rgb(50,50,50), rgb(17,17,17) );
+  }
+}
+
+<div>
+  <div
+    aria-label="Loading"
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        style="margin-left: -0px;"
+      />
+    </div>
+    <div
+      class="c3"
+      style="margin-top: 1.2rem;"
+    >
+      <div
+        class="c2"
+        style="margin-left: -0px;"
+      />
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c2"
+        style="margin-left: -0px;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> should render correctly with initial state 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c5 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c5:focus-within,
+.c5:focus {
+  outline: none !important;
+}
+
+.c5:focus-within::after,
+.c5:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c5:focus,
+.c5:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c5:active {
+  background-color: #003E6F;
+}
+
+.c5:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c8 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #E02626;
+  color: white;
+}
+
+.c8:focus-within,
+.c8:focus {
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c8:focus,
+.c8:hover {
+  background-color: #BA2020;
+  color: white;
+}
+
+.c8:active {
+  background-color: #9F1717;
+}
+
+.c8:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus-within::after,
+  .c5:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus,
+  .c5:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    background-color: #CA2020;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus,
+  .c8:hover {
+    background-color: #891111;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:active {
+    background-color: #730D0D;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Account
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <button
+        class="c5 c6"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Get a new verification email
+        </span>
+      </button>
+      <button
+        class="c8 outer"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Logout
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> should render correctly with initial state 2`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c5 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c5:focus-within,
+.c5:focus {
+  outline: none !important;
+}
+
+.c5:focus-within::after,
+.c5:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c5:focus,
+.c5:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c5:active {
+  background-color: #003E6F;
+}
+
+.c5:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c8 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #E02626;
+  color: white;
+}
+
+.c8:focus-within,
+.c8:focus {
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c8:focus,
+.c8:hover {
+  background-color: #BA2020;
+  color: white;
+}
+
+.c8:active {
+  background-color: #9F1717;
+}
+
+.c8:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus-within::after,
+  .c5:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus,
+  .c5:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    background-color: #CA2020;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus,
+  .c8:hover {
+    background-color: #891111;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:active {
+    background-color: #730D0D;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Account
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <button
+        class="c5 c6"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Get a new verification email
+        </span>
+      </button>
+      <button
+        class="c8 outer"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Logout
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> should render correctly with logOutError 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c5 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c5:focus-within,
+.c5:focus {
+  outline: none !important;
+}
+
+.c5:focus-within::after,
+.c5:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c5:focus,
+.c5:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c5:active {
+  background-color: #003E6F;
+}
+
+.c5:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c8 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #E02626;
+  color: white;
+}
+
+.c8:focus-within,
+.c8:focus {
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c8:focus,
+.c8:hover {
+  background-color: #BA2020;
+  color: white;
+}
+
+.c8:active {
+  background-color: #9F1717;
+}
+
+.c8:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus-within::after,
+  .c5:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus,
+  .c5:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    background-color: #CA2020;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus,
+  .c8:hover {
+    background-color: #891111;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:active {
+    background-color: #730D0D;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Account
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <button
+        class="c5 c6"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Get a new verification email
+        </span>
+      </button>
+      <button
+        class="c8 outer"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Logout
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> should render correctly with logOutResult 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c5 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c5:focus-within,
+.c5:focus {
+  outline: none !important;
+}
+
+.c5:focus-within::after,
+.c5:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c5:focus,
+.c5:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c5:active {
+  background-color: #003E6F;
+}
+
+.c5:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c8 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #E02626;
+  color: white;
+}
+
+.c8:focus-within,
+.c8:focus {
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c8:focus,
+.c8:hover {
+  background-color: #BA2020;
+  color: white;
+}
+
+.c8:active {
+  background-color: #9F1717;
+}
+
+.c8:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus-within::after,
+  .c5:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus,
+  .c5:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    background-color: #CA2020;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus,
+  .c8:hover {
+    background-color: #891111;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:active {
+    background-color: #730D0D;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Account
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <button
+        class="c5 c6"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Get a new verification email
+        </span>
+      </button>
+      <button
+        class="c8 outer"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Logout
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> should render correctly with loggingOut=true 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c11 {
+  position: relative;
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  color: #1e1e1e;
+}
+
+.c12 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.15000000000000002s;
+  animation-delay: -0.15000000000000002s;
+}
+
+.c13 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-delay: -0.05000000000000002s;
+  animation-delay: -0.05000000000000002s;
+}
+
+.c14 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: 0.04999999999999999s;
+  animation-delay: 0.04999999999999999s;
+}
+
+.c15 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-animation-delay: 0.15000000000000002s;
+  animation-delay: 0.15000000000000002s;
+}
+
+.c16 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+
+.c17 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+}
+
+.c18 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: 0.45000000000000007s;
+  animation-delay: 0.45000000000000007s;
+}
+
+.c19 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  -webkit-animation-delay: 0.55s;
+  animation-delay: 0.55s;
+}
+
+.c5 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c5:focus-within,
+.c5:focus {
+  outline: none !important;
+}
+
+.c5:focus-within::after,
+.c5:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c5:focus,
+.c5:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c5:active {
+  background-color: #003E6F;
+}
+
+.c5:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c8 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #E02626;
+  color: white;
+  cursor: default;
+}
+
+.c8:focus-within,
+.c8:focus {
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c8:focus,
+.c8:hover {
+  background-color: #BA2020;
+  color: white;
+}
+
+.c8:active {
+  background-color: #9F1717;
+}
+
+.c8:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0.1;
+}
+
+.c10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c11 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus-within::after,
+  .c5:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus,
+  .c5:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    background-color: #CA2020;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus,
+  .c8:hover {
+    background-color: #891111;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:active {
+    background-color: #730D0D;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Account
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <button
+        class="c5 c6"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Get a new verification email
+        </span>
+      </button>
+      <button
+        class="c8 outer"
+        disabled=""
+        type="button"
+      >
+        <span
+          class="c9"
+        >
+          Logout
+        </span>
+        <div
+          aria-hidden="true"
+          class="c10"
+        >
+          <div
+            class="c11"
+          >
+            <div
+              class="c12"
+            />
+            <div
+              class="c13"
+            />
+            <div
+              class="c14"
+            />
+            <div
+              class="c15"
+            />
+            <div
+              class="c16"
+            />
+            <div
+              class="c17"
+            />
+            <div
+              class="c18"
+            />
+            <div
+              class="c19"
+            />
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> should render correctly with no user 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: rgb(238,238,238);
+  overflow: hidden;
+  width: 8rem;
+  height: 2.2rem;
+  margin-top: 3.34rem;
+}
+
+.c3 {
+  position: relative;
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: rgb(238,238,238);
+  overflow: hidden;
+  width: 12rem;
+  height: 2.6rem;
+  margin-bottom: 1.2rem;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  width: 13rem;
+  height: 100vh;
+  background-image: linear-gradient( 90deg, rgb(238,238,238), rgb(245,245,245), rgb(238,238,238) );
+  background-repeat: no-repeat;
+  background-size: 12.5rem 100%;
+  -webkit-animation: sjjMW 3.5s ease-in-out infinite;
+  animation: sjjMW 3.5s ease-in-out infinite;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c1 {
+    background-color: rgb(17,17,17);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c3 {
+    background-color: rgb(17,17,17);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c2 {
+    background-image: linear-gradient( 90deg, rgb(17,17,17), rgb(50,50,50), rgb(17,17,17) );
+  }
+}
+
+<div>
+  <div
+    aria-label="Loading"
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        style="margin-left: -0px;"
+      />
+    </div>
+    <div
+      class="c3"
+      style="margin-top: 1.2rem;"
+    >
+      <div
+        class="c2"
+        style="margin-left: -0px;"
+      />
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c2"
+        style="margin-left: -0px;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> should render correctly with requestVerificationEmailError 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c5 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c5:focus-within,
+.c5:focus {
+  outline: none !important;
+}
+
+.c5:focus-within::after,
+.c5:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c5:focus,
+.c5:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c5:active {
+  background-color: #003E6F;
+}
+
+.c5:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c8 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #E02626;
+  color: white;
+}
+
+.c8:focus-within,
+.c8:focus {
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c8:focus,
+.c8:hover {
+  background-color: #BA2020;
+  color: white;
+}
+
+.c8:active {
+  background-color: #9F1717;
+}
+
+.c8:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus-within::after,
+  .c5:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus,
+  .c5:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    background-color: #CA2020;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus,
+  .c8:hover {
+    background-color: #891111;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:active {
+    background-color: #730D0D;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Account
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <button
+        class="c5 c6"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Get a new verification email
+        </span>
+      </button>
+      <button
+        class="c8 outer"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Logout
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> should render correctly with requestVerificationEmailResult 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c5 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+}
+
+.c5:focus-within,
+.c5:focus {
+  outline: none !important;
+}
+
+.c5:focus-within::after,
+.c5:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c5:focus,
+.c5:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c5:active {
+  background-color: #003E6F;
+}
+
+.c5:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c8 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #E02626;
+  color: white;
+}
+
+.c8:focus-within,
+.c8:focus {
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c8:focus,
+.c8:hover {
+  background-color: #BA2020;
+  color: white;
+}
+
+.c8:active {
+  background-color: #9F1717;
+}
+
+.c8:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus-within::after,
+  .c5:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus,
+  .c5:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    background-color: #CA2020;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus,
+  .c8:hover {
+    background-color: #891111;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:active {
+    background-color: #730D0D;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Account
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <button
+        class="c5 c6"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Get a new verification email
+        </span>
+      </button>
+      <button
+        class="c8 outer"
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Logout
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> should render correctly with requestingVerificationEmail=true 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c9 {
+  position: relative;
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  color: #1e1e1e;
+}
+
+.c10 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.15000000000000002s;
+  animation-delay: -0.15000000000000002s;
+}
+
+.c11 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-delay: -0.05000000000000002s;
+  animation-delay: -0.05000000000000002s;
+}
+
+.c12 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: 0.04999999999999999s;
+  animation-delay: 0.04999999999999999s;
+}
+
+.c13 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-animation-delay: 0.15000000000000002s;
+  animation-delay: 0.15000000000000002s;
+}
+
+.c14 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+
+.c15 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+}
+
+.c16 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: 0.45000000000000007s;
+  animation-delay: 0.45000000000000007s;
+}
+
+.c17 {
+  position: absolute;
+  bottom: 0.05rem;
+  left: 0.5rem;
+  width: 0.13rem;
+  height: 0.3rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  background-color: currentColor;
+  -webkit-animation: fzQzkt 0.8s infinite linear;
+  animation: fzQzkt 0.8s infinite linear;
+  -webkit-transform-origin: center -0.16rem;
+  -ms-transform-origin: center -0.16rem;
+  transform-origin: center -0.16rem;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  -webkit-animation-delay: 0.55s;
+  animation-delay: 0.55s;
+}
+
+.c5 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #0067B7;
+  color: white;
+  cursor: default;
+}
+
+.c5:focus-within,
+.c5:focus {
+  outline: none !important;
+}
+
+.c5:focus-within::after,
+.c5:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c5:focus,
+.c5:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c5:active {
+  background-color: #003E6F;
+}
+
+.c5:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c18 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #E02626;
+  color: white;
+}
+
+.c18:focus-within,
+.c18:focus {
+  outline: none !important;
+}
+
+.c18:focus-within::after,
+.c18:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c18:focus,
+.c18:hover {
+  background-color: #BA2020;
+  color: white;
+}
+
+.c18:active {
+  background-color: #9F1717;
+}
+
+.c18:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0.1;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c9 {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus-within::after,
+  .c5:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    background-color: #025CA2;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus,
+  .c5:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:active {
+    background-color: #003965;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c18:focus-within::after,
+  .c18:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c18 {
+    background-color: #CA2020;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c18:focus,
+  .c18:hover {
+    background-color: #891111;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c18:active {
+    background-color: #730D0D;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c18:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Account
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <button
+        class="c5 c6"
+        disabled=""
+        type="button"
+      >
+        <span
+          class="c7"
+        >
+          Get a new verification email
+        </span>
+        <div
+          aria-hidden="true"
+          class="c8"
+        >
+          <div
+            class="c9"
+          >
+            <div
+              class="c10"
+            />
+            <div
+              class="c11"
+            />
+            <div
+              class="c12"
+            />
+            <div
+              class="c13"
+            />
+            <div
+              class="c14"
+            />
+            <div
+              class="c15"
+            />
+            <div
+              class="c16"
+            />
+            <div
+              class="c17"
+            />
+          </div>
+        </div>
+      </button>
+      <button
+        class="c18 outer"
+        type="button"
+      >
+        <span
+          class="c19"
+        >
+          Logout
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> should render correctly with user with emailVerified=true 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  max-width: 60rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.c3 {
+  margin: 2.3rem 0 0 0;
+}
+
+.c1 {
+  -webkit-animation: bbwGtI 0.4s ease-in-out;
+  animation: bbwGtI 0.4s ease-in-out;
+}
+
+.c5 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: #E02626;
+  color: white;
+}
+
+.c5:focus-within,
+.c5:focus {
+  outline: none !important;
+}
+
+.c5:focus-within::after,
+.c5:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c5:focus,
+.c5:hover {
+  background-color: #BA2020;
+  color: white;
+}
+
+.c5:active {
+  background-color: #9F1717;
+}
+
+.c5:disabled {
+  background-color: #cdcdd7;
+  color: rgb(100,100,100);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@media (min-width:50.25rem) {
+  .c0 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus-within::after,
+  .c5:focus::after {
+    border-color: rgba(0,125,250,0.6);
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5 {
+    background-color: #CA2020;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:focus,
+  .c5:hover {
+    background-color: #891111;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:active {
+    background-color: #730D0D;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c5:disabled {
+    background-color: rgb(89,89,89);
+    color: darkgray;
+  }
+}
+
+<div>
+  <div
+    class="c0 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+    width="default"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2 c3"
+      >
+        Account
+      </h1>
+    </div>
+    <div
+      class="c4"
+    >
+      <button
+        class="c5 outer"
+        type="button"
+      >
+        <span
+          class="c6"
+        >
+          Logout
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

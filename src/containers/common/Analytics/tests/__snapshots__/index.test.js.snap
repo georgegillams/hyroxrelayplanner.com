@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Analytics /> should render correctly - index 1`] = `
+<div>
+  <div />
+</div>
+`;
+
+exports[`<Analytics /> should render correctly 1`] = `
+<div>
+  <div />
+</div>
+`;

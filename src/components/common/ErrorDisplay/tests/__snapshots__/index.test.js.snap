@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorDisplay  /> Should render correctly 1`] = `<div />`;
+
+exports[`<ErrorDisplay  /> Should render correctly with children 1`] = `<div />`;
+
+exports[`<ErrorDisplay  /> Should render correctly with custom className 1`] = `<div />`;
+
+exports[`<ErrorDisplay  /> Should render correctly with message 1`] = `<div />`;
+
+exports[`<ErrorDisplay  /> Should render with empty error object and message 1`] = `
+.c1 {
+  color: #E02626;
+  fill: #E02626;
+}
+
+.c0 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c0:first-of-type {
+  margin-top: 0.86rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c1 {
+    color: #CA2020;
+    fill: #CA2020;
+  }
+}
+
+<div>
+  <span
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      Test message
+    </span>
+  </span>
+</div>
+`;
+
+exports[`<ErrorDisplay  /> Should render with empty error object and no message 1`] = `
+.c1 {
+  color: #E02626;
+  fill: #E02626;
+}
+
+.c0 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c0:first-of-type {
+  margin-top: 0.86rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c1 {
+    color: #CA2020;
+    fill: #CA2020;
+  }
+}
+
+<div>
+  <span
+    class="c0"
+  >
+    <span
+      class="c1"
+    />
+  </span>
+</div>
+`;
+
+exports[`<ErrorDisplay  /> Should render with well-defined error object and message 1`] = `
+.c1 {
+  color: #E02626;
+  fill: #E02626;
+}
+
+.c0 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c0:first-of-type {
+  margin-top: 0.86rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c1 {
+    color: #CA2020;
+    fill: #CA2020;
+  }
+}
+
+<div>
+  <span
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      Test message
+      <br />
+      Test error message
+    </span>
+  </span>
+</div>
+`;
+
+exports[`<ErrorDisplay  /> Should render with well-defined error object and no message 1`] = `
+.c1 {
+  color: #E02626;
+  fill: #E02626;
+}
+
+.c0 {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.c0:first-of-type {
+  margin-top: 0.86rem;
+}
+
+@media (prefers-color-scheme:dark) {
+  .c1 {
+    color: #CA2020;
+    fill: #CA2020;
+  }
+}
+
+<div>
+  <span
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      Test error message
+    </span>
+  </span>
+</div>
+`;
