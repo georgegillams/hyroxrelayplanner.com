@@ -94,7 +94,7 @@
     "react-redux": "8.0.5",
     "redis": "^3.1.2",
     "redux": "4.2.0",
-    "redux-saga": "1.2.1",
+    "redux-saga": "1.2.3",
     "redux-saga-routines": "^3.2.3",
     "reselect": "4.1.7",
     "safe-compare": "^1.1.4",
