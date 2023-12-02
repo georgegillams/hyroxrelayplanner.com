@@ -1299,18 +1299,6 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@george-gillams/components@^28.5.1":
-  version "28.5.1"
-  resolved "https://registry.yarnpkg.com/@george-gillams/components/-/components-28.5.1.tgz#d5770add8c5d9440e7b6e9afbc297aaac9a8e1dc"
-  integrity sha512-w9DPr4nGBBBbMS+xRQri78yfGbp8GyW8mbO9NU2enANBW4icno2oPLOFygAOixBiCof/ByFe+19yOCbbAIRQgQ==
-  dependencies:
-    a11y-focus-scope "^1.1.3"
-    date-fns "^2.29.3"
-    lodash.memoize "^4.1.2"
-    lodash.throttle "^4.1.1"
-    recompose "^0.30.0"
-    youtube-embed-video "^1.2.1"
-
 "@george-gillams/components@^28.5.12":
   version "28.5.12"
   resolved "https://registry.yarnpkg.com/@george-gillams/components/-/components-28.5.12.tgz#5d97a33261e442cddd2c343719b984284dd599fd"
@@ -1323,12 +1311,11 @@
     recompose "^0.30.0"
     youtube-embed-video "^1.2.1"
 
-"@george-gillams/webapp@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@george-gillams/webapp/-/webapp-1.0.1.tgz#129de24d93044f7867488be0c46d8e7fbd3c746b"
-  integrity sha512-NDoQlX3wxGQlJoj5KzHl5oAzw9IJWjmojdcPKM9ZYcQ0VeAK9oOCLCRhShad9IoAdXifSUrBhauYuRS6VmDkDQ==
+"@george-gillams/webapp@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@george-gillams/webapp/-/webapp-1.0.5.tgz#51b3c1afc7d808aea09bb9a7beee628779982259"
+  integrity sha512-5q3/YrhWmcrQaFt90aT50x+nDZWgAzplO7iFQyRfgooXk4AX4aNVYDwPQBJ5EJVQwsmun1n9lDtmn2Gd04gCRQ==
   dependencies:
-    "@george-gillams/components" "^28.5.1"
     date-fns "^2.29.3"
     detect-browser "^5.3.0"
     prop-types "^15.8.1"
