@@ -71,7 +71,7 @@
     "express-fileupload": "^1.4.0",
     "express-slow-down": "^1.5.0",
     "flickr-sdk": "^6.0.0",
-    "helmet": "^6.0.0",
+    "helmet": "^7.1.0",
     "hoist-non-react-statics": "3.3.2",
     "immer": "^9.0.16",
     "immutable": "^4.1.0",
