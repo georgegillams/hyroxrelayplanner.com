@@ -8255,10 +8255,10 @@ webpack-bundle-analyzer@4.7.0:
     sirv "^1.0.7"
     ws "^7.3.1"
 
-wget-improved@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/wget-improved/-/wget-improved-3.3.1.tgz#4ca99dc80db0ae388e99f4137f8deadd358630bc"
-  integrity sha512-OF22MM9ImbOcuB5ZV3ye0q1udaYeTP/V6LOfjNyGCNNC7bGB219ljZv6Wk5mPogeigJJ6CqheLScv17AFbsdGA==
+wget-improved@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/wget-improved/-/wget-improved-3.4.0.tgz#da4d2578e46c6ed8532e6d34cbdf8c7344fdd17c"
+  integrity sha512-mHCdqImHntGzaauaQrfhkcHO0sAOp9Fd/9v5PXwrvHK+nggRWG9en5UH72/WitJFv3d3iFwJSAVMrRaCjW6dAA==
   dependencies:
     minimist "1.2.6"
     tunnel "0.0.6"
