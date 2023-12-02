@@ -74,7 +74,7 @@
     "helmet": "^6.0.0",
     "hoist-non-react-statics": "3.3.2",
     "immer": "^9.0.16",
-    "immutable": "^4.1.0",
+    "immutable": "^4.3.4",
     "invariant": "2.2.4",
     "ip": "^1.1.8",
     "ip-parse": "^1.0.5",
