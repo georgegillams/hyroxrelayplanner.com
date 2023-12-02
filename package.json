@@ -54,7 +54,7 @@
   "dependencies": {
     "@george-gillams/components": "^28.5.12",
     "@george-gillams/webapp": "1.0.1",
-    "@next/bundle-analyzer": "^13.0.3",
+    "@next/bundle-analyzer": "^14.0.3",
     "@typeform/embed-react": "^3.9.0",
     "async-lock": "^1.4.0",
     "bcrypt": "^5.1.0",
