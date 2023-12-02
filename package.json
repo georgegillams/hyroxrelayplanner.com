@@ -104,7 +104,7 @@
     "styled-normalize": "^8.0.7",
     "uuid": "^9.0.1",
     "wget-improved": "^3.3.1",
-    "whatwg-fetch": "^3.6.2"
+    "whatwg-fetch": "^3.6.19"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
