@@ -52,7 +52,7 @@
     ]
   },
   "dependencies": {
-    "@george-gillams/components": "^28.5.12",
+    "@george-gillams/components": "^28.13.0",
     "@george-gillams/webapp": "1.0.1",
     "@next/bundle-analyzer": "^13.0.3",
     "@typeform/embed-react": "^3.9.0",
