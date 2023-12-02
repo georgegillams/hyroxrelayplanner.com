@@ -96,7 +96,7 @@
     "redux": "4.2.0",
     "redux-saga": "1.2.1",
     "redux-saga-routines": "^3.2.3",
-    "reselect": "4.1.7",
+    "reselect": "4.1.8",
     "safe-compare": "^1.1.4",
     "signale": "^1.4.0",
     "stripe": "^11.0.0",
