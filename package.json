@@ -92,7 +92,7 @@
     "react-modal": "^3.16.1",
     "react-photo-gallery": "^8.0.0",
     "react-redux": "8.0.5",
-    "redis": "^3.1.2",
+    "redis": "^4.6.11",
     "redux": "4.2.0",
     "redux-saga": "1.2.1",
     "redux-saga-routines": "^3.2.3",
