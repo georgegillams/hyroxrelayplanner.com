@@ -73,7 +73,7 @@
     "flickr-sdk": "^6.0.0",
     "helmet": "^6.0.0",
     "hoist-non-react-statics": "3.3.2",
-    "immer": "^9.0.16",
+    "immer": "^10.0.3",
     "immutable": "^4.1.0",
     "invariant": "2.2.4",
     "ip": "^1.1.8",
