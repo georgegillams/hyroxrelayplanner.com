@@ -13,6 +13,7 @@ import Text, { SIZES } from '@george-gillams/components/text';
 import { PopupButton } from '@typeform/embed-react';
 import { CREATE_TEAM_FORM_ID } from 'constants/form-constants';
 import { PropTypes } from 'prop-types';
+import { isProduction } from 'helpers/appConfig';
 
 const HomePage = props => {
   const { createTeam, createTeamState, ...rest } = props;
@@ -20,6 +21,8 @@ const HomePage = props => {
   useEffect(() => {
     if (createTeamState?.teamId) {
       document.getElementById('tf-popup-button').click();
+    } else {
+      console.error("Couldn't get teamId so form not opened");
     }
   }, [createTeamState?.teamId]);
 
@@ -37,16 +40,6 @@ const HomePage = props => {
               <Button size={BUTTON_SIZES.large} onClick={createTeam}>
                 Create a team
               </Button>
-              <PopupButton
-                style={{ opacity: 0, width: 0, height: 0 }}
-                aria-hidden
-                id={CREATE_TEAM_FORM_ID}
-                buttonProps={{ id: 'tf-popup-button' }}
-                hidden={{
-                  teamid: createTeamState.teamId,
-                }}>
-                click to open form in popup
-              </PopupButton>
             </Paragraph>
           </MainCtaWrapper>
         </ScrollAnimationWrapper>
@@ -73,6 +66,17 @@ const HomePage = props => {
           </Subsection>
         </ScrollAnimationWrapper>
       </PageContainer>
+      <PopupButton
+        style={{ opacity: 0, width: 0, height: 0 }}
+        aria-hidden
+        id={CREATE_TEAM_FORM_ID}
+        buttonProps={{ id: 'tf-popup-button' }}
+        hidden={{
+          teamid: createTeamState.teamId,
+          ...(!isProduction && { redirecttolocalhost: 'TRUE' }),
+        }}>
+        click to open form in popup
+      </PopupButton>
     </PageContainer>
   );
 };

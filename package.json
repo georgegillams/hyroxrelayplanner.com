@@ -52,8 +52,8 @@
     ]
   },
   "dependencies": {
-    "@george-gillams/components": "^28.5.12",
-    "@george-gillams/webapp": "1.0.1",
+    "@george-gillams/components": "^28.13.1",
+    "@george-gillams/webapp": "1.0.5",
     "@next/bundle-analyzer": "^13.0.3",
     "@typeform/embed-react": "^3.9.0",
     "async-lock": "^1.4.0",

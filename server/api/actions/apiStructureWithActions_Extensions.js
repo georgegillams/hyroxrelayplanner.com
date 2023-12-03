@@ -5,10 +5,10 @@ const apiStructureWithActionsExtensions = apiStructure => {
   apiStructure.updateTeam.action = require('./team/update-tf-webhook');
 
   // Athlete
-  // apiStructure.updateAthlete.action = require('./athlete/update-tf-webhook');
+  apiStructure.updateAthlete.action = require('./athlete/update-tf-webhook');
 
   // Plan
-  // apiStructure.loadPlan.action = require('./plan/load');
+  apiStructure.loadPlan.action = require('./plan/load');
 
   return apiStructure;
 };

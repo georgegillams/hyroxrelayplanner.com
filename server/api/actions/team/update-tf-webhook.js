@@ -1,16 +1,5 @@
 import { dbLoadSingle, dbUpdate } from 'server-utils/common/database';
-
-const findAnswerWithBlockRef = (body, blockRef) => {
-  const formDefinition = body.form_response.definition;
-  const answers = body.form_response.answers;
-  const block = formDefinition.fields.find(f => f?.ref === blockRef);
-  const answer = answers.find(a => a.field?.id === block?.id);
-  return answer;
-};
-
-const hiddenFieldFromForm = (body, hiddenFieldName) => {
-  return body.form_response.hidden[hiddenFieldName];
-};
+import { findAnswerWithBlockRef, hiddenFieldFromForm } from 'server-utils/typeform-webhooks';
 
 export default async function updateTeam(req) {
   // reqSecure(req, []);
