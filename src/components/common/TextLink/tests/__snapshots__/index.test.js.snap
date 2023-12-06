@@ -8,8 +8,8 @@ exports[`<TextLink /> Should render correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
-  color: darkorchid;
-  fill: darkorchid;
+  color: #9932cc;
+  fill: #9932cc;
 }
 
 .c0:focus-within,
@@ -27,7 +27,7 @@ exports[`<TextLink /> Should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -44,14 +44,14 @@ exports[`<TextLink /> Should render correctly 1`] = `
 @media (prefers-color-scheme:dark) {
   .c0:focus-within::after,
   .c0:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0 {
-    color: orchid;
-    fill: orchid;
+    color: #da70d6;
+    fill: #da70d6;
   }
 
   .c0:hover {
@@ -82,8 +82,8 @@ exports[`<TextLink /> Should render correctly with custom className 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
-  color: darkorchid;
-  fill: darkorchid;
+  color: #9932cc;
+  fill: #9932cc;
 }
 
 .c0:focus-within,
@@ -101,7 +101,7 @@ exports[`<TextLink /> Should render correctly with custom className 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -118,14 +118,14 @@ exports[`<TextLink /> Should render correctly with custom className 1`] = `
 @media (prefers-color-scheme:dark) {
   .c0:focus-within::after,
   .c0:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0 {
-    color: orchid;
-    fill: orchid;
+    color: #da70d6;
+    fill: #da70d6;
   }
 
   .c0:hover {
@@ -156,8 +156,8 @@ exports[`<TextLink /> Should render with nextified href 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
-  color: darkorchid;
-  fill: darkorchid;
+  color: #9932cc;
+  fill: #9932cc;
 }
 
 .c0:focus-within,
@@ -175,7 +175,7 @@ exports[`<TextLink /> Should render with nextified href 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -192,14 +192,14 @@ exports[`<TextLink /> Should render with nextified href 1`] = `
 @media (prefers-color-scheme:dark) {
   .c0:focus-within::after,
   .c0:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0 {
-    color: orchid;
-    fill: orchid;
+    color: #da70d6;
+    fill: #da70d6;
   }
 
   .c0:hover {

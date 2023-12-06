@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Debug /> should render correctly 1`] = `
-.c10 {
+.c9 {
   width: 1.25rem;
   height: 1.25rem;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -17,13 +17,13 @@ exports[`<Debug /> should render correctly 1`] = `
   align-items: center;
 }
 
-.c8 {
+.c7 {
   position: relative;
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.c9 {
+.c8 {
   position: absolute;
   top: 0;
   left: 0;
@@ -31,7 +31,7 @@ exports[`<Debug /> should render correctly 1`] = `
   height: 100%;
   margin: 0;
   border-radius: 0.2rem;
-  background: white;
+  background: #ffffff;
   box-shadow: 0 0 0 1px #cdcdd7 inset;
   cursor: pointer;
   -webkit-appearance: none;
@@ -41,13 +41,13 @@ exports[`<Debug /> should render correctly 1`] = `
   appearance: none;
 }
 
-.c9:focus-within,
-.c9:focus {
+.c8:focus-within,
+.c8:focus {
   outline: none !important;
 }
 
-.c9:focus-within::after,
-.c9:focus::after {
+.c8:focus-within::after,
+.c8:focus::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -55,12 +55,12 @@ exports[`<Debug /> should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
 
-.c11 {
+.c10 {
   position: absolute;
   top: 0.12rem;
   left: 0.15rem;
@@ -70,13 +70,13 @@ exports[`<Debug /> should render correctly 1`] = `
   fill: #44aeff;
 }
 
-.c12 {
+.c11 {
   margin-left: 0.5rem;
   color: #1e1e1e;
   font-size: 1.2rem;
 }
 
-.c13 {
+.c12 {
   display: inline-block;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -84,7 +84,7 @@ exports[`<Debug /> should render correctly 1`] = `
   margin-top: 2rem;
 }
 
-.c13:first-of-type {
+.c12:first-of-type {
   margin-top: 0.86rem;
 }
 
@@ -98,20 +98,16 @@ exports[`<Debug /> should render correctly 1`] = `
   margin: 2.3rem 0 0 0;
 }
 
-.c5 {
+.c4 {
   padding-top: 0;
   opacity: 1;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.c4 {
-  width: 100%;
-}
-
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c0 {
@@ -126,7 +122,7 @@ exports[`<Debug /> should render correctly 1`] = `
   padding-left: 1rem;
 }
 
-.c6 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -137,37 +133,37 @@ exports[`<Debug /> should render correctly 1`] = `
   padding-top: 1rem;
 }
 
-.c6 > *:not(:first-child) {
+.c5 > *:not(:first-child) {
   margin-top: 1rem;
 }
 
 @media (prefers-color-scheme:dark) {
-  .c9:focus-within::after,
-  .c9:focus::after {
-    border-color: rgba(0,125,250,0.6);
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c9 {
-    background: black;
+  .c8 {
+    background: #000000;
   }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c10 {
+    color: #ffffff;
+    fill: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+
 }
 
 @media (prefers-color-scheme:dark) {
   .c11 {
-    color: white;
-    fill: white;
-  }
-}
-
-@media (prefers-color-scheme:dark) {
-
-}
-
-@media (prefers-color-scheme:dark) {
-  .c12 {
-    color: white;
+    color: #ffffff;
   }
 }
 
@@ -192,35 +188,33 @@ exports[`<Debug /> should render correctly 1`] = `
         Debug
       </h1>
     </div>
-    <div
-      class="c4"
-    >
+    <div>
       <style>
         .js .animated-content__wrapper--hidden {
   opacity: 0.01;
 }
       </style>
       <div
-        class="c5 animated-content__wrapper--hidden"
+        class="c4 animated-content__wrapper--hidden"
       >
         <div
-          class="c6"
+          class="c5"
         >
           <label
-            class="c7"
+            class="c6"
           >
             <div
-              class="c8"
+              class="c7"
             >
               <input
                 aria-invalid="false"
                 aria-label="Show session debug views"
-                class="c9"
+                class="c8"
                 name="Show session debug views"
                 type="checkbox"
               />
               <svg
-                class="c10 c11"
+                class="c9 c10"
                 height="18"
                 viewBox="0 0 24 24"
                 width="18"
@@ -233,26 +227,26 @@ exports[`<Debug /> should render correctly 1`] = `
             </div>
             <div
               aria-hidden="true"
-              class="c12"
+              class="c11"
             >
               Show session debug views
             </div>
           </label>
           <label
-            class="c7"
+            class="c6"
           >
             <div
-              class="c8"
+              class="c7"
             >
               <input
                 aria-invalid="false"
                 aria-label="Show page container debug colours"
-                class="c9"
+                class="c8"
                 name="Show page container debug colours"
                 type="checkbox"
               />
               <svg
-                class="c10 c11"
+                class="c9 c10"
                 height="18"
                 viewBox="0 0 24 24"
                 width="18"
@@ -265,13 +259,13 @@ exports[`<Debug /> should render correctly 1`] = `
             </div>
             <div
               aria-hidden="true"
-              class="c12"
+              class="c11"
             >
               Show page container debug colours
             </div>
           </label>
           <span
-            class="c13"
+            class="c12"
           >
             Note that changes will not take effect until you reload the page.
           </span>

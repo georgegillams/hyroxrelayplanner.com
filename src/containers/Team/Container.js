@@ -1,13 +1,11 @@
+/* eslint-disable react/prop-types */
 import React, { useCallback, useEffect, useMemo } from 'react';
 
 import PageContainer, { WIDTHS } from 'components/common/PageContainer';
-import { ScrollAnimationWrapper } from '@george-gillams/components/effects';
 import Paragraph from '@george-gillams/components/paragraph';
-import { spacingBase } from '@george-gillams/components/constants/layout';
-import Button, { BUTTON_SIZES, BUTTON_TYPES } from '@george-gillams/components/button';
+import Button, { BUTTON_TYPES } from '@george-gillams/components/button';
 import Subsection from '@george-gillams/components/subsection';
 import { hyroxWhite } from 'constants/hyrox-theme';
-import Steps from 'components/steps';
 import {
   NameBackground,
   PlanGrid,
@@ -50,7 +48,7 @@ const Plan = props => {
   }
 
   return (
-    <div>
+    <div {...rest}>
       <PlanGrid>
         {plan.map((step, index) => (
           <PlanItem key={step.activity} index={index}>
@@ -143,7 +141,7 @@ const TeamPage = props => {
     }
   }, [teamId]);
 
-  const showPlanNumberTitles = plans.length > 1;
+  const showPlanNumberTitles = plans?.length > 1;
 
   return (
     <PageContainer width={WIDTHS.fullWidth} {...rest}>

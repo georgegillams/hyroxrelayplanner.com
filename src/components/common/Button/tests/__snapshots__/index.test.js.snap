@@ -35,7 +35,7 @@ exports[`<Button /> Should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -48,11 +48,12 @@ exports[`<Button /> Should render correctly 1`] = `
 
 .c0:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c0:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c1 {
@@ -69,7 +70,7 @@ exports[`<Button /> Should render correctly 1`] = `
 @media (prefers-color-scheme:dark) {
   .c0:focus-within::after,
   .c0:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -91,13 +92,14 @@ exports[`<Button /> Should render correctly 1`] = `
 @media (prefers-color-scheme:dark) {
   .c0:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -148,7 +150,7 @@ exports[`<Button /> Should render correctly hrefExternal 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -161,11 +163,12 @@ exports[`<Button /> Should render correctly hrefExternal 1`] = `
 
 .c0:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c0:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c1 {
@@ -182,7 +185,7 @@ exports[`<Button /> Should render correctly hrefExternal 1`] = `
 @media (prefers-color-scheme:dark) {
   .c0:focus-within::after,
   .c0:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -204,13 +207,14 @@ exports[`<Button /> Should render correctly hrefExternal 1`] = `
 @media (prefers-color-scheme:dark) {
   .c0:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -263,7 +267,7 @@ exports[`<Button /> Should render with nextified href 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -276,11 +280,12 @@ exports[`<Button /> Should render with nextified href 1`] = `
 
 .c0:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c0:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c1 {
@@ -297,7 +302,7 @@ exports[`<Button /> Should render with nextified href 1`] = `
 @media (prefers-color-scheme:dark) {
   .c0:focus-within::after,
   .c0:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -319,13 +324,14 @@ exports[`<Button /> Should render with nextified href 1`] = `
 @media (prefers-color-scheme:dark) {
   .c0:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 

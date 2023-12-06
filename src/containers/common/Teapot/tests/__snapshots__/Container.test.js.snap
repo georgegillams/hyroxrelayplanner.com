@@ -25,7 +25,7 @@ exports[`<Teapot /> should render correctly 1`] = `
   padding-left: 1rem;
 }
 
-.c6 {
+.c5 {
   display: inline-block;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -33,7 +33,7 @@ exports[`<Teapot /> should render correctly 1`] = `
   margin-top: 2rem;
 }
 
-.c6:first-of-type {
+.c5:first-of-type {
   margin-top: 0.86rem;
 }
 
@@ -47,20 +47,16 @@ exports[`<Teapot /> should render correctly 1`] = `
   margin: 2.3rem 0 0 0;
 }
 
-.c5 {
+.c4 {
   padding-top: 0;
   opacity: 1;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.c4 {
-  width: 100%;
-}
-
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 @media (min-width:50.25rem) {
@@ -84,19 +80,17 @@ exports[`<Teapot /> should render correctly 1`] = `
         Error 418 - I'm a teapot.
       </h1>
     </div>
-    <div
-      class="c4"
-    >
+    <div>
       <style>
         .js .animated-content__wrapper--hidden {
   opacity: 0.01;
 }
       </style>
       <div
-        class="c5 animated-content__wrapper--hidden"
+        class="c4 animated-content__wrapper--hidden"
       >
         <span
-          class="c6"
+          class="c5"
         >
           Coffee cannot be brewed inside a teapot context. The resulting entity body MAY be short and stout.
         </span>

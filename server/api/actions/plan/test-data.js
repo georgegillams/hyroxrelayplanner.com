@@ -2,7 +2,7 @@ const data = {
   athletes: [
     {
       id: 1,
-      name: "Person_1",
+      name: 'Person_1',
       preferences: {
         ski: 0,
         sledPush: 1,
@@ -16,7 +16,7 @@ const data = {
     },
     {
       id: 2,
-      name: "Person_1",
+      name: 'Person_1',
       preferences: {
         ski: 0,
         sledPush: 1,
@@ -30,7 +30,7 @@ const data = {
     },
     {
       id: 3,
-      name: "Person_1",
+      name: 'Person_1',
       preferences: {
         ski: 0,
         sledPush: 1,
@@ -44,7 +44,7 @@ const data = {
     },
     {
       id: 4,
-      name: "Person_1",
+      name: 'Person_1',
       preferences: {
         ski: 0,
         sledPush: 1,

@@ -42,8 +42,8 @@ exports[`<Status /> should render correctly 1`] = `
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c5 {
@@ -70,7 +70,7 @@ exports[`<Status /> should render correctly 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c5 {
-    color: white;
+    color: #ffffff;
   }
 }
 

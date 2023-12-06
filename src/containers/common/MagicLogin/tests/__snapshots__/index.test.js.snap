@@ -12,8 +12,8 @@ exports[`<MagicLogin /> should render correctly - index 1`] = `
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c4 {
@@ -35,8 +35,8 @@ exports[`<MagicLogin /> should render correctly - index 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -63,8 +63,8 @@ exports[`<MagicLogin /> should render correctly - index 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -91,8 +91,8 @@ exports[`<MagicLogin /> should render correctly - index 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -119,8 +119,8 @@ exports[`<MagicLogin /> should render correctly - index 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -147,8 +147,8 @@ exports[`<MagicLogin /> should render correctly - index 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -175,8 +175,8 @@ exports[`<MagicLogin /> should render correctly - index 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -203,8 +203,8 @@ exports[`<MagicLogin /> should render correctly - index 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -231,8 +231,8 @@ exports[`<MagicLogin /> should render correctly - index 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -264,7 +264,7 @@ exports[`<MagicLogin /> should render correctly - index 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c4 {
-    color: white;
+    color: #ffffff;
   }
 }
 
@@ -333,8 +333,8 @@ exports[`<MagicLogin /> should render correctly with initial state 1`] = `
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c4 {
@@ -356,8 +356,8 @@ exports[`<MagicLogin /> should render correctly with initial state 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -384,8 +384,8 @@ exports[`<MagicLogin /> should render correctly with initial state 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -412,8 +412,8 @@ exports[`<MagicLogin /> should render correctly with initial state 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -440,8 +440,8 @@ exports[`<MagicLogin /> should render correctly with initial state 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -468,8 +468,8 @@ exports[`<MagicLogin /> should render correctly with initial state 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -496,8 +496,8 @@ exports[`<MagicLogin /> should render correctly with initial state 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -524,8 +524,8 @@ exports[`<MagicLogin /> should render correctly with initial state 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -552,8 +552,8 @@ exports[`<MagicLogin /> should render correctly with initial state 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -585,7 +585,7 @@ exports[`<MagicLogin /> should render correctly with initial state 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c4 {
-    color: white;
+    color: #ffffff;
   }
 }
 
@@ -650,8 +650,8 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
-  color: darkorchid;
-  fill: darkorchid;
+  color: #9932cc;
+  fill: #9932cc;
 }
 
 .c15:focus-within,
@@ -669,7 +669,7 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -694,8 +694,8 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c13 {
@@ -734,8 +734,8 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -762,8 +762,8 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -790,8 +790,8 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -818,8 +818,8 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -846,8 +846,8 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -874,8 +874,8 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -902,8 +902,8 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -930,8 +930,8 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -964,14 +964,14 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
 @media (prefers-color-scheme:dark) {
   .c15:focus-within::after,
   .c15:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c15 {
-    color: orchid;
-    fill: orchid;
+    color: #da70d6;
+    fill: #da70d6;
   }
 
   .c15:hover {
@@ -989,7 +989,7 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c4 {
-    color: white;
+    color: #ffffff;
   }
 }
 
@@ -1080,8 +1080,8 @@ exports[`<MagicLogin /> should render correctly with loggingIn=true 1`] = `
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c4 {
@@ -1103,8 +1103,8 @@ exports[`<MagicLogin /> should render correctly with loggingIn=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1131,8 +1131,8 @@ exports[`<MagicLogin /> should render correctly with loggingIn=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1159,8 +1159,8 @@ exports[`<MagicLogin /> should render correctly with loggingIn=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1187,8 +1187,8 @@ exports[`<MagicLogin /> should render correctly with loggingIn=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1215,8 +1215,8 @@ exports[`<MagicLogin /> should render correctly with loggingIn=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1243,8 +1243,8 @@ exports[`<MagicLogin /> should render correctly with loggingIn=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1271,8 +1271,8 @@ exports[`<MagicLogin /> should render correctly with loggingIn=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1299,8 +1299,8 @@ exports[`<MagicLogin /> should render correctly with loggingIn=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1332,7 +1332,7 @@ exports[`<MagicLogin /> should render correctly with loggingIn=true 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c4 {
-    color: white;
+    color: #ffffff;
   }
 }
 
@@ -1397,8 +1397,8 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
-  color: darkorchid;
-  fill: darkorchid;
+  color: #9932cc;
+  fill: #9932cc;
 }
 
 .c5:focus-within,
@@ -1416,7 +1416,7 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1441,8 +1441,8 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c4 {
@@ -1476,8 +1476,8 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1504,8 +1504,8 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1532,8 +1532,8 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1560,8 +1560,8 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1588,8 +1588,8 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1616,8 +1616,8 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1644,8 +1644,8 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1672,8 +1672,8 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1706,14 +1706,14 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
 @media (prefers-color-scheme:dark) {
   .c5:focus-within::after,
   .c5:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5 {
-    color: orchid;
-    fill: orchid;
+    color: #da70d6;
+    fill: #da70d6;
   }
 
   .c5:hover {
@@ -1724,7 +1724,7 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c7 {
-    color: white;
+    color: #ffffff;
   }
 }
 

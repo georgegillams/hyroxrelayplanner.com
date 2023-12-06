@@ -32,7 +32,7 @@ exports[`<Home /> should render correctly 1`] = `
   padding-left: 1rem;
 }
 
-.c9 {
+.c8 {
   display: block;
   width: 100%;
   margin-right: auto;
@@ -43,18 +43,14 @@ exports[`<Home /> should render correctly 1`] = `
   padding-left: 1rem;
 }
 
-.c3 {
+.c2 {
   padding-top: 0;
   opacity: 1;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.c2 {
-  width: 100%;
-}
-
-.c5 {
+.c4 {
   display: inline-block;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -62,11 +58,11 @@ exports[`<Home /> should render correctly 1`] = `
   margin-top: 2rem;
 }
 
-.c5:first-of-type {
+.c4:first-of-type {
   margin-top: 0.86rem;
 }
 
-.c7 {
+.c6 {
   position: relative;
   min-width: 5rem;
   padding: 0.43rem 1.125rem 0.32rem 1.125rem;
@@ -88,13 +84,13 @@ exports[`<Home /> should render correctly 1`] = `
   font-size: 1.6rem;
 }
 
-.c7:focus-within,
-.c7:focus {
+.c6:focus-within,
+.c6:focus {
   outline: none !important;
 }
 
-.c7:focus-within::after,
-.c7:focus::after {
+.c6:focus-within::after,
+.c6:focus::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -102,27 +98,28 @@ exports[`<Home /> should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
 
-.c7:focus,
-.c7:hover {
+.c6:focus,
+.c6:hover {
   background-color: #004F8C;
   color: white;
 }
 
-.c7:active {
+.c6:active {
   background-color: #003E6F;
+  color: white;
 }
 
-.c7:disabled {
+.c6:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -133,38 +130,38 @@ exports[`<Home /> should render correctly 1`] = `
   justify-content: center;
 }
 
-.c12 {
-  margin: 0;
-}
-
-.c15 {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.c6 {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.c13 {
+.c11 {
   margin: 0;
 }
 
 .c14 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.c5 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.c12 {
+  margin: 0;
+}
+
+.c13 {
   width: 100%;
   color: #1e1e1e;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c16 {
+.c15 {
   margin: 2.13rem 0 0 0;
 }
 
-.c10 {
+.c9 {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
@@ -173,15 +170,15 @@ exports[`<Home /> should render correctly 1`] = `
   margin-right: auto;
 }
 
-.c11 {
-  background-color: black;
+.c10 {
+  background-color: #000000;
   padding: 1rem;
   display: grid;
   grid-gap: 1rem;
   grid-template-rows: auto 1fr;
 }
 
-.c4 {
+.c3 {
   padding: 2rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -200,62 +197,63 @@ exports[`<Home /> should render correctly 1`] = `
 }
 
 @media (min-width:50.25rem) {
-  .c9 {
+  .c8 {
     padding-right: 2rem;
     padding-left: 2rem;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c7:focus-within::after,
-  .c7:focus::after {
-    border-color: rgba(0,125,250,0.6);
+  .c6:focus-within::after,
+  .c6:focus::after {
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c7 {
+  .c6 {
     background-color: #025CA2;
     color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c7:focus,
-  .c7:hover {
+  .c6:focus,
+  .c6:hover {
     background-color: #004479;
     color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c7:active {
+  .c6:active {
     background-color: #003965;
-  }
-}
-
-@media (prefers-color-scheme:dark) {
-  .c7:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
-  }
-}
-
-@media (prefers-color-scheme:dark) {
-  .c14 {
     color: white;
   }
 }
 
+@media (prefers-color-scheme:dark) {
+  .c6:disabled {
+    background-color: #595959;
+    color: #a9a9a9;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c13 {
+    color: #ffffff;
+  }
+}
+
 @media (min-width:32.25rem) {
-  .c10 {
+  .c9 {
     grid-template-columns: repeat(3,1fr);
     text-align: center;
   }
 }
 
 @media (min-width:50.25rem) {
-  .c4 {
+  .c3 {
     padding: calc(2 * 2rem);
   }
 }
@@ -269,9 +267,7 @@ exports[`<Home /> should render correctly 1`] = `
       class="c1 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
       width="default"
     >
-      <div
-        class="c2"
-      >
+      <div>
         <style>
           .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -279,45 +275,34 @@ exports[`<Home /> should render correctly 1`] = `
 }
         </style>
         <div
-          class="c3 animated-content__wrapper--hidden"
+          class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c4"
+            class="c3"
           >
             <span
-              class="c5"
+              class="c4"
               style="margin-bottom: 1rem;"
             >
               <span
-                class="c6"
+                class="c5"
               >
                 Get a free, personalised Hyrox Relay plan that plays to the strengths of your team.
               </span>
             </span>
             <span
-              class="c5"
+              class="c4"
               style="margin-bottom: 1rem;"
             >
               <button
-                class="c7 outer"
+                class="c6 outer"
                 type="button"
               >
                 <span
-                  class="c8"
+                  class="c7"
                 >
                   Create a team
                 </span>
-              </button>
-              <style>
-                @keyframes spin{to{transform:rotate(360deg)}}.tf-v1-popup{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.75);transition:opacity .25s ease-in-out;z-index:10001;display:flex;align-items:center;justify-content:center}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:360px;min-height:360px}.tf-v1-popup .tf-v1-iframe-wrapper iframe{width:100%;height:100%;border:none;overflow:hidden;border-radius:8px}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:-34px;right:0;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}@media(min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}.tf-v1-popup .tf-v1-spinner{border:3px solid #aaa;font-size:40px;width:1em;height:1em;border-radius:.5em;box-sizing:border-box;animation:spin 1s linear infinite;border-top-color:#fff;position:absolute;top:50%;left:50%;margin:-20px 0 0 -20px}@media(max-width: 480px){.tf-v1-popup{width:100% !important;height:100% !important}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:100%;min-height:100%}.tf-v1-popup .tf-v1-iframe-wrapper iframe{border-radius:0}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:6px;right:8px;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}}@media(max-width: 480px)and (min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}
-              </style>
-              <button
-                class=""
-                data-testid="tf-v1-popup"
-                id="tf-popup-button"
-                style="opacity: 0; width: 0px; height: 0px;"
-              >
-                click to open form in popup
               </button>
             </span>
           </div>
@@ -325,12 +310,10 @@ exports[`<Home /> should render correctly 1`] = `
       </div>
     </div>
     <div
-      class="c9 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+      class="c8 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
       width="default"
     >
-      <div
-        class="c2"
-      >
+      <div>
         <style>
           .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -338,49 +321,49 @@ exports[`<Home /> should render correctly 1`] = `
 }
         </style>
         <div
-          class="c3 animated-content__wrapper--hidden"
+          class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c10"
+            class="c9"
           >
             <div
-              class="c11"
+              class="c10"
             >
               <h1
-                class="c12"
+                class="c11"
               >
                 Step 1
               </h1>
               <span
-                class="c13"
+                class="c12"
               >
                 Choose a name for your team
               </span>
             </div>
             <div
-              class="c11"
+              class="c10"
             >
               <h1
-                class="c12"
+                class="c11"
               >
                 Step 2
               </h1>
               <span
-                class="c13"
+                class="c12"
               >
                 Ask each athlete to submit their station preferences
               </span>
             </div>
             <div
-              class="c11"
+              class="c10"
             >
               <h1
-                class="c12"
+                class="c11"
               >
                 Step 3
               </h1>
               <span
-                class="c13"
+                class="c12"
               >
                 Get your personalised relay plan that's optimised to get the best out of your team!
               </span>
@@ -388,9 +371,7 @@ exports[`<Home /> should render correctly 1`] = `
           </div>
         </div>
       </div>
-      <div
-        class="c2"
-      >
+      <div>
         <style>
           .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -398,20 +379,20 @@ exports[`<Home /> should render correctly 1`] = `
 }
         </style>
         <div
-          class="c3 animated-content__wrapper--hidden"
+          class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c14"
+            class="c13"
             style="color: rgb(255, 255, 255);"
           >
             <h1
-              class="c15 c16"
+              class="c14 c15"
               id="about"
             >
               About
             </h1>
             <span
-              class="c5"
+              class="c4"
               style="margin-bottom: 1rem;"
             >
               I created the Hyrox Relay Planner to help relay teams decide which stations they should each do.
@@ -419,9 +400,7 @@ exports[`<Home /> should render correctly 1`] = `
           </div>
         </div>
       </div>
-      <div
-        class="c2"
-      >
+      <div>
         <style>
           .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -429,20 +408,20 @@ exports[`<Home /> should render correctly 1`] = `
 }
         </style>
         <div
-          class="c3 animated-content__wrapper--hidden"
+          class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c14"
+            class="c13"
             style="color: rgb(255, 255, 255);"
           >
             <h1
-              class="c15 c16"
+              class="c14 c15"
               id="how-does-the-planner-work?"
             >
               How does the planner work?
             </h1>
             <span
-              class="c5"
+              class="c4"
               style="margin-bottom: 1rem;"
             >
               There's no AI magic here, just a server doing some calculations. This works by generating all 2520 possible permutations for how you could divide the 8 Hyrox stations between 4 of you. It then assesses each one according to the athlete's individual preferences as well as rest-time between stations, and decides which is best.
@@ -451,6 +430,17 @@ exports[`<Home /> should render correctly 1`] = `
         </div>
       </div>
     </div>
+    <style>
+      @keyframes spin{to{transform:rotate(360deg)}}.tf-v1-popup{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.75);transition:opacity .25s ease-in-out;z-index:10001;display:flex;align-items:center;justify-content:center}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:360px;min-height:360px}.tf-v1-popup .tf-v1-iframe-wrapper iframe{width:100%;height:100%;border:none;overflow:hidden;border-radius:8px}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:-34px;right:0;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}@media(min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}.tf-v1-popup .tf-v1-spinner{border:3px solid #aaa;font-size:40px;width:1em;height:1em;border-radius:.5em;box-sizing:border-box;animation:spin 1s linear infinite;border-top-color:#fff;position:absolute;top:50%;left:50%;margin:-20px 0 0 -20px}@media(max-width: 480px){.tf-v1-popup{width:100% !important;height:100% !important}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:100%;min-height:100%}.tf-v1-popup .tf-v1-iframe-wrapper iframe{border-radius:0}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:6px;right:8px;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}}@media(max-width: 480px)and (min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}
+    </style>
+    <button
+      class=""
+      data-testid="tf-v1-popup"
+      id="tf-popup-button"
+      style="opacity: 0; width: 0px; height: 0px;"
+    >
+      click to open form in popup
+    </button>
   </div>
 </div>
 `;
@@ -487,7 +477,7 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   padding-left: 1rem;
 }
 
-.c9 {
+.c8 {
   display: block;
   width: 100%;
   margin-right: auto;
@@ -498,18 +488,14 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   padding-left: 1rem;
 }
 
-.c3 {
+.c2 {
   padding-top: 0;
   opacity: 1;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.c2 {
-  width: 100%;
-}
-
-.c5 {
+.c4 {
   display: inline-block;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -517,11 +503,11 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   margin-top: 2rem;
 }
 
-.c5:first-of-type {
+.c4:first-of-type {
   margin-top: 0.86rem;
 }
 
-.c7 {
+.c6 {
   position: relative;
   min-width: 5rem;
   padding: 0.43rem 1.125rem 0.32rem 1.125rem;
@@ -543,13 +529,13 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   font-size: 1.6rem;
 }
 
-.c7:focus-within,
-.c7:focus {
+.c6:focus-within,
+.c6:focus {
   outline: none !important;
 }
 
-.c7:focus-within::after,
-.c7:focus::after {
+.c6:focus-within::after,
+.c6:focus::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -557,27 +543,28 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
 
-.c7:focus,
-.c7:hover {
+.c6:focus,
+.c6:hover {
   background-color: #004F8C;
   color: white;
 }
 
-.c7:active {
+.c6:active {
   background-color: #003E6F;
+  color: white;
 }
 
-.c7:disabled {
+.c6:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -588,38 +575,38 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   justify-content: center;
 }
 
-.c12 {
-  margin: 0;
-}
-
-.c15 {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.c6 {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.c13 {
+.c11 {
   margin: 0;
 }
 
 .c14 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.c5 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.c12 {
+  margin: 0;
+}
+
+.c13 {
   width: 100%;
   color: #1e1e1e;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c16 {
+.c15 {
   margin: 2.13rem 0 0 0;
 }
 
-.c10 {
+.c9 {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
@@ -628,15 +615,15 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   margin-right: auto;
 }
 
-.c11 {
-  background-color: black;
+.c10 {
+  background-color: #000000;
   padding: 1rem;
   display: grid;
   grid-gap: 1rem;
   grid-template-rows: auto 1fr;
 }
 
-.c4 {
+.c3 {
   padding: 2rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -655,62 +642,63 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
 }
 
 @media (min-width:50.25rem) {
-  .c9 {
+  .c8 {
     padding-right: 2rem;
     padding-left: 2rem;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c7:focus-within::after,
-  .c7:focus::after {
-    border-color: rgba(0,125,250,0.6);
+  .c6:focus-within::after,
+  .c6:focus::after {
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c7 {
+  .c6 {
     background-color: #025CA2;
     color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c7:focus,
-  .c7:hover {
+  .c6:focus,
+  .c6:hover {
     background-color: #004479;
     color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c7:active {
+  .c6:active {
     background-color: #003965;
-  }
-}
-
-@media (prefers-color-scheme:dark) {
-  .c7:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
-  }
-}
-
-@media (prefers-color-scheme:dark) {
-  .c14 {
     color: white;
   }
 }
 
+@media (prefers-color-scheme:dark) {
+  .c6:disabled {
+    background-color: #595959;
+    color: #a9a9a9;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c13 {
+    color: #ffffff;
+  }
+}
+
 @media (min-width:32.25rem) {
-  .c10 {
+  .c9 {
     grid-template-columns: repeat(3,1fr);
     text-align: center;
   }
 }
 
 @media (min-width:50.25rem) {
-  .c4 {
+  .c3 {
     padding: calc(2 * 2rem);
   }
 }
@@ -724,9 +712,7 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
       class="c1 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
       width="default"
     >
-      <div
-        class="c2"
-      >
+      <div>
         <style>
           .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -734,45 +720,34 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
 }
         </style>
         <div
-          class="c3 animated-content__wrapper--hidden"
+          class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c4"
+            class="c3"
           >
             <span
-              class="c5"
+              class="c4"
               style="margin-bottom: 1rem;"
             >
               <span
-                class="c6"
+                class="c5"
               >
                 Get a free, personalised Hyrox Relay plan that plays to the strengths of your team.
               </span>
             </span>
             <span
-              class="c5"
+              class="c4"
               style="margin-bottom: 1rem;"
             >
               <button
-                class="c7 outer"
+                class="c6 outer"
                 type="button"
               >
                 <span
-                  class="c8"
+                  class="c7"
                 >
                   Create a team
                 </span>
-              </button>
-              <style>
-                @keyframes spin{to{transform:rotate(360deg)}}.tf-v1-popup{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.75);transition:opacity .25s ease-in-out;z-index:10001;display:flex;align-items:center;justify-content:center}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:360px;min-height:360px}.tf-v1-popup .tf-v1-iframe-wrapper iframe{width:100%;height:100%;border:none;overflow:hidden;border-radius:8px}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:-34px;right:0;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}@media(min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}.tf-v1-popup .tf-v1-spinner{border:3px solid #aaa;font-size:40px;width:1em;height:1em;border-radius:.5em;box-sizing:border-box;animation:spin 1s linear infinite;border-top-color:#fff;position:absolute;top:50%;left:50%;margin:-20px 0 0 -20px}@media(max-width: 480px){.tf-v1-popup{width:100% !important;height:100% !important}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:100%;min-height:100%}.tf-v1-popup .tf-v1-iframe-wrapper iframe{border-radius:0}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:6px;right:8px;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}}@media(max-width: 480px)and (min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}
-              </style>
-              <button
-                class=""
-                data-testid="tf-v1-popup"
-                id="tf-popup-button"
-                style="opacity: 0; width: 0px; height: 0px;"
-              >
-                click to open form in popup
               </button>
             </span>
           </div>
@@ -780,12 +755,10 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
       </div>
     </div>
     <div
-      class="c9 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+      class="c8 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
       width="default"
     >
-      <div
-        class="c2"
-      >
+      <div>
         <style>
           .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -793,49 +766,49 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
 }
         </style>
         <div
-          class="c3 animated-content__wrapper--hidden"
+          class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c10"
+            class="c9"
           >
             <div
-              class="c11"
+              class="c10"
             >
               <h1
-                class="c12"
+                class="c11"
               >
                 Step 1
               </h1>
               <span
-                class="c13"
+                class="c12"
               >
                 Choose a name for your team
               </span>
             </div>
             <div
-              class="c11"
+              class="c10"
             >
               <h1
-                class="c12"
+                class="c11"
               >
                 Step 2
               </h1>
               <span
-                class="c13"
+                class="c12"
               >
                 Ask each athlete to submit their station preferences
               </span>
             </div>
             <div
-              class="c11"
+              class="c10"
             >
               <h1
-                class="c12"
+                class="c11"
               >
                 Step 3
               </h1>
               <span
-                class="c13"
+                class="c12"
               >
                 Get your personalised relay plan that's optimised to get the best out of your team!
               </span>
@@ -843,9 +816,7 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
           </div>
         </div>
       </div>
-      <div
-        class="c2"
-      >
+      <div>
         <style>
           .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -853,20 +824,20 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
 }
         </style>
         <div
-          class="c3 animated-content__wrapper--hidden"
+          class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c14"
+            class="c13"
             style="color: rgb(255, 255, 255);"
           >
             <h1
-              class="c15 c16"
+              class="c14 c15"
               id="about"
             >
               About
             </h1>
             <span
-              class="c5"
+              class="c4"
               style="margin-bottom: 1rem;"
             >
               I created the Hyrox Relay Planner to help relay teams decide which stations they should each do.
@@ -874,9 +845,7 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
           </div>
         </div>
       </div>
-      <div
-        class="c2"
-      >
+      <div>
         <style>
           .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -884,20 +853,20 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
 }
         </style>
         <div
-          class="c3 animated-content__wrapper--hidden"
+          class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c14"
+            class="c13"
             style="color: rgb(255, 255, 255);"
           >
             <h1
-              class="c15 c16"
+              class="c14 c15"
               id="how-does-the-planner-work?"
             >
               How does the planner work?
             </h1>
             <span
-              class="c5"
+              class="c4"
               style="margin-bottom: 1rem;"
             >
               There's no AI magic here, just a server doing some calculations. This works by generating all 2520 possible permutations for how you could divide the 8 Hyrox stations between 4 of you. It then assesses each one according to the athlete's individual preferences as well as rest-time between stations, and decides which is best.
@@ -906,6 +875,17 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
         </div>
       </div>
     </div>
+    <style>
+      @keyframes spin{to{transform:rotate(360deg)}}.tf-v1-popup{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.75);transition:opacity .25s ease-in-out;z-index:10001;display:flex;align-items:center;justify-content:center}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:360px;min-height:360px}.tf-v1-popup .tf-v1-iframe-wrapper iframe{width:100%;height:100%;border:none;overflow:hidden;border-radius:8px}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:-34px;right:0;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}@media(min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}.tf-v1-popup .tf-v1-spinner{border:3px solid #aaa;font-size:40px;width:1em;height:1em;border-radius:.5em;box-sizing:border-box;animation:spin 1s linear infinite;border-top-color:#fff;position:absolute;top:50%;left:50%;margin:-20px 0 0 -20px}@media(max-width: 480px){.tf-v1-popup{width:100% !important;height:100% !important}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:100%;min-height:100%}.tf-v1-popup .tf-v1-iframe-wrapper iframe{border-radius:0}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:6px;right:8px;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}}@media(max-width: 480px)and (min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}
+    </style>
+    <button
+      class=""
+      data-testid="tf-v1-popup"
+      id="tf-popup-button"
+      style="opacity: 0; width: 0px; height: 0px;"
+    >
+      click to open form in popup
+    </button>
   </div>
 </div>
 `;

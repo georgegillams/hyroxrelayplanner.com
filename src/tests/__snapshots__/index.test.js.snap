@@ -32,7 +32,7 @@ exports[`<HomePage /> should render correctly 1`] = `
   padding-left: 1rem;
 }
 
-.c13 {
+.c12 {
   display: block;
   width: 100%;
   margin-right: auto;
@@ -43,18 +43,14 @@ exports[`<HomePage /> should render correctly 1`] = `
   padding-left: 1rem;
 }
 
-.c7 {
+.c6 {
   padding-top: 0;
   opacity: 1;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.c6 {
-  width: 100%;
-}
-
-.c9 {
+.c8 {
   display: inline-block;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -62,11 +58,11 @@ exports[`<HomePage /> should render correctly 1`] = `
   margin-top: 2rem;
 }
 
-.c9:first-of-type {
+.c8:first-of-type {
   margin-top: 0.86rem;
 }
 
-.c11 {
+.c10 {
   position: relative;
   min-width: 5rem;
   padding: 0.43rem 1.125rem 0.32rem 1.125rem;
@@ -88,13 +84,13 @@ exports[`<HomePage /> should render correctly 1`] = `
   font-size: 1.6rem;
 }
 
-.c11:focus-within,
-.c11:focus {
+.c10:focus-within,
+.c10:focus {
   outline: none !important;
 }
 
-.c11:focus-within::after,
-.c11:focus::after {
+.c10:focus-within::after,
+.c10:focus::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -102,27 +98,28 @@ exports[`<HomePage /> should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
 
-.c11:focus,
-.c11:hover {
+.c10:focus,
+.c10:hover {
   background-color: #004F8C;
   color: white;
 }
 
-.c11:active {
+.c10:active {
   background-color: #003E6F;
+  color: white;
 }
 
-.c11:disabled {
+.c10:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
-.c12 {
+.c11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -137,32 +134,32 @@ exports[`<HomePage /> should render correctly 1`] = `
   margin: 0;
 }
 
+.c15 {
+  margin: 0;
+}
+
+.c18 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.c9 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .c16 {
   margin: 0;
 }
 
-.c19 {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.c10 {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.c17 {
-  margin: 0;
-}
-
-.c26 {
+.c25 {
   width: 1.25rem;
   height: 1.25rem;
 }
 
-.c24 {
+.c23 {
   display: inline-block;
   border-radius: 0.25rem;
   font-weight: bold;
@@ -173,14 +170,14 @@ exports[`<HomePage /> should render correctly 1`] = `
   fill: white;
 }
 
-.c24:focus-within,
-.c24:focus {
+.c23:focus-within,
+.c23:focus {
   position: relative;
   outline: none !important;
 }
 
-.c24:focus-within::after,
-.c24:focus::after {
+.c23:focus-within::after,
+.c23:focus::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -188,17 +185,17 @@ exports[`<HomePage /> should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
 
-.c24:hover {
+.c23:hover {
   color: white;
   fill: white;
 }
 
-.c25 {
+.c24 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -208,7 +205,7 @@ exports[`<HomePage /> should render correctly 1`] = `
   margin-left: 0.55rem;
 }
 
-.c27 {
+.c26 {
   position: absolute;
   width: 1rem;
   height: 1rem;
@@ -216,18 +213,18 @@ exports[`<HomePage /> should render correctly 1`] = `
   margin-left: -0.45rem;
 }
 
-.c18 {
+.c17 {
   width: 100%;
   color: #1e1e1e;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c20 {
+.c19 {
   margin: 2.13rem 0 0 0;
 }
 
-.c14 {
+.c13 {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
@@ -236,15 +233,15 @@ exports[`<HomePage /> should render correctly 1`] = `
   margin-right: auto;
 }
 
-.c15 {
-  background-color: black;
+.c14 {
+  background-color: #000000;
   padding: 1rem;
   display: grid;
   grid-gap: 1rem;
   grid-template-rows: auto 1fr;
 }
 
-.c8 {
+.c7 {
   padding: 2rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -255,12 +252,12 @@ exports[`<HomePage /> should render correctly 1`] = `
   flex-direction: column;
 }
 
-.c23 {
+.c22 {
   width: 100%;
   margin-top: 0.5rem;
 }
 
-.c21 {
+.c20 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -277,11 +274,11 @@ exports[`<HomePage /> should render correctly 1`] = `
   background-color: #1e1e1e;
   background-position: center;
   background-size: cover;
-  color: white;
+  color: #ffffff;
   border-top: solid #ffed00 0.15rem;
 }
 
-.c22 {
+.c21 {
   text-align: center;
 }
 
@@ -314,93 +311,94 @@ exports[`<HomePage /> should render correctly 1`] = `
 }
 
 @media (min-width:50.25rem) {
-  .c13 {
+  .c12 {
     padding-right: 2rem;
     padding-left: 2rem;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c11:focus-within::after,
-  .c11:focus::after {
-    border-color: rgba(0,125,250,0.6);
+  .c10:focus-within::after,
+  .c10:focus::after {
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c11 {
+  .c10 {
     background-color: #025CA2;
     color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c11:focus,
-  .c11:hover {
+  .c10:focus,
+  .c10:hover {
     background-color: #004479;
     color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c11:active {
+  .c10:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c11:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+  .c10:disabled {
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c24:focus-within::after,
-  .c24:focus::after {
-    border-color: rgba(0,125,250,0.6);
+  .c23:focus-within::after,
+  .c23:focus::after {
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c24 {
+  .c23 {
     color: white;
     fill: white;
   }
 
-  .c24:hover {
+  .c23:hover {
     color: white;
     fill: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c18 {
-    color: white;
+  .c17 {
+    color: #ffffff;
   }
 }
 
 @media (min-width:32.25rem) {
-  .c14 {
+  .c13 {
     grid-template-columns: repeat(3,1fr);
     text-align: center;
   }
 }
 
 @media (min-width:50.25rem) {
-  .c8 {
+  .c7 {
     padding: calc(2 * 2rem);
   }
 }
 
 @media (min-width:32.25rem) {
-  .c21 {
+  .c20 {
     padding: 2rem 2rem;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c21 {
+  .c20 {
     background-color: #050d1b;
   }
 }
@@ -434,9 +432,7 @@ exports[`<HomePage /> should render correctly 1`] = `
         class="c5 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
         width="default"
       >
-        <div
-          class="c6"
-        >
+        <div>
           <style>
             .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -444,45 +440,34 @@ exports[`<HomePage /> should render correctly 1`] = `
 }
           </style>
           <div
-            class="c7 animated-content__wrapper--hidden"
+            class="c6 animated-content__wrapper--hidden"
           >
             <div
-              class="c8"
+              class="c7"
             >
               <span
-                class="c9"
+                class="c8"
                 style="margin-bottom: 1rem;"
               >
                 <span
-                  class="c10"
+                  class="c9"
                 >
                   Get a free, personalised Hyrox Relay plan that plays to the strengths of your team.
                 </span>
               </span>
               <span
-                class="c9"
+                class="c8"
                 style="margin-bottom: 1rem;"
               >
                 <button
-                  class="c11 outer"
+                  class="c10 outer"
                   type="button"
                 >
                   <span
-                    class="c12"
+                    class="c11"
                   >
                     Create a team
                   </span>
-                </button>
-                <style>
-                  @keyframes spin{to{transform:rotate(360deg)}}.tf-v1-popup{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.75);transition:opacity .25s ease-in-out;z-index:10001;display:flex;align-items:center;justify-content:center}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:360px;min-height:360px}.tf-v1-popup .tf-v1-iframe-wrapper iframe{width:100%;height:100%;border:none;overflow:hidden;border-radius:8px}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:-34px;right:0;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}@media(min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}.tf-v1-popup .tf-v1-spinner{border:3px solid #aaa;font-size:40px;width:1em;height:1em;border-radius:.5em;box-sizing:border-box;animation:spin 1s linear infinite;border-top-color:#fff;position:absolute;top:50%;left:50%;margin:-20px 0 0 -20px}@media(max-width: 480px){.tf-v1-popup{width:100% !important;height:100% !important}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:100%;min-height:100%}.tf-v1-popup .tf-v1-iframe-wrapper iframe{border-radius:0}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:6px;right:8px;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}}@media(max-width: 480px)and (min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}
-                </style>
-                <button
-                  class=""
-                  data-testid="tf-v1-popup"
-                  id="tf-popup-button"
-                  style="opacity: 0; width: 0px; height: 0px;"
-                >
-                  click to open form in popup
                 </button>
               </span>
             </div>
@@ -490,12 +475,10 @@ exports[`<HomePage /> should render correctly 1`] = `
         </div>
       </div>
       <div
-        class="c13 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+        class="c12 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
         width="default"
       >
-        <div
-          class="c6"
-        >
+        <div>
           <style>
             .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -503,49 +486,49 @@ exports[`<HomePage /> should render correctly 1`] = `
 }
           </style>
           <div
-            class="c7 animated-content__wrapper--hidden"
+            class="c6 animated-content__wrapper--hidden"
           >
             <div
-              class="c14"
+              class="c13"
             >
               <div
-                class="c15"
+                class="c14"
               >
                 <h1
-                  class="c16"
+                  class="c15"
                 >
                   Step 1
                 </h1>
                 <span
-                  class="c17"
+                  class="c16"
                 >
                   Choose a name for your team
                 </span>
               </div>
               <div
-                class="c15"
+                class="c14"
               >
                 <h1
-                  class="c16"
+                  class="c15"
                 >
                   Step 2
                 </h1>
                 <span
-                  class="c17"
+                  class="c16"
                 >
                   Ask each athlete to submit their station preferences
                 </span>
               </div>
               <div
-                class="c15"
+                class="c14"
               >
                 <h1
-                  class="c16"
+                  class="c15"
                 >
                   Step 3
                 </h1>
                 <span
-                  class="c17"
+                  class="c16"
                 >
                   Get your personalised relay plan that's optimised to get the best out of your team!
                 </span>
@@ -553,9 +536,7 @@ exports[`<HomePage /> should render correctly 1`] = `
             </div>
           </div>
         </div>
-        <div
-          class="c6"
-        >
+        <div>
           <style>
             .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -563,20 +544,20 @@ exports[`<HomePage /> should render correctly 1`] = `
 }
           </style>
           <div
-            class="c7 animated-content__wrapper--hidden"
+            class="c6 animated-content__wrapper--hidden"
           >
             <div
-              class="c18"
+              class="c17"
               style="color: rgb(255, 255, 255);"
             >
               <h1
-                class="c19 c20"
+                class="c18 c19"
                 id="about"
               >
                 About
               </h1>
               <span
-                class="c9"
+                class="c8"
                 style="margin-bottom: 1rem;"
               >
                 I created the Hyrox Relay Planner to help relay teams decide which stations they should each do.
@@ -584,9 +565,7 @@ exports[`<HomePage /> should render correctly 1`] = `
             </div>
           </div>
         </div>
-        <div
-          class="c6"
-        >
+        <div>
           <style>
             .js .animated-content__wrapper--hidden {
   padding-top: 4rem;
@@ -594,20 +573,20 @@ exports[`<HomePage /> should render correctly 1`] = `
 }
           </style>
           <div
-            class="c7 animated-content__wrapper--hidden"
+            class="c6 animated-content__wrapper--hidden"
           >
             <div
-              class="c18"
+              class="c17"
               style="color: rgb(255, 255, 255);"
             >
               <h1
-                class="c19 c20"
+                class="c18 c19"
                 id="how-does-the-planner-work?"
               >
                 How does the planner work?
               </h1>
               <span
-                class="c9"
+                class="c8"
                 style="margin-bottom: 1rem;"
               >
                 There's no AI magic here, just a server doing some calculations. This works by generating all 2520 possible permutations for how you could divide the 8 Hyrox stations between 4 of you. It then assesses each one according to the athlete's individual preferences as well as rest-time between stations, and decides which is best.
@@ -616,48 +595,57 @@ exports[`<HomePage /> should render correctly 1`] = `
           </div>
         </div>
       </div>
+      <style>
+        @keyframes spin{to{transform:rotate(360deg)}}.tf-v1-popup{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.75);transition:opacity .25s ease-in-out;z-index:10001;display:flex;align-items:center;justify-content:center}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:360px;min-height:360px}.tf-v1-popup .tf-v1-iframe-wrapper iframe{width:100%;height:100%;border:none;overflow:hidden;border-radius:8px}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:-34px;right:0;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}@media(min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}.tf-v1-popup .tf-v1-spinner{border:3px solid #aaa;font-size:40px;width:1em;height:1em;border-radius:.5em;box-sizing:border-box;animation:spin 1s linear infinite;border-top-color:#fff;position:absolute;top:50%;left:50%;margin:-20px 0 0 -20px}@media(max-width: 480px){.tf-v1-popup{width:100% !important;height:100% !important}.tf-v1-popup .tf-v1-iframe-wrapper{position:relative;transition:opacity .25s ease-in-out;min-width:100%;min-height:100%}.tf-v1-popup .tf-v1-iframe-wrapper iframe{border-radius:0}.tf-v1-popup .tf-v1-close{display:block;padding:0;margin:0;position:absolute;font-size:32px;font-weight:normal;line-height:24px;width:24px;height:24px;text-align:center;text-transform:none;cursor:pointer;opacity:.75;transition:opacity .25s ease-in-out;text-decoration:none;color:#000;top:6px;right:8px;background:none;border:none;border-radius:0}.tf-v1-popup .tf-v1-close:hover{opacity:1}}@media(max-width: 480px)and (min-width: 481px){.tf-v1-popup .tf-v1-close{color:#fff !important}}
+      </style>
+      <button
+        class=""
+        data-testid="tf-v1-popup"
+        id="tf-popup-button"
+        style="opacity: 0; width: 0px; height: 0px;"
+      >
+        click to open form in popup
+      </button>
     </div>
   </main>
-  <div
-    class="c6"
-  >
+  <div>
     <style>
       .js .animated-content__wrapper--hidden {
   opacity: 0.01;
 }
     </style>
     <div
-      class="c7 animated-content__wrapper--hidden"
+      class="c6 animated-content__wrapper--hidden"
     >
       <footer
-        class="c21"
+        class="c20"
         id="footer"
       >
         <div
-          class="c22"
+          class="c21"
         >
           <span
-            class="c9 c23"
+            class="c8 c22"
           >
             Made with love by
              
             <a
               aria-label="George (opens in a new tab)"
-              class="c24"
+              class="c23"
               href="https://www.georgegillams.co.uk/"
               rel="noopener noreferrer"
               target="_blank"
             >
               <span
-                class="c17"
+                class="c16"
               >
                 George
               </span>
               <div
-                class="c25"
+                class="c24"
               >
                 <svg
-                  class="c26 c27"
+                  class="c25 c26"
                   height="18"
                   viewBox="0 0 24 24"
                   width="18"

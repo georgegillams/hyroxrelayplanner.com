@@ -8,8 +8,8 @@ exports[`<AdminAnalytics /> should render correctly - index 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
-  color: darkorchid;
-  fill: darkorchid;
+  color: #9932cc;
+  fill: #9932cc;
 }
 
 .c4:focus-within,
@@ -27,7 +27,7 @@ exports[`<AdminAnalytics /> should render correctly - index 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -73,14 +73,14 @@ exports[`<AdminAnalytics /> should render correctly - index 1`] = `
 @media (prefers-color-scheme:dark) {
   .c4:focus-within::after,
   .c4:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c4 {
-    color: orchid;
-    fill: orchid;
+    color: #da70d6;
+    fill: #da70d6;
   }
 
   .c4:hover {
@@ -91,7 +91,7 @@ exports[`<AdminAnalytics /> should render correctly - index 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c0 {
-    color: white;
+    color: #ffffff;
   }
 }
 
@@ -133,8 +133,8 @@ exports[`<AdminAnalytics /> should render correctly with admin user 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
-  color: darkorchid;
-  fill: darkorchid;
+  color: #9932cc;
+  fill: #9932cc;
 }
 
 .c2:focus-within,
@@ -152,7 +152,7 @@ exports[`<AdminAnalytics /> should render correctly with admin user 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -182,8 +182,8 @@ exports[`<AdminAnalytics /> should render correctly with admin user 1`] = `
 }
 
 .c0 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c6 {
@@ -219,7 +219,7 @@ exports[`<AdminAnalytics /> should render correctly with admin user 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -232,11 +232,12 @@ exports[`<AdminAnalytics /> should render correctly with admin user 1`] = `
 
 .c6:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c6:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c8 {
@@ -275,14 +276,14 @@ exports[`<AdminAnalytics /> should render correctly with admin user 1`] = `
 @media (prefers-color-scheme:dark) {
   .c2:focus-within::after,
   .c2:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c2 {
-    color: orchid;
-    fill: orchid;
+    color: #da70d6;
+    fill: #da70d6;
   }
 
   .c2:hover {
@@ -294,7 +295,7 @@ exports[`<AdminAnalytics /> should render correctly with admin user 1`] = `
 @media (prefers-color-scheme:dark) {
   .c6:focus-within::after,
   .c6:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -316,13 +317,14 @@ exports[`<AdminAnalytics /> should render correctly with admin user 1`] = `
 @media (prefers-color-scheme:dark) {
   .c6:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c6:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -392,8 +394,8 @@ exports[`<AdminAnalytics /> should render correctly with analytics 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
-  color: darkorchid;
-  fill: darkorchid;
+  color: #9932cc;
+  fill: #9932cc;
 }
 
 .c2:focus-within,
@@ -411,7 +413,7 @@ exports[`<AdminAnalytics /> should render correctly with analytics 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -441,8 +443,8 @@ exports[`<AdminAnalytics /> should render correctly with analytics 1`] = `
 }
 
 .c0 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c6 {
@@ -478,7 +480,7 @@ exports[`<AdminAnalytics /> should render correctly with analytics 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -491,11 +493,12 @@ exports[`<AdminAnalytics /> should render correctly with analytics 1`] = `
 
 .c6:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c6:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c8 {
@@ -534,14 +537,14 @@ exports[`<AdminAnalytics /> should render correctly with analytics 1`] = `
 @media (prefers-color-scheme:dark) {
   .c2:focus-within::after,
   .c2:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c2 {
-    color: orchid;
-    fill: orchid;
+    color: #da70d6;
+    fill: #da70d6;
   }
 
   .c2:hover {
@@ -553,7 +556,7 @@ exports[`<AdminAnalytics /> should render correctly with analytics 1`] = `
 @media (prefers-color-scheme:dark) {
   .c6:focus-within::after,
   .c6:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -575,13 +578,14 @@ exports[`<AdminAnalytics /> should render correctly with analytics 1`] = `
 @media (prefers-color-scheme:dark) {
   .c6:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c6:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -651,8 +655,8 @@ exports[`<AdminAnalytics /> should render correctly with initial state 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
-  color: darkorchid;
-  fill: darkorchid;
+  color: #9932cc;
+  fill: #9932cc;
 }
 
 .c4:focus-within,
@@ -670,7 +674,7 @@ exports[`<AdminAnalytics /> should render correctly with initial state 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -716,14 +720,14 @@ exports[`<AdminAnalytics /> should render correctly with initial state 1`] = `
 @media (prefers-color-scheme:dark) {
   .c4:focus-within::after,
   .c4:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c4 {
-    color: orchid;
-    fill: orchid;
+    color: #da70d6;
+    fill: #da70d6;
   }
 
   .c4:hover {
@@ -734,7 +738,7 @@ exports[`<AdminAnalytics /> should render correctly with initial state 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c0 {
-    color: white;
+    color: #ffffff;
   }
 }
 
@@ -814,11 +818,11 @@ exports[`<AdminAnalytics /> should render correctly with loadError 1`] = `
   top: 0;
   width: 13rem;
   height: 100vh;
-  background-image: linear-gradient( 90deg, rgb(238,238,238), rgb(245,245,245), rgb(238,238,238) );
+  background-image: linear-gradient( 90deg,rgb(238,238,238),rgb(245,245,245),rgb(238,238,238) );
   background-repeat: no-repeat;
   background-size: 12.5rem 100%;
-  -webkit-animation: sjjMW 3.5s ease-in-out infinite;
-  animation: sjjMW 3.5s ease-in-out infinite;
+  -webkit-animation: eflhBg 3.5s ease-in-out infinite;
+  animation: eflhBg 3.5s ease-in-out infinite;
 }
 
 .c0 {
@@ -834,7 +838,7 @@ exports[`<AdminAnalytics /> should render correctly with loadError 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c4 {
-    color: white;
+    color: #ffffff;
   }
 }
 
@@ -852,7 +856,7 @@ exports[`<AdminAnalytics /> should render correctly with loadError 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c2 {
-    background-image: linear-gradient( 90deg, rgb(17,17,17), rgb(50,50,50), rgb(17,17,17) );
+    background-image: linear-gradient( 90deg,rgb(17,17,17),rgb(50,50,50),rgb(17,17,17) );
   }
 }
 
@@ -935,8 +939,8 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
-  color: darkorchid;
-  fill: darkorchid;
+  color: #9932cc;
+  fill: #9932cc;
 }
 
 .c2:focus-within,
@@ -954,7 +958,7 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -984,8 +988,8 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
 }
 
 .c0 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c10 {
@@ -1005,8 +1009,8 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1026,8 +1030,8 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1047,8 +1051,8 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1068,8 +1072,8 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1089,8 +1093,8 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1110,8 +1114,8 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1131,8 +1135,8 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1152,8 +1156,8 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1198,7 +1202,7 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1211,11 +1215,12 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
 
 .c6:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c6:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c19 {
@@ -1251,7 +1256,7 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1264,11 +1269,12 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
 
 .c19:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c19:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c8 {
@@ -1339,14 +1345,14 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
 @media (prefers-color-scheme:dark) {
   .c2:focus-within::after,
   .c2:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c2 {
-    color: orchid;
-    fill: orchid;
+    color: #da70d6;
+    fill: #da70d6;
   }
 
   .c2:hover {
@@ -1357,14 +1363,14 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c10 {
-    color: white;
+    color: #ffffff;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c6:focus-within::after,
   .c6:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -1386,20 +1392,21 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
 @media (prefers-color-scheme:dark) {
   .c6:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c6:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c19:focus-within::after,
   .c19:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -1421,13 +1428,14 @@ exports[`<AdminAnalytics /> should render correctly with loading=true 1`] = `
 @media (prefers-color-scheme:dark) {
   .c19:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c19:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -1531,8 +1539,8 @@ exports[`<AdminAnalytics /> should render correctly with user 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
-  color: darkorchid;
-  fill: darkorchid;
+  color: #9932cc;
+  fill: #9932cc;
 }
 
 .c4:focus-within,
@@ -1550,7 +1558,7 @@ exports[`<AdminAnalytics /> should render correctly with user 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1596,14 +1604,14 @@ exports[`<AdminAnalytics /> should render correctly with user 1`] = `
 @media (prefers-color-scheme:dark) {
   .c4:focus-within::after,
   .c4:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c4 {
-    color: orchid;
-    fill: orchid;
+    color: #da70d6;
+    fill: #da70d6;
   }
 
   .c4:hover {
@@ -1614,7 +1622,7 @@ exports[`<AdminAnalytics /> should render correctly with user 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c0 {
-    color: white;
+    color: #ffffff;
   }
 }
 

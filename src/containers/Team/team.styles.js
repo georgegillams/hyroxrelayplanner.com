@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 import {
-  borderRadiusSm,
   breakpointMd,
-  spacingMd,
   spacingBase,
   spacingLg,
   spacingSm,

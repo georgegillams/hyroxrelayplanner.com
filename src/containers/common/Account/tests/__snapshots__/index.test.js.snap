@@ -41,11 +41,11 @@ exports[`<Account /> should render correctly - index 1`] = `
   top: 0;
   width: 13rem;
   height: 100vh;
-  background-image: linear-gradient( 90deg, rgb(238,238,238), rgb(245,245,245), rgb(238,238,238) );
+  background-image: linear-gradient( 90deg,rgb(238,238,238),rgb(245,245,245),rgb(238,238,238) );
   background-repeat: no-repeat;
   background-size: 12.5rem 100%;
-  -webkit-animation: sjjMW 3.5s ease-in-out infinite;
-  animation: sjjMW 3.5s ease-in-out infinite;
+  -webkit-animation: eflhBg 3.5s ease-in-out infinite;
+  animation: eflhBg 3.5s ease-in-out infinite;
 }
 
 @media (min-width:50.25rem) {
@@ -69,7 +69,7 @@ exports[`<Account /> should render correctly - index 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c2 {
-    background-image: linear-gradient( 90deg, rgb(17,17,17), rgb(50,50,50), rgb(17,17,17) );
+    background-image: linear-gradient( 90deg,rgb(17,17,17),rgb(50,50,50),rgb(17,17,17) );
   }
 }
 
@@ -132,8 +132,8 @@ exports[`<Account /> should render correctly with initial state 1`] = `
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c5 {
@@ -169,7 +169,7 @@ exports[`<Account /> should render correctly with initial state 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -182,11 +182,12 @@ exports[`<Account /> should render correctly with initial state 1`] = `
 
 .c5:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c5:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c8 {
@@ -222,7 +223,7 @@ exports[`<Account /> should render correctly with initial state 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -235,11 +236,12 @@ exports[`<Account /> should render correctly with initial state 1`] = `
 
 .c8:active {
   background-color: #9F1717;
+  color: white;
 }
 
 .c8:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c7 {
@@ -281,7 +283,7 @@ exports[`<Account /> should render correctly with initial state 1`] = `
 @media (prefers-color-scheme:dark) {
   .c5:focus-within::after,
   .c5:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -303,20 +305,21 @@ exports[`<Account /> should render correctly with initial state 1`] = `
 @media (prefers-color-scheme:dark) {
   .c5:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:focus-within::after,
   .c8:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -338,13 +341,14 @@ exports[`<Account /> should render correctly with initial state 1`] = `
 @media (prefers-color-scheme:dark) {
   .c8:active {
     background-color: #730D0D;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -414,8 +418,8 @@ exports[`<Account /> should render correctly with initial state 2`] = `
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c5 {
@@ -451,7 +455,7 @@ exports[`<Account /> should render correctly with initial state 2`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -464,11 +468,12 @@ exports[`<Account /> should render correctly with initial state 2`] = `
 
 .c5:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c5:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c8 {
@@ -504,7 +509,7 @@ exports[`<Account /> should render correctly with initial state 2`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -517,11 +522,12 @@ exports[`<Account /> should render correctly with initial state 2`] = `
 
 .c8:active {
   background-color: #9F1717;
+  color: white;
 }
 
 .c8:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c7 {
@@ -563,7 +569,7 @@ exports[`<Account /> should render correctly with initial state 2`] = `
 @media (prefers-color-scheme:dark) {
   .c5:focus-within::after,
   .c5:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -585,20 +591,21 @@ exports[`<Account /> should render correctly with initial state 2`] = `
 @media (prefers-color-scheme:dark) {
   .c5:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:focus-within::after,
   .c8:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -620,13 +627,14 @@ exports[`<Account /> should render correctly with initial state 2`] = `
 @media (prefers-color-scheme:dark) {
   .c8:active {
     background-color: #730D0D;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -696,8 +704,8 @@ exports[`<Account /> should render correctly with logOutError 1`] = `
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c5 {
@@ -733,7 +741,7 @@ exports[`<Account /> should render correctly with logOutError 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -746,11 +754,12 @@ exports[`<Account /> should render correctly with logOutError 1`] = `
 
 .c5:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c5:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c8 {
@@ -786,7 +795,7 @@ exports[`<Account /> should render correctly with logOutError 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -799,11 +808,12 @@ exports[`<Account /> should render correctly with logOutError 1`] = `
 
 .c8:active {
   background-color: #9F1717;
+  color: white;
 }
 
 .c8:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c7 {
@@ -845,7 +855,7 @@ exports[`<Account /> should render correctly with logOutError 1`] = `
 @media (prefers-color-scheme:dark) {
   .c5:focus-within::after,
   .c5:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -867,20 +877,21 @@ exports[`<Account /> should render correctly with logOutError 1`] = `
 @media (prefers-color-scheme:dark) {
   .c5:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:focus-within::after,
   .c8:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -902,13 +913,14 @@ exports[`<Account /> should render correctly with logOutError 1`] = `
 @media (prefers-color-scheme:dark) {
   .c8:active {
     background-color: #730D0D;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -978,8 +990,8 @@ exports[`<Account /> should render correctly with logOutResult 1`] = `
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c5 {
@@ -1015,7 +1027,7 @@ exports[`<Account /> should render correctly with logOutResult 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1028,11 +1040,12 @@ exports[`<Account /> should render correctly with logOutResult 1`] = `
 
 .c5:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c5:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c8 {
@@ -1068,7 +1081,7 @@ exports[`<Account /> should render correctly with logOutResult 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1081,11 +1094,12 @@ exports[`<Account /> should render correctly with logOutResult 1`] = `
 
 .c8:active {
   background-color: #9F1717;
+  color: white;
 }
 
 .c8:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c7 {
@@ -1127,7 +1141,7 @@ exports[`<Account /> should render correctly with logOutResult 1`] = `
 @media (prefers-color-scheme:dark) {
   .c5:focus-within::after,
   .c5:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -1149,20 +1163,21 @@ exports[`<Account /> should render correctly with logOutResult 1`] = `
 @media (prefers-color-scheme:dark) {
   .c5:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:focus-within::after,
   .c8:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -1184,13 +1199,14 @@ exports[`<Account /> should render correctly with logOutResult 1`] = `
 @media (prefers-color-scheme:dark) {
   .c8:active {
     background-color: #730D0D;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -1260,8 +1276,8 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c11 {
@@ -1281,8 +1297,8 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1302,8 +1318,8 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1323,8 +1339,8 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1344,8 +1360,8 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1365,8 +1381,8 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1386,8 +1402,8 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1407,8 +1423,8 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1428,8 +1444,8 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -1473,7 +1489,7 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1486,11 +1502,12 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
 
 .c5:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c5:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c8 {
@@ -1527,7 +1544,7 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1540,11 +1557,12 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
 
 .c8:active {
   background-color: #9F1717;
+  color: white;
 }
 
 .c8:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c7 {
@@ -1617,14 +1635,14 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c11 {
-    color: white;
+    color: #ffffff;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5:focus-within::after,
   .c5:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -1646,20 +1664,21 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
 @media (prefers-color-scheme:dark) {
   .c5:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:focus-within::after,
   .c8:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -1681,13 +1700,14 @@ exports[`<Account /> should render correctly with loggingOut=true 1`] = `
 @media (prefers-color-scheme:dark) {
   .c8:active {
     background-color: #730D0D;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -1808,11 +1828,11 @@ exports[`<Account /> should render correctly with no user 1`] = `
   top: 0;
   width: 13rem;
   height: 100vh;
-  background-image: linear-gradient( 90deg, rgb(238,238,238), rgb(245,245,245), rgb(238,238,238) );
+  background-image: linear-gradient( 90deg,rgb(238,238,238),rgb(245,245,245),rgb(238,238,238) );
   background-repeat: no-repeat;
   background-size: 12.5rem 100%;
-  -webkit-animation: sjjMW 3.5s ease-in-out infinite;
-  animation: sjjMW 3.5s ease-in-out infinite;
+  -webkit-animation: eflhBg 3.5s ease-in-out infinite;
+  animation: eflhBg 3.5s ease-in-out infinite;
 }
 
 @media (min-width:50.25rem) {
@@ -1836,7 +1856,7 @@ exports[`<Account /> should render correctly with no user 1`] = `
 
 @media (prefers-color-scheme:dark) {
   .c2 {
-    background-image: linear-gradient( 90deg, rgb(17,17,17), rgb(50,50,50), rgb(17,17,17) );
+    background-image: linear-gradient( 90deg,rgb(17,17,17),rgb(50,50,50),rgb(17,17,17) );
   }
 }
 
@@ -1899,8 +1919,8 @@ exports[`<Account /> should render correctly with requestVerificationEmailError 
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c5 {
@@ -1936,7 +1956,7 @@ exports[`<Account /> should render correctly with requestVerificationEmailError 
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1949,11 +1969,12 @@ exports[`<Account /> should render correctly with requestVerificationEmailError 
 
 .c5:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c5:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c8 {
@@ -1989,7 +2010,7 @@ exports[`<Account /> should render correctly with requestVerificationEmailError 
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -2002,11 +2023,12 @@ exports[`<Account /> should render correctly with requestVerificationEmailError 
 
 .c8:active {
   background-color: #9F1717;
+  color: white;
 }
 
 .c8:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c7 {
@@ -2048,7 +2070,7 @@ exports[`<Account /> should render correctly with requestVerificationEmailError 
 @media (prefers-color-scheme:dark) {
   .c5:focus-within::after,
   .c5:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -2070,20 +2092,21 @@ exports[`<Account /> should render correctly with requestVerificationEmailError 
 @media (prefers-color-scheme:dark) {
   .c5:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:focus-within::after,
   .c8:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -2105,13 +2128,14 @@ exports[`<Account /> should render correctly with requestVerificationEmailError 
 @media (prefers-color-scheme:dark) {
   .c8:active {
     background-color: #730D0D;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -2181,8 +2205,8 @@ exports[`<Account /> should render correctly with requestVerificationEmailResult
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c5 {
@@ -2218,7 +2242,7 @@ exports[`<Account /> should render correctly with requestVerificationEmailResult
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -2231,11 +2255,12 @@ exports[`<Account /> should render correctly with requestVerificationEmailResult
 
 .c5:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c5:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c8 {
@@ -2271,7 +2296,7 @@ exports[`<Account /> should render correctly with requestVerificationEmailResult
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -2284,11 +2309,12 @@ exports[`<Account /> should render correctly with requestVerificationEmailResult
 
 .c8:active {
   background-color: #9F1717;
+  color: white;
 }
 
 .c8:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c7 {
@@ -2330,7 +2356,7 @@ exports[`<Account /> should render correctly with requestVerificationEmailResult
 @media (prefers-color-scheme:dark) {
   .c5:focus-within::after,
   .c5:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -2352,20 +2378,21 @@ exports[`<Account /> should render correctly with requestVerificationEmailResult
 @media (prefers-color-scheme:dark) {
   .c5:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:focus-within::after,
   .c8:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -2387,13 +2414,14 @@ exports[`<Account /> should render correctly with requestVerificationEmailResult
 @media (prefers-color-scheme:dark) {
   .c8:active {
     background-color: #730D0D;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -2463,8 +2491,8 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c9 {
@@ -2484,8 +2512,8 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -2505,8 +2533,8 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -2526,8 +2554,8 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -2547,8 +2575,8 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -2568,8 +2596,8 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -2589,8 +2617,8 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -2610,8 +2638,8 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -2631,8 +2659,8 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
   border-radius: 1rem;
   background-color: transparent;
   background-color: currentColor;
-  -webkit-animation: fzQzkt 0.8s infinite linear;
-  animation: fzQzkt 0.8s infinite linear;
+  -webkit-animation: dJmicz 0.8s infinite linear;
+  animation: dJmicz 0.8s infinite linear;
   -webkit-transform-origin: center -0.16rem;
   -ms-transform-origin: center -0.16rem;
   transform-origin: center -0.16rem;
@@ -2677,7 +2705,7 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -2690,11 +2718,12 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
 
 .c5:active {
   background-color: #003E6F;
+  color: white;
 }
 
 .c5:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c18 {
@@ -2730,7 +2759,7 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -2743,11 +2772,12 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
 
 .c18:active {
   background-color: #9F1717;
+  color: white;
 }
 
 .c18:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c7 {
@@ -2820,14 +2850,14 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
 
 @media (prefers-color-scheme:dark) {
   .c9 {
-    color: white;
+    color: #ffffff;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5:focus-within::after,
   .c5:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -2849,20 +2879,21 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
 @media (prefers-color-scheme:dark) {
   .c5:active {
     background-color: #003965;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c18:focus-within::after,
   .c18:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -2884,13 +2915,14 @@ exports[`<Account /> should render correctly with requestingVerificationEmail=tr
 @media (prefers-color-scheme:dark) {
   .c18:active {
     background-color: #730D0D;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c18:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
@@ -2994,8 +3026,8 @@ exports[`<Account /> should render correctly with user with emailVerified=true 1
 }
 
 .c1 {
-  -webkit-animation: bbwGtI 0.4s ease-in-out;
-  animation: bbwGtI 0.4s ease-in-out;
+  -webkit-animation: eTsntO 0.4s ease-in-out;
+  animation: eTsntO 0.4s ease-in-out;
 }
 
 .c5 {
@@ -3031,7 +3063,7 @@ exports[`<Account /> should render correctly with user with emailVerified=true 1
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid rgba(0,125,250,0.6) 0.2rem;
+  border: solid #007dfa3C 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -3044,11 +3076,12 @@ exports[`<Account /> should render correctly with user with emailVerified=true 1
 
 .c5:active {
   background-color: #9F1717;
+  color: white;
 }
 
 .c5:disabled {
   background-color: #cdcdd7;
-  color: rgb(100,100,100);
+  color: #646464;
 }
 
 .c6 {
@@ -3086,7 +3119,7 @@ exports[`<Account /> should render correctly with user with emailVerified=true 1
 @media (prefers-color-scheme:dark) {
   .c5:focus-within::after,
   .c5:focus::after {
-    border-color: rgba(0,125,250,0.6);
+    border-color: #007dfa3C;
   }
 }
 
@@ -3108,13 +3141,14 @@ exports[`<Account /> should render correctly with user with emailVerified=true 1
 @media (prefers-color-scheme:dark) {
   .c5:active {
     background-color: #730D0D;
+    color: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c5:disabled {
-    background-color: rgb(89,89,89);
-    color: darkgray;
+    background-color: #595959;
+    color: #a9a9a9;
   }
 }
 
