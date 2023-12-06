@@ -11,7 +11,7 @@ const apiStructureExtensions = {
   updateAthlete: { method: POST, path: '/athlete/update/tf-webhook' },
 
   // Plan
-  loadPlan: { method: GET, path: '/plan/load' },
+  loadPlan: { method: GET, path: '/plan/load/:teamId' },
 };
 
 export default { apiStructureExtensions };

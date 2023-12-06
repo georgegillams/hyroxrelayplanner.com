@@ -17,7 +17,7 @@ const environment = {
 
 const projectName = 'HYROXRELAYPLANNER';
 const projectTitle = 'Hyrox Relay Planner';
-const projectDescription = "Find out if it's happy hour yet.";
+const projectDescription = 'Get a personalised, optimised Hyrox Relay Plan.';
 const githubRepo = 'georgegillams/hyroxrelayplanner.com';
 const githubRepoUrl = `https://github.com/${githubRepo}`;
 const port = PORT || 3000;
@@ -26,7 +26,7 @@ const emailDomain = 'georgegillams.co.uk';
 const domain = useLocalhost ? `localhost:${port}` : 'www.hyroxrelayplanner.com';
 const siteUrl = useLocalhost ? `http://${domain}` : `https://${domain}`;
 const apiEndpoint = `${siteUrl}/api`;
-const themeColor = '#025ca2';
+const themeColor = '##ffed00';
 
 module.exports = {
   host: HOST || 'localhost',
