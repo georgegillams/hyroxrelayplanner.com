@@ -109,10 +109,10 @@ const TeamPage = props => {
   const renderPlans = plans?.length > 0;
 
   const canShare = useMemo(() => {
-    if (typeof navigator === 'undefined') {
+    if (typeof window === 'undefined' || typeof navigator === 'undefined') {
       return false;
     }
-    return !!navigator?.canShare?.('https://www.google.com/');
+    return !!navigator?.canShare?.(new URL('https://www.google.com/'));
   }, []);
 
   useEffect(() => {
