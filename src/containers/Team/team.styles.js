@@ -9,6 +9,7 @@ import {
 } from '@george-gillams/components/constants/layout';
 import { hyroxBlack, hyroxYellow } from 'constants/hyrox-theme';
 import Button from 'components/common/Button';
+import Paragraph from '@george-gillams/components/paragraph';
 
 export const WarningBanner = styled.div`
   background: ${hyroxYellow};
@@ -44,7 +45,7 @@ export const TeamItem = styled.div`
 `;
 
 export const ShareButton = styled(Button)`
-  margin-top: ${spacingSm};
+  margin-top: ${spacingBase};
 `;
 
 export const TeamItemLinks = styled.div`
@@ -120,5 +121,11 @@ export const NameBackground = styled.div`
 
   @media (min-width: ${breakpointMd}) {
     display: unset;
+  }
+`;
+
+export const MainCtaWrapper = styled(Paragraph)`
+  > *:not(:first-child) {
+    margin-left: ${spacingBase};
   }
 `;

@@ -32,7 +32,7 @@ exports[`<HomePage /> should render correctly 1`] = `
   padding-left: 1rem;
 }
 
-.c12 {
+.c13 {
   display: block;
   width: 100%;
   margin-right: auto;
@@ -119,6 +119,73 @@ exports[`<HomePage /> should render correctly 1`] = `
   color: #646464;
 }
 
+.c12 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  min-width: unset;
+  padding: 0.2rem 0.8rem;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.c12:focus-within,
+.c12:focus {
+  outline: none !important;
+}
+
+.c12:focus-within::after,
+.c12:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid #007dfa3C 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c12:focus,
+.c12:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c12:active {
+  background-color: #003E6F;
+  color: white;
+}
+
+.c12:disabled {
+  background-color: #cdcdd7;
+  color: #646464;
+}
+
+.c12:focus,
+.c12:active,
+.c12:hover {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-name: cMFrpC;
+  animation-name: cMFrpC;
+}
+
 .c11 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -134,11 +201,11 @@ exports[`<HomePage /> should render correctly 1`] = `
   margin: 0;
 }
 
-.c15 {
+.c16 {
   margin: 0;
 }
 
-.c18 {
+.c19 {
   margin: 0;
   font-size: 1.5rem;
   font-weight: bold;
@@ -150,16 +217,16 @@ exports[`<HomePage /> should render correctly 1`] = `
   font-weight: bold;
 }
 
-.c16 {
+.c17 {
   margin: 0;
 }
 
-.c25 {
+.c26 {
   width: 1.25rem;
   height: 1.25rem;
 }
 
-.c23 {
+.c24 {
   display: inline-block;
   border-radius: 0.25rem;
   font-weight: bold;
@@ -170,14 +237,14 @@ exports[`<HomePage /> should render correctly 1`] = `
   fill: white;
 }
 
-.c23:focus-within,
-.c23:focus {
+.c24:focus-within,
+.c24:focus {
   position: relative;
   outline: none !important;
 }
 
-.c23:focus-within::after,
-.c23:focus::after {
+.c24:focus-within::after,
+.c24:focus::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -190,12 +257,12 @@ exports[`<HomePage /> should render correctly 1`] = `
   pointer-events: none;
 }
 
-.c23:hover {
+.c24:hover {
   color: white;
   fill: white;
 }
 
-.c24 {
+.c25 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -205,7 +272,7 @@ exports[`<HomePage /> should render correctly 1`] = `
   margin-left: 0.55rem;
 }
 
-.c26 {
+.c27 {
   position: absolute;
   width: 1rem;
   height: 1rem;
@@ -213,18 +280,18 @@ exports[`<HomePage /> should render correctly 1`] = `
   margin-left: -0.45rem;
 }
 
-.c17 {
+.c18 {
   width: 100%;
   color: #1e1e1e;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c19 {
+.c20 {
   margin: 2.13rem 0 0 0;
 }
 
-.c13 {
+.c14 {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
@@ -233,7 +300,7 @@ exports[`<HomePage /> should render correctly 1`] = `
   margin-right: auto;
 }
 
-.c14 {
+.c15 {
   background-color: #000000;
   padding: 1rem;
   display: grid;
@@ -252,12 +319,12 @@ exports[`<HomePage /> should render correctly 1`] = `
   flex-direction: column;
 }
 
-.c22 {
+.c23 {
   width: 100%;
   margin-top: 0.5rem;
 }
 
-.c20 {
+.c21 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -278,7 +345,7 @@ exports[`<HomePage /> should render correctly 1`] = `
   border-top: solid #ffed00 0.15rem;
 }
 
-.c21 {
+.c22 {
   text-align: center;
 }
 
@@ -311,7 +378,7 @@ exports[`<HomePage /> should render correctly 1`] = `
 }
 
 @media (min-width:50.25rem) {
-  .c12 {
+  .c13 {
     padding-right: 2rem;
     padding-left: 2rem;
   }
@@ -354,32 +421,68 @@ exports[`<HomePage /> should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c23:focus-within::after,
-  .c23:focus::after {
+  .c12:focus-within::after,
+  .c12:focus::after {
     border-color: #007dfa3C;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c23 {
+  .c12 {
+    background-color: transparent;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c12:focus,
+  .c12:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c12:active {
+    background-color: #003965;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c12:disabled {
+    background-color: #595959;
+    color: #a9a9a9;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c24:focus-within::after,
+  .c24:focus::after {
+    border-color: #007dfa3C;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c24 {
     color: white;
     fill: white;
   }
 
-  .c23:hover {
+  .c24:hover {
     color: white;
     fill: white;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c17 {
+  .c18 {
     color: #ffffff;
   }
 }
 
 @media (min-width:32.25rem) {
-  .c13 {
+  .c14 {
     grid-template-columns: repeat(3,1fr);
     text-align: center;
   }
@@ -392,13 +495,13 @@ exports[`<HomePage /> should render correctly 1`] = `
 }
 
 @media (min-width:32.25rem) {
-  .c20 {
+  .c21 {
     padding: 2rem 2rem;
   }
 }
 
 @media (prefers-color-scheme:dark) {
-  .c20 {
+  .c21 {
     background-color: #050d1b;
   }
 }
@@ -470,12 +573,28 @@ exports[`<HomePage /> should render correctly 1`] = `
                   </span>
                 </button>
               </span>
+              <span
+                class="c8"
+                style="margin-bottom: 1rem;"
+              >
+                <a
+                  aria-label="View example plan"
+                  class="c12"
+                  href="/team/fd7631c1-37ad-4e84-87db-a16bc74236e5"
+                >
+                  <span
+                    class="c11"
+                  >
+                    View example plan
+                  </span>
+                </a>
+              </span>
             </div>
           </div>
         </div>
       </div>
       <div
-        class="c12 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+        class="c13 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
         width="default"
       >
         <div>
@@ -489,46 +608,46 @@ exports[`<HomePage /> should render correctly 1`] = `
             class="c6 animated-content__wrapper--hidden"
           >
             <div
-              class="c13"
+              class="c14"
             >
               <div
-                class="c14"
+                class="c15"
               >
                 <h1
-                  class="c15"
+                  class="c16"
                 >
                   Step 1
                 </h1>
                 <span
-                  class="c16"
+                  class="c17"
                 >
                   Choose a name for your team
                 </span>
               </div>
               <div
-                class="c14"
+                class="c15"
               >
                 <h1
-                  class="c15"
+                  class="c16"
                 >
                   Step 2
                 </h1>
                 <span
-                  class="c16"
+                  class="c17"
                 >
                   Ask each athlete to submit their station preferences
                 </span>
               </div>
               <div
-                class="c14"
+                class="c15"
               >
                 <h1
-                  class="c15"
+                  class="c16"
                 >
                   Step 3
                 </h1>
                 <span
-                  class="c16"
+                  class="c17"
                 >
                   Get your personalised relay plan that's optimised to get the best out of your team!
                 </span>
@@ -547,11 +666,11 @@ exports[`<HomePage /> should render correctly 1`] = `
             class="c6 animated-content__wrapper--hidden"
           >
             <div
-              class="c17"
+              class="c18"
               style="color: rgb(255, 255, 255);"
             >
               <h1
-                class="c18 c19"
+                class="c19 c20"
                 id="about"
               >
                 About
@@ -576,11 +695,11 @@ exports[`<HomePage /> should render correctly 1`] = `
             class="c6 animated-content__wrapper--hidden"
           >
             <div
-              class="c17"
+              class="c18"
               style="color: rgb(255, 255, 255);"
             >
               <h1
-                class="c18 c19"
+                class="c19 c20"
                 id="how-does-the-planner-work?"
               >
                 How does the planner work?
@@ -618,34 +737,34 @@ exports[`<HomePage /> should render correctly 1`] = `
       class="c6 animated-content__wrapper--hidden"
     >
       <footer
-        class="c20"
+        class="c21"
         id="footer"
       >
         <div
-          class="c21"
+          class="c22"
         >
           <span
-            class="c8 c22"
+            class="c8 c23"
           >
             Made with love by
              
             <a
               aria-label="George (opens in a new tab)"
-              class="c23"
+              class="c24"
               href="https://www.georgegillams.co.uk/"
               rel="noopener noreferrer"
               target="_blank"
             >
               <span
-                class="c16"
+                class="c17"
               >
                 George
               </span>
               <div
-                class="c24"
+                class="c25"
               >
                 <svg
-                  class="c25 c26"
+                  class="c26 c27"
                   height="18"
                   viewBox="0 0 24 24"
                   width="18"
