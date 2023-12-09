@@ -32,7 +32,7 @@ exports[`<Home /> should render correctly 1`] = `
   padding-left: 1rem;
 }
 
-.c8 {
+.c9 {
   display: block;
   width: 100%;
   margin-right: auto;
@@ -119,6 +119,73 @@ exports[`<Home /> should render correctly 1`] = `
   color: #646464;
 }
 
+.c8 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  min-width: unset;
+  padding: 0.2rem 0.8rem;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.c8:focus-within,
+.c8:focus {
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid #007dfa3C 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c8:focus,
+.c8:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c8:active {
+  background-color: #003E6F;
+  color: white;
+}
+
+.c8:disabled {
+  background-color: #cdcdd7;
+  color: #646464;
+}
+
+.c8:focus,
+.c8:active,
+.c8:hover {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-name: cMFrpC;
+  animation-name: cMFrpC;
+}
+
 .c7 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -130,11 +197,11 @@ exports[`<Home /> should render correctly 1`] = `
   justify-content: center;
 }
 
-.c11 {
+.c12 {
   margin: 0;
 }
 
-.c14 {
+.c15 {
   margin: 0;
   font-size: 1.5rem;
   font-weight: bold;
@@ -146,22 +213,22 @@ exports[`<Home /> should render correctly 1`] = `
   font-weight: bold;
 }
 
-.c12 {
+.c13 {
   margin: 0;
 }
 
-.c13 {
+.c14 {
   width: 100%;
   color: #1e1e1e;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c15 {
+.c16 {
   margin: 2.13rem 0 0 0;
 }
 
-.c9 {
+.c10 {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
@@ -170,7 +237,7 @@ exports[`<Home /> should render correctly 1`] = `
   margin-right: auto;
 }
 
-.c10 {
+.c11 {
   background-color: #000000;
   padding: 1rem;
   display: grid;
@@ -197,7 +264,7 @@ exports[`<Home /> should render correctly 1`] = `
 }
 
 @media (min-width:50.25rem) {
-  .c8 {
+  .c9 {
     padding-right: 2rem;
     padding-left: 2rem;
   }
@@ -240,13 +307,49 @@ exports[`<Home /> should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c13 {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: #007dfa3C;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    background-color: transparent;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus,
+  .c8:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:active {
+    background-color: #003965;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:disabled {
+    background-color: #595959;
+    color: #a9a9a9;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14 {
     color: #ffffff;
   }
 }
 
 @media (min-width:32.25rem) {
-  .c9 {
+  .c10 {
     grid-template-columns: repeat(3,1fr);
     text-align: center;
   }
@@ -305,12 +408,28 @@ exports[`<Home /> should render correctly 1`] = `
                 </span>
               </button>
             </span>
+            <span
+              class="c4"
+              style="margin-bottom: 1rem;"
+            >
+              <a
+                aria-label="View example plan"
+                class="c8"
+                href="/team/fd7631c1-37ad-4e84-87db-a16bc74236e5"
+              >
+                <span
+                  class="c7"
+                >
+                  View example plan
+                </span>
+              </a>
+            </span>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="c8 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+      class="c9 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
       width="default"
     >
       <div>
@@ -324,46 +443,46 @@ exports[`<Home /> should render correctly 1`] = `
           class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c9"
+            class="c10"
           >
             <div
-              class="c10"
+              class="c11"
             >
               <h1
-                class="c11"
+                class="c12"
               >
                 Step 1
               </h1>
               <span
-                class="c12"
+                class="c13"
               >
                 Choose a name for your team
               </span>
             </div>
             <div
-              class="c10"
+              class="c11"
             >
               <h1
-                class="c11"
+                class="c12"
               >
                 Step 2
               </h1>
               <span
-                class="c12"
+                class="c13"
               >
                 Ask each athlete to submit their station preferences
               </span>
             </div>
             <div
-              class="c10"
+              class="c11"
             >
               <h1
-                class="c11"
+                class="c12"
               >
                 Step 3
               </h1>
               <span
-                class="c12"
+                class="c13"
               >
                 Get your personalised relay plan that's optimised to get the best out of your team!
               </span>
@@ -382,11 +501,11 @@ exports[`<Home /> should render correctly 1`] = `
           class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c13"
+            class="c14"
             style="color: rgb(255, 255, 255);"
           >
             <h1
-              class="c14 c15"
+              class="c15 c16"
               id="about"
             >
               About
@@ -411,11 +530,11 @@ exports[`<Home /> should render correctly 1`] = `
           class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c13"
+            class="c14"
             style="color: rgb(255, 255, 255);"
           >
             <h1
-              class="c14 c15"
+              class="c15 c16"
               id="how-does-the-planner-work?"
             >
               How does the planner work?
@@ -477,7 +596,7 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   padding-left: 1rem;
 }
 
-.c8 {
+.c9 {
   display: block;
   width: 100%;
   margin-right: auto;
@@ -564,6 +683,73 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   color: #646464;
 }
 
+.c8 {
+  position: relative;
+  min-width: 5rem;
+  padding: 0.43rem 1.125rem 0.32rem 1.125rem;
+  -webkit-transition: filter 0.3s;
+  transition: filter 0.3s;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-decoration-color: transparent;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  background-color: transparent;
+  color: #1e1e1e;
+  min-width: unset;
+  padding: 0.2rem 0.8rem;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.c8:focus-within,
+.c8:focus {
+  outline: none !important;
+}
+
+.c8:focus-within::after,
+.c8:focus::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid #007dfa3C 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.c8:focus,
+.c8:hover {
+  background-color: #004F8C;
+  color: white;
+}
+
+.c8:active {
+  background-color: #003E6F;
+  color: white;
+}
+
+.c8:disabled {
+  background-color: #cdcdd7;
+  color: #646464;
+}
+
+.c8:focus,
+.c8:active,
+.c8:hover {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-name: cMFrpC;
+  animation-name: cMFrpC;
+}
+
 .c7 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -575,11 +761,11 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   justify-content: center;
 }
 
-.c11 {
+.c12 {
   margin: 0;
 }
 
-.c14 {
+.c15 {
   margin: 0;
   font-size: 1.5rem;
   font-weight: bold;
@@ -591,22 +777,22 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   font-weight: bold;
 }
 
-.c12 {
+.c13 {
   margin: 0;
 }
 
-.c13 {
+.c14 {
   width: 100%;
   color: #1e1e1e;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c15 {
+.c16 {
   margin: 2.13rem 0 0 0;
 }
 
-.c9 {
+.c10 {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
@@ -615,7 +801,7 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   margin-right: auto;
 }
 
-.c10 {
+.c11 {
   background-color: #000000;
   padding: 1rem;
   display: grid;
@@ -642,7 +828,7 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
 }
 
 @media (min-width:50.25rem) {
-  .c8 {
+  .c9 {
     padding-right: 2rem;
     padding-left: 2rem;
   }
@@ -685,13 +871,49 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c13 {
+  .c8:focus-within::after,
+  .c8:focus::after {
+    border-color: #007dfa3C;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8 {
+    background-color: transparent;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:focus,
+  .c8:hover {
+    background-color: #004479;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:active {
+    background-color: #003965;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c8:disabled {
+    background-color: #595959;
+    color: #a9a9a9;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c14 {
     color: #ffffff;
   }
 }
 
 @media (min-width:32.25rem) {
-  .c9 {
+  .c10 {
     grid-template-columns: repeat(3,1fr);
     text-align: center;
   }
@@ -750,12 +972,28 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
                 </span>
               </button>
             </span>
+            <span
+              class="c4"
+              style="margin-bottom: 1rem;"
+            >
+              <a
+                aria-label="View example plan"
+                class="c8"
+                href="/team/fd7631c1-37ad-4e84-87db-a16bc74236e5"
+              >
+                <span
+                  class="c7"
+                >
+                  View example plan
+                </span>
+              </a>
+            </span>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="c8 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
+      class="c9 page-containerstyles__StyledPageContainer-sc-19l7k4-0"
       width="default"
     >
       <div>
@@ -769,46 +1007,46 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
           class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c9"
+            class="c10"
           >
             <div
-              class="c10"
+              class="c11"
             >
               <h1
-                class="c11"
+                class="c12"
               >
                 Step 1
               </h1>
               <span
-                class="c12"
+                class="c13"
               >
                 Choose a name for your team
               </span>
             </div>
             <div
-              class="c10"
+              class="c11"
             >
               <h1
-                class="c11"
+                class="c12"
               >
                 Step 2
               </h1>
               <span
-                class="c12"
+                class="c13"
               >
                 Ask each athlete to submit their station preferences
               </span>
             </div>
             <div
-              class="c10"
+              class="c11"
             >
               <h1
-                class="c11"
+                class="c12"
               >
                 Step 3
               </h1>
               <span
-                class="c12"
+                class="c13"
               >
                 Get your personalised relay plan that's optimised to get the best out of your team!
               </span>
@@ -827,11 +1065,11 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
           class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c13"
+            class="c14"
             style="color: rgb(255, 255, 255);"
           >
             <h1
-              class="c14 c15"
+              class="c15 c16"
               id="about"
             >
               About
@@ -856,11 +1094,11 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
           class="c2 animated-content__wrapper--hidden"
         >
           <div
-            class="c13"
+            class="c14"
             style="color: rgb(255, 255, 255);"
           >
             <h1
-              class="c14 c15"
+              class="c15 c16"
               id="how-does-the-planner-work?"
             >
               How does the planner work?

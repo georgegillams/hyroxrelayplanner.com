@@ -4,7 +4,7 @@ import PageContainer, { WIDTHS } from 'components/common/PageContainer';
 import { ScrollAnimationWrapper } from '@george-gillams/components/effects';
 import Paragraph from '@george-gillams/components/paragraph';
 import { spacingBase } from '@george-gillams/components/constants/layout';
-import Button, { BUTTON_SIZES } from '@george-gillams/components/button';
+import Button, { BUTTON_SIZES, BUTTON_TYPES } from '@george-gillams/components/button';
 import Subsection from '@george-gillams/components/subsection';
 import { hyroxWhite } from 'constants/hyrox-theme';
 import Steps from 'components/steps';
@@ -39,6 +39,14 @@ const HomePage = props => {
             <Paragraph style={{ marginBottom: spacingBase }}>
               <Button size={BUTTON_SIZES.large} onClick={createTeam}>
                 Create a team
+              </Button>
+            </Paragraph>
+            <Paragraph style={{ marginBottom: spacingBase }}>
+              <Button
+                buttonType={BUTTON_TYPES.bouncy}
+                size={BUTTON_SIZES.regular}
+                href="/team/fd7631c1-37ad-4e84-87db-a16bc74236e5">
+                View example plan
               </Button>
             </Paragraph>
           </MainCtaWrapper>

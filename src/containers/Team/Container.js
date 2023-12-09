@@ -7,6 +7,7 @@ import Button, { BUTTON_TYPES } from '@george-gillams/components/button';
 import Subsection from '@george-gillams/components/subsection';
 import { hyroxWhite } from 'constants/hyrox-theme';
 import {
+  MainCtaWrapper,
   NameBackground,
   PlanGrid,
   PlanItem,
@@ -150,12 +151,14 @@ const TeamPage = props => {
       </Head>
       <PageContainer centred>
         <Section style={{ color: hyroxWhite }} name={teamName}></Section>
-        <Button buttonType="bouncy" onClick={editTeam} disabled={!teamId}>
-          Edit team
-        </Button>
-        <Button buttonType="bouncy" onClick={reload} disabled={!teamId}>
-          Reload
-        </Button>
+        <MainCtaWrapper>
+          <Button buttonType="bouncy" onClick={editTeam} disabled={!teamId}>
+            Edit team
+          </Button>
+          <Button buttonType="bouncy" onClick={reload} disabled={!teamId}>
+            Reload
+          </Button>
+        </MainCtaWrapper>
         <TeamWrapper>
           {athletes.map((a, i) => (
             <Athlete canShare={canShare} name={a.name} key={a.id} index={i} id={a.id} teamId={teamId} />
