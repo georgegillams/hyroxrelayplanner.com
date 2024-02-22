@@ -1,11 +1,14 @@
 import { dbLoadSingle, dbUpdate } from 'server-utils/common/database';
-import { AuthError } from 'server-utils/common/errors';
+import { AuthError, InvalidInputError } from 'server-utils/common/errors';
 import { findAnswerWithBlockRef, hiddenFieldFromForm } from 'server-utils/typeform-webhooks';
-import { SERVER_HYROX_EXERCISES as HYROX_EXERCISES } from 'server-utils/form-constants';
+import { EXAMPLE_TEAM_ID, SERVER_HYROX_EXERCISES as HYROX_EXERCISES } from 'server-utils/form-constants';
 
 export default async function updateTeam(req) {
   // reqSecure(req, []);
   const teamId = hiddenFieldFromForm(req.body, 'teamid');
+  if (teamId === EXAMPLE_TEAM_ID) {
+    throw new InvalidInputError('This is an example team, and cannot be updated.');
+  }
   const athleteId = hiddenFieldFromForm(req.body, 'athleteid');
   const team = await dbLoadSingle({
     redisKey: 'teams',
