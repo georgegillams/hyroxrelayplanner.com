@@ -8,3 +8,5 @@ export const SERVER_HYROX_EXERCISES = [
   'sandbag-lunges',
   'wall-balls',
 ];
+
+export const EXAMPLE_TEAM_ID = 'fd7631c1-37ad-4e84-87db-a16bc74236e5';
