@@ -72,5 +72,7 @@ export const calculatePlan = data => {
   const topPlan = top3Plans[0];
   const topMax3Plans = top3Plans.filter(p => p.heuristic === topPlan.heuristic);
 
+  // TODO: Add explanation to each plan
+
   return { plans: topMax3Plans };
 };
