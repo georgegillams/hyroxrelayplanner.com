@@ -62,7 +62,7 @@ export const TeamItemLinks = styled.div`
 
 export const PlanGrid = styled.div`
   display: grid;
-  margin: 2rem 0;
+  margin: 2rem 0 1rem 0;
   border-radius: 1rem;
   overflow: hidden;
   grid-template-columns: repeat(1, 1fr);

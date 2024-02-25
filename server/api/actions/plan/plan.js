@@ -2,6 +2,99 @@
 
 import { SERVER_HYROX_EXERCISES as HYROX_EXERCISES } from 'server-utils/form-constants';
 
+const getPlanQualityFromHeuristic = heuristic => {
+  // TODO Check this threshold
+  if (heuristic > 100) {
+    return 'great';
+  }
+  // TODO Check this threshold
+  if (heuristic > 50) {
+    return 'ok';
+  }
+  return 'poor';
+};
+
+const pluralise = (count, singular, plural) => {
+  return count === 1 ? singular : plural;
+};
+
+const calculateNumberOfTopChoices = (plan, athletes) => {
+  const result = [];
+  for (let athlete of athletes) {
+    const athleteTopChoiceScore = Math.max(...Object.values(athlete.preferences));
+    const athleteActivities = plan.plan.filter(step => step.athleteID === athlete.id).map(a => a.activity);
+    const athleteTopChoices = Object.entries(athlete.preferences)
+      .filter(([, value]) => value > 4 && value === athleteTopChoiceScore)
+      .map(([key]) => key);
+
+    console.log(`athleteActivities`, athleteActivities);
+    console.log(`athleteTopChoices`, athleteTopChoices);
+
+    const numberOfTopChoiceMatches = athleteTopChoices.filter(topChoice =>
+      athleteActivities.includes(topChoice)
+    ).length;
+
+    result.push(numberOfTopChoiceMatches);
+  }
+
+  return result;
+};
+
+export const calculatePlanBenefits = (plan, athletes) => {
+  const qualityOfPlan = getPlanQualityFromHeuristic(plan.heuristic);
+  let qualityStatement = `This plan is ${qualityOfPlan}`;
+
+  const result = [];
+
+  let skipRemainingTopChoiceStatements = false;
+  const numberOfTopChoices = calculateNumberOfTopChoices(plan, athletes);
+  const numDoingBothTopChoice = numberOfTopChoices.filter(n => n === 2).length;
+  const numDoingOneTopChoice = numberOfTopChoices.filter(n => n === 1).length;
+
+  result.push(
+    `${numDoingBothTopChoice} ${pluralise(
+      numDoingBothTopChoice,
+      'athlete is',
+      'athletes are'
+    )} doing their favourite stations.`
+  );
+  if (numDoingBothTopChoice === 4) {
+    skipRemainingTopChoiceStatements = true;
+  }
+
+  if (!skipRemainingTopChoiceStatements) {
+    result.push(
+      `${numDoingOneTopChoice} ${pluralise(
+        numDoingOneTopChoice,
+        'athlete is',
+        'athletes are'
+      )} doing one of their favourite stations.`
+    );
+  }
+
+  let skipRemainingGapStatements = false;
+
+  // calculate number of athletes with 4 gaps
+  // push result if > 0, otherwise push "all athletes have a gap of 4"
+
+  if (!skipRemainingGapStatements) {
+    // calculate number of athletes with 3 gaps
+    // push result if > 0, otherwise push "all athletes have a gap of 3"
+  }
+
+  if (!skipRemainingGapStatements) {
+    // calculate number of athletes with 2 gaps
+    // push result if > 0, otherwise push "all athletes have a gap of 2"
+  }
+
+  if (!skipRemainingGapStatements) {
+    // calculate number of athletes going back-to-back
+    // push result if > 0, otherwise push "No athletes go back to back"
+  }
+
+  return [qualityStatement, ...result];
+};
+
 export const calculateHeuristicForPlan = (plan, athletes) => {
   let score = 0;
   for (let i = 0; i < plan.length; i += 1) {
@@ -72,7 +165,9 @@ export const calculatePlan = data => {
   const topPlan = top3Plans[0];
   const topMax3Plans = top3Plans.filter(p => p.heuristic === topPlan.heuristic);
 
-  // TODO: Add explanation to each plan
+  topMax3Plans.forEach(plan => {
+    plan.explanation = calculatePlanBenefits(plan, data.athletes);
+  });
 
   return { plans: topMax3Plans };
 };

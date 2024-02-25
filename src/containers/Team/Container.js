@@ -185,6 +185,16 @@ const TeamPage = props => {
                   <Paragraph>
                     <Plan plan={plan.plan} />
                   </Paragraph>
+                  {plan.explanation?.length > 0 && (
+                    <Paragraph>
+                      {plan.explanation.map(line => (
+                        <>
+                          <span key={line}>{line}</span>
+                          <br />
+                        </>
+                      ))}
+                    </Paragraph>
+                  )}
                 </Subsection>
               ))}
             </div>
