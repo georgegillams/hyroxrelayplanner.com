@@ -1,4 +1,6 @@
-FROM node:16.10.0
+ARG NODE_VERSION=20
+
+FROM node:${NODE_VERSION}
 
 WORKDIR /usr/src/tmp
 

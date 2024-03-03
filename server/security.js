@@ -16,7 +16,7 @@ const applyProductionSecurity = appConfig.isProduction && !appConfig.projectUnde
 
 const applySecurityPractises = server => {
   const cspDirectives = {
-    defaultSrc: ["'self'", 'www.youtube.com', 'form.typeform.com'],
+    defaultSrc: ["'self'", 'www.youtube.com'],
     baseUri: ["'self'"],
     fontSrc: ["'self'", 'https:', 'data:'],
     frameAncestors: ["'self'"],
@@ -40,7 +40,6 @@ const applySecurityPractises = server => {
       contentSecurityPolicy: {
         directives: cspDirectives,
       },
-      crossOriginEmbedderPolicy: false,
     })
   );
 
@@ -58,7 +57,7 @@ const applySecurityPractises = server => {
     slowDown({
       windowMs: 15 * 60 * 1000, // 15 minutes
       delayAfter: 5, // allow 5 requests per window without limiting...
-      delayMs: 500, // add 1s delay per request above 5...
+      delayMs: used => (used - this.delayAfter) * 500, // add .5s delay per request above 5...
       maxDelayMs: 10000, // with a maximum delay of 10 seconds
       // request # 1 no delay
       // ...
