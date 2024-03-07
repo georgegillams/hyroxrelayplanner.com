@@ -665,8 +665,10 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
   cursor: not-allowed;
 }
 
-.c15:not(:disabled):focus,.c15:not(:disabled):focus-within,
-.c15:not(:disabled):active,.c15:not(:disabled):hover {
+.c15:not(:disabled):focus,
+.c15:not(:disabled):focus-within,
+.c15:not(:disabled):active,
+.c15:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -753,8 +755,10 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c15:not(:disabled):focus,.c15:not(:disabled):focus-within,
-  .c15:not(:disabled):active,.c15:not(:disabled):hover {
+  .c15:not(:disabled):focus,
+  .c15:not(:disabled):focus-within,
+  .c15:not(:disabled):active,
+  .c15:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }

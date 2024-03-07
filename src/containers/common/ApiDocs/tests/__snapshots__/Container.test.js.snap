@@ -252,7 +252,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/analytics/create (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/analytics/create"
+                href="https://www.hyroxrelayplanner.com/api/analytics/create"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -322,7 +322,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/analytics/load-all (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/analytics/load-all"
+                href="https://www.hyroxrelayplanner.com/api/analytics/load-all"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -392,7 +392,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/analytics/load (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/analytics/load"
+                href="https://www.hyroxrelayplanner.com/api/analytics/load"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -462,7 +462,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/auth/load (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/auth/load"
+                href="https://www.hyroxrelayplanner.com/api/auth/load"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -532,7 +532,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/auth/logout (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/auth/logout"
+                href="https://www.hyroxrelayplanner.com/api/auth/logout"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -602,7 +602,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/auth/request-verification-email (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/auth/request-verification-email"
+                href="https://www.hyroxrelayplanner.com/api/auth/request-verification-email"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -672,7 +672,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/auth/verify-email (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/auth/verify-email"
+                href="https://www.hyroxrelayplanner.com/api/auth/verify-email"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -742,7 +742,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/emails/load (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/emails/load"
+                href="https://www.hyroxrelayplanner.com/api/emails/load"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -812,7 +812,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/emails/resend (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/emails/resend"
+                href="https://www.hyroxrelayplanner.com/api/emails/resend"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -882,7 +882,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/magic-links/login (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/magic-links/login"
+                href="https://www.hyroxrelayplanner.com/api/magic-links/login"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -952,7 +952,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/magic-links/request (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/magic-links/request"
+                href="https://www.hyroxrelayplanner.com/api/magic-links/request"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1022,7 +1022,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/data-management/backup (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/data-management/backup"
+                href="https://www.hyroxrelayplanner.com/api/data-management/backup"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1092,7 +1092,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/data-management/delete-entity (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/data-management/delete-entity"
+                href="https://www.hyroxrelayplanner.com/api/data-management/delete-entity"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1162,7 +1162,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/data-management/delete-set (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/data-management/delete-set"
+                href="https://www.hyroxrelayplanner.com/api/data-management/delete-set"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1232,7 +1232,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/data-management/restore (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/data-management/restore"
+                href="https://www.hyroxrelayplanner.com/api/data-management/restore"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1302,7 +1302,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/notifications/create (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/notifications/create"
+                href="https://www.hyroxrelayplanner.com/api/notifications/create"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1372,7 +1372,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/notifications/delete (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/notifications/delete"
+                href="https://www.hyroxrelayplanner.com/api/notifications/delete"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1442,7 +1442,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/notifications/load-all (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/notifications/load-all"
+                href="https://www.hyroxrelayplanner.com/api/notifications/load-all"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1512,7 +1512,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/notifications/load/:id (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/notifications/load/:id"
+                href="https://www.hyroxrelayplanner.com/api/notifications/load/:id"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1578,7 +1578,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/notifications/update (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/notifications/update"
+                href="https://www.hyroxrelayplanner.com/api/notifications/update"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1648,7 +1648,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/users/create (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/users/create"
+                href="https://www.hyroxrelayplanner.com/api/users/create"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1718,7 +1718,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/users/delete (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/users/delete"
+                href="https://www.hyroxrelayplanner.com/api/users/delete"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1788,7 +1788,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/users/load (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/users/load"
+                href="https://www.hyroxrelayplanner.com/api/users/load"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1858,7 +1858,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/users/load-all (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/users/load-all"
+                href="https://www.hyroxrelayplanner.com/api/users/load-all"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1928,7 +1928,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/users/sign-up (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/users/sign-up"
+                href="https://www.hyroxrelayplanner.com/api/users/sign-up"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1998,7 +1998,7 @@ exports[`<ApiDocs /> should render correctly 1`] = `
               <a
                 aria-label="/users/update (opens in a new tab)"
                 class="c9"
-                href="https://webapp-boilerplate.georgegillams.co.uk/api/users/update"
+                href="https://www.hyroxrelayplanner.com/api/users/update"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -2056,6 +2056,356 @@ exports[`<ApiDocs /> should render correctly 1`] = `
                 class="c8 c15"
               >
                 Update a given user
+              </span>
+            </th>
+          </tr>
+          <tr
+            class=""
+          >
+            <th
+              class="c7"
+            >
+              <a
+                aria-label="/team/create (opens in a new tab)"
+                class="c9"
+                href="https://www.hyroxrelayplanner.com/api/team/create"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  class="c10"
+                >
+                  /team/create
+                </span>
+                <div
+                  class="c11"
+                >
+                  <svg
+                    class="c12 c13"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.5 11.3c.4.4 1 .4 1.4 0L19 6.2V9c0 .6.4 1 1 1s1-.4 1-1V4c0-.6-.4-1-1-1h-5c-.6 0-1 .4-1 1s.4 1 1 1h2.4l-4.9 4.9c-.4.4-.4 1 0 1.4zM19 19c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2h7v2H5v12h12v-7h2"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8 c14"
+              >
+                POST
+              </span>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8"
+              />
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8"
+              >
+                None
+              </span>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8 c15"
+              >
+                Create a new team
+              </span>
+            </th>
+          </tr>
+          <tr
+            class=""
+          >
+            <th
+              class="c7"
+            >
+              <a
+                aria-label="/team/load/:teamId (opens in a new tab)"
+                class="c9"
+                href="https://www.hyroxrelayplanner.com/api/team/load/:teamId"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  class="c10"
+                >
+                  /team/load/:teamId
+                </span>
+                <div
+                  class="c11"
+                >
+                  <svg
+                    class="c12 c13"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.5 11.3c.4.4 1 .4 1.4 0L19 6.2V9c0 .6.4 1 1 1s1-.4 1-1V4c0-.6-.4-1-1-1h-5c-.6 0-1 .4-1 1s.4 1 1 1h2.4l-4.9 4.9c-.4.4-.4 1 0 1.4zM19 19c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2h7v2H5v12h12v-7h2"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8 c14"
+              >
+                GET
+              </span>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8"
+              />
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8"
+              >
+                None
+              </span>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8 c15"
+              >
+                Load an existing team
+              </span>
+            </th>
+          </tr>
+          <tr
+            class=""
+          >
+            <th
+              class="c7"
+            >
+              <a
+                aria-label="/team/update/tf-webhook (opens in a new tab)"
+                class="c9"
+                href="https://www.hyroxrelayplanner.com/api/team/update/tf-webhook"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  class="c10"
+                >
+                  /team/update/tf-webhook
+                </span>
+                <div
+                  class="c11"
+                >
+                  <svg
+                    class="c12 c13"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.5 11.3c.4.4 1 .4 1.4 0L19 6.2V9c0 .6.4 1 1 1s1-.4 1-1V4c0-.6-.4-1-1-1h-5c-.6 0-1 .4-1 1s.4 1 1 1h2.4l-4.9 4.9c-.4.4-.4 1 0 1.4zM19 19c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2h7v2H5v12h12v-7h2"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8 c14"
+              >
+                POST
+              </span>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8"
+              />
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8"
+              >
+                None
+              </span>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8 c15"
+              >
+                Update an existing team via a webhook called by Typeform
+              </span>
+            </th>
+          </tr>
+          <tr
+            class=""
+          >
+            <th
+              class="c7"
+            >
+              <a
+                aria-label="/athlete/update/tf-webhook (opens in a new tab)"
+                class="c9"
+                href="https://www.hyroxrelayplanner.com/api/athlete/update/tf-webhook"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  class="c10"
+                >
+                  /athlete/update/tf-webhook
+                </span>
+                <div
+                  class="c11"
+                >
+                  <svg
+                    class="c12 c13"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.5 11.3c.4.4 1 .4 1.4 0L19 6.2V9c0 .6.4 1 1 1s1-.4 1-1V4c0-.6-.4-1-1-1h-5c-.6 0-1 .4-1 1s.4 1 1 1h2.4l-4.9 4.9c-.4.4-.4 1 0 1.4zM19 19c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2h7v2H5v12h12v-7h2"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8 c14"
+              >
+                POST
+              </span>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8"
+              />
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8"
+              >
+                None
+              </span>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8 c15"
+              >
+                Create or update an athlete via a webhook called by Typeform
+              </span>
+            </th>
+          </tr>
+          <tr
+            class=""
+          >
+            <th
+              class="c7"
+            >
+              <a
+                aria-label="/plan/load/:teamId (opens in a new tab)"
+                class="c9"
+                href="https://www.hyroxrelayplanner.com/api/plan/load/:teamId"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  class="c10"
+                >
+                  /plan/load/:teamId
+                </span>
+                <div
+                  class="c11"
+                >
+                  <svg
+                    class="c12 c13"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.5 11.3c.4.4 1 .4 1.4 0L19 6.2V9c0 .6.4 1 1 1s1-.4 1-1V4c0-.6-.4-1-1-1h-5c-.6 0-1 .4-1 1s.4 1 1 1h2.4l-4.9 4.9c-.4.4-.4 1 0 1.4zM19 19c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2h7v2H5v12h12v-7h2"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8 c14"
+              >
+                GET
+              </span>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8"
+              />
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8"
+              >
+                None
+              </span>
+            </th>
+            <th
+              class="c7"
+            >
+              <span
+                class="c8 c15"
+              >
+                Returns the plan for a given team, recalculating it if necessary
               </span>
             </th>
           </tr>
