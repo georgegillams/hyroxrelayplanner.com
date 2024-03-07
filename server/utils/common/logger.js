@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 const chalk = require('chalk');
 import { ip } from 'ip';
 
@@ -6,16 +8,15 @@ const divider = chalk.gray('\n-----------------------------------');
 /**
  * Logger middleware, you can customize it to make messages more personal
  */
-
 const logger = {
   // Called whenever there's output from the server we want to print
-  log: message => {
-    console.log(message);
+  log: (message, ...rest) => {
+    console.log(message, ...rest);
   },
 
   // Called whenever there's an error on the server we want to print
-  error: err => {
-    console.error(chalk.red(err));
+  error: (err, ...rest) => {
+    console.error(chalk.red(err), ...rest);
   },
 
   // Called when express.js app starts on given port w/o errors

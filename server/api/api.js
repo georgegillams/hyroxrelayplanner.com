@@ -4,7 +4,7 @@ import { CategorisedError, InternalServerError, NotImplementedError } from 'serv
 import { mapPathToAction } from 'server-utils/common/mapPathToAction.js';
 import logger from 'server-utils/common/logger';
 
-const appFunc = (req, res) => {
+const appFunc = async (req, res) => {
   const splitUrlPath = req.url.split('?')[0].split('/').slice(1);
 
   const pathMatches = mapPathToAction(apiStructure, splitUrlPath);
@@ -35,41 +35,42 @@ const appFunc = (req, res) => {
 
   try {
     if (action) {
-      action(req, params)
-        .then(result => {
-          if (result instanceof Function) {
-            result(res);
-          } else {
-            res.json(result);
-          }
-          return true;
-        })
-        .catch(err => {
-          if (err && err.redirect) {
-            res.redirect(err.redirect);
-          } else if (err instanceof CategorisedError) {
-            res.status(err.httpStatus);
-            res.json({ error: err.category, errorMessage: err.message });
-          } else if (err instanceof Error) {
-            // An error that we haven't created. Maybe created by redis or something
-            logger.error(`Uncategorised error`, err);
-            const internalServerError = new InternalServerError(err.message);
-            res.status(internalServerError.httpStatus);
-            res.json({
-              error: internalServerError.category,
-              errorMessage: internalServerError.message,
-            });
-          } else {
-            // The error is an invalid object format, instead of being an instance of Error
-            logger.error(`LEGACY ERROR - a promise rejected an object instead of an actual Error`, err);
-            const internalServerError = new InternalServerError(err.message);
-            res.status(internalServerError.httpStatus);
-            res.json({
-              error: internalServerError.category,
-              errorMessage: internalServerError.message,
-            });
-          }
-        });
+      try {
+        const result = await action(req, params);
+        if (result instanceof Function) {
+          result(res);
+        } else {
+          res.json(result);
+        }
+        return true;
+      } catch (err) {
+        if (err && err.redirect) {
+          res.redirect(err.redirect);
+        } else if (err instanceof CategorisedError) {
+          res.status(err.httpStatus);
+          res.json({ error: err.category, errorMessage: err.message });
+        } else if (err instanceof Error) {
+          // An error that we haven't created. Maybe created by redis or something
+          logger.error(`Uncategorised error`, err);
+          // Do not expose errors that we did not create to the client
+          const internalServerError = new InternalServerError('An unknown error occurred');
+          res.status(internalServerError.httpStatus);
+          res.json({
+            error: internalServerError.category,
+            errorMessage: internalServerError.message,
+          });
+        } else {
+          // The error is an invalid object format, instead of being an instance of Error
+          logger.error(`LEGACY ERROR - a promise rejected an object instead of an actual Error`, err);
+          // Do not expose errors that we did not create to the client
+          const internalServerError = new InternalServerError('An unknown error occurred');
+          res.status(internalServerError.httpStatus);
+          res.json({
+            error: internalServerError.category,
+            errorMessage: internalServerError.message,
+          });
+        }
+      }
     } else {
       const err = new NotImplementedError('This method has not been implemented');
       res.status(err.httpStatus);

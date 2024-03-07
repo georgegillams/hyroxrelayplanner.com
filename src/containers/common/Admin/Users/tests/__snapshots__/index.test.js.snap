@@ -362,8 +362,10 @@ exports[`<AdminUsers /> should render correctly with admin user 1`] = `
   cursor: not-allowed;
 }
 
-.c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-.c12:not(:disabled):active,.c12:not(:disabled):hover {
+.c12:not(:disabled):focus,
+.c12:not(:disabled):focus-within,
+.c12:not(:disabled):active,
+.c12:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -450,8 +452,10 @@ exports[`<AdminUsers /> should render correctly with admin user 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-  .c12:not(:disabled):active,.c12:not(:disabled):hover {
+  .c12:not(:disabled):focus,
+  .c12:not(:disabled):focus-within,
+  .c12:not(:disabled):active,
+  .c12:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
@@ -795,8 +799,10 @@ exports[`<AdminUsers /> should render correctly with createError 1`] = `
   cursor: not-allowed;
 }
 
-.c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-.c12:not(:disabled):active,.c12:not(:disabled):hover {
+.c12:not(:disabled):focus,
+.c12:not(:disabled):focus-within,
+.c12:not(:disabled):active,
+.c12:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -883,8 +889,10 @@ exports[`<AdminUsers /> should render correctly with createError 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-  .c12:not(:disabled):active,.c12:not(:disabled):hover {
+  .c12:not(:disabled):focus,
+  .c12:not(:disabled):focus-within,
+  .c12:not(:disabled):active,
+  .c12:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
@@ -1228,8 +1236,10 @@ exports[`<AdminUsers /> should render correctly with creating=true 1`] = `
   cursor: not-allowed;
 }
 
-.c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-.c12:not(:disabled):active,.c12:not(:disabled):hover {
+.c12:not(:disabled):focus,
+.c12:not(:disabled):focus-within,
+.c12:not(:disabled):active,
+.c12:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -1316,8 +1326,10 @@ exports[`<AdminUsers /> should render correctly with creating=true 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-  .c12:not(:disabled):active,.c12:not(:disabled):hover {
+  .c12:not(:disabled):focus,
+  .c12:not(:disabled):focus-within,
+  .c12:not(:disabled):active,
+  .c12:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
@@ -1800,8 +1812,10 @@ exports[`<AdminUsers /> should render correctly with loadError 1`] = `
   cursor: not-allowed;
 }
 
-.c14:not(:disabled):focus,.c14:not(:disabled):focus-within,
-.c14:not(:disabled):active,.c14:not(:disabled):hover {
+.c14:not(:disabled):focus,
+.c14:not(:disabled):focus-within,
+.c14:not(:disabled):active,
+.c14:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -1895,8 +1909,10 @@ exports[`<AdminUsers /> should render correctly with loadError 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c14:not(:disabled):focus,.c14:not(:disabled):focus-within,
-  .c14:not(:disabled):active,.c14:not(:disabled):hover {
+  .c14:not(:disabled):focus,
+  .c14:not(:disabled):focus-within,
+  .c14:not(:disabled):active,
+  .c14:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
@@ -2514,8 +2530,10 @@ exports[`<AdminUsers /> should render correctly with loading=true 1`] = `
   cursor: not-allowed;
 }
 
-.c24:not(:disabled):focus,.c24:not(:disabled):focus-within,
-.c24:not(:disabled):active,.c24:not(:disabled):hover {
+.c24:not(:disabled):focus,
+.c24:not(:disabled):focus-within,
+.c24:not(:disabled):active,
+.c24:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -2644,8 +2662,10 @@ exports[`<AdminUsers /> should render correctly with loading=true 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c24:not(:disabled):focus,.c24:not(:disabled):focus-within,
-  .c24:not(:disabled):active,.c24:not(:disabled):hover {
+  .c24:not(:disabled):focus,
+  .c24:not(:disabled):focus-within,
+  .c24:not(:disabled):active,
+  .c24:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
@@ -3023,8 +3043,10 @@ exports[`<AdminUsers /> should render correctly with removeError 1`] = `
   cursor: not-allowed;
 }
 
-.c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-.c12:not(:disabled):active,.c12:not(:disabled):hover {
+.c12:not(:disabled):focus,
+.c12:not(:disabled):focus-within,
+.c12:not(:disabled):active,
+.c12:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -3111,8 +3133,10 @@ exports[`<AdminUsers /> should render correctly with removeError 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-  .c12:not(:disabled):active,.c12:not(:disabled):hover {
+  .c12:not(:disabled):focus,
+  .c12:not(:disabled):focus-within,
+  .c12:not(:disabled):active,
+  .c12:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
@@ -3456,8 +3480,10 @@ exports[`<AdminUsers /> should render correctly with removing=true 1`] = `
   cursor: not-allowed;
 }
 
-.c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-.c12:not(:disabled):active,.c12:not(:disabled):hover {
+.c12:not(:disabled):focus,
+.c12:not(:disabled):focus-within,
+.c12:not(:disabled):active,
+.c12:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -3544,8 +3570,10 @@ exports[`<AdminUsers /> should render correctly with removing=true 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-  .c12:not(:disabled):active,.c12:not(:disabled):hover {
+  .c12:not(:disabled):focus,
+  .c12:not(:disabled):focus-within,
+  .c12:not(:disabled):active,
+  .c12:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
@@ -3889,8 +3917,10 @@ exports[`<AdminUsers /> should render correctly with requestError 1`] = `
   cursor: not-allowed;
 }
 
-.c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-.c12:not(:disabled):active,.c12:not(:disabled):hover {
+.c12:not(:disabled):focus,
+.c12:not(:disabled):focus-within,
+.c12:not(:disabled):active,
+.c12:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -3977,8 +4007,10 @@ exports[`<AdminUsers /> should render correctly with requestError 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-  .c12:not(:disabled):active,.c12:not(:disabled):hover {
+  .c12:not(:disabled):focus,
+  .c12:not(:disabled):focus-within,
+  .c12:not(:disabled):active,
+  .c12:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
@@ -4322,8 +4354,10 @@ exports[`<AdminUsers /> should render correctly with requesting=true 1`] = `
   cursor: not-allowed;
 }
 
-.c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-.c12:not(:disabled):active,.c12:not(:disabled):hover {
+.c12:not(:disabled):focus,
+.c12:not(:disabled):focus-within,
+.c12:not(:disabled):active,
+.c12:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -4410,8 +4444,10 @@ exports[`<AdminUsers /> should render correctly with requesting=true 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-  .c12:not(:disabled):active,.c12:not(:disabled):hover {
+  .c12:not(:disabled):focus,
+  .c12:not(:disabled):focus-within,
+  .c12:not(:disabled):active,
+  .c12:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
@@ -4755,8 +4791,10 @@ exports[`<AdminUsers /> should render correctly with updateError 1`] = `
   cursor: not-allowed;
 }
 
-.c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-.c12:not(:disabled):active,.c12:not(:disabled):hover {
+.c12:not(:disabled):focus,
+.c12:not(:disabled):focus-within,
+.c12:not(:disabled):active,
+.c12:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -4843,8 +4881,10 @@ exports[`<AdminUsers /> should render correctly with updateError 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-  .c12:not(:disabled):active,.c12:not(:disabled):hover {
+  .c12:not(:disabled):focus,
+  .c12:not(:disabled):focus-within,
+  .c12:not(:disabled):active,
+  .c12:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
@@ -5188,8 +5228,10 @@ exports[`<AdminUsers /> should render correctly with updating=true 1`] = `
   cursor: not-allowed;
 }
 
-.c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-.c12:not(:disabled):active,.c12:not(:disabled):hover {
+.c12:not(:disabled):focus,
+.c12:not(:disabled):focus-within,
+.c12:not(:disabled):active,
+.c12:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -5276,8 +5318,10 @@ exports[`<AdminUsers /> should render correctly with updating=true 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c12:not(:disabled):focus,.c12:not(:disabled):focus-within,
-  .c12:not(:disabled):active,.c12:not(:disabled):hover {
+  .c12:not(:disabled):focus,
+  .c12:not(:disabled):focus-within,
+  .c12:not(:disabled):active,
+  .c12:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
@@ -5763,8 +5807,10 @@ exports[`<AdminUsers /> should render correctly with users 1`] = `
   cursor: not-allowed;
 }
 
-.c14:not(:disabled):focus,.c14:not(:disabled):focus-within,
-.c14:not(:disabled):active,.c14:not(:disabled):hover {
+.c14:not(:disabled):focus,
+.c14:not(:disabled):focus-within,
+.c14:not(:disabled):active,
+.c14:not(:disabled):hover {
   box-shadow: 0.4rem 0.4rem 1rem 0 #25201f1E;
 }
 
@@ -5851,8 +5897,10 @@ exports[`<AdminUsers /> should render correctly with users 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c14:not(:disabled):focus,.c14:not(:disabled):focus-within,
-  .c14:not(:disabled):active,.c14:not(:disabled):hover {
+  .c14:not(:disabled):focus,
+  .c14:not(:disabled):focus-within,
+  .c14:not(:disabled):active,
+  .c14:not(:disabled):hover {
     box-shadow: 0.2rem 0.2rem 0.5rem 0 #00000000;
   }
 }
