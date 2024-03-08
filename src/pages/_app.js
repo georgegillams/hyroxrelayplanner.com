@@ -16,6 +16,7 @@ import GlobalCSS from 'global.styles';
 import ErrorBoundary from 'components/ErrorBoundary';
 import { StyledThemeProvider } from '@george-gillams/components/styled-theming';
 import { HYROX_THEME } from 'constants/hyrox-theme';
+import Logo from 'components/logo';
 
 // Ensures that `immer` will work inside Internet Explorer
 enableES5();
@@ -37,6 +38,7 @@ class Srr extends App {
           <StyledThemeProvider theme={HYROX_THEME}>
             <Provider store={reduxStore}>
               <AppWrapper>
+                <Logo />
                 <Notifications />
                 <Konami />
                 <Analytics />

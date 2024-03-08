@@ -6,8 +6,16 @@ const prompt = require('prompt');
 // Create backup
 const defaultBackupName = Date.now().toString();
 const cliApiKey = process.argv[process.argv.indexOf('--apiKey') + 1];
+const cliBackupLocation = process.argv[process.argv.indexOf('--backupsLocation') + 1];
 const schema = {
   properties: {
+    backupsLocation: {
+      description: 'Where should we store backups?',
+      default: cliBackupLocation,
+      pattern: /.*/,
+      message: 'Where should we store backups?',
+      required: true,
+    },
     backupName: {
       description: 'What shall we call this backup?',
       default: defaultBackupName,
@@ -25,16 +33,16 @@ const schema = {
   },
 };
 
-const performBackup = async (err, { backupName, apiKey }) => {
+const performBackup = async (err, { backupsLocation, backupName, apiKey }) => {
   if (err) {
     console.error(err);
     return;
   }
 
-  execSync(`mkdir ~/Dropbox/hyroxrelayplanner.com/backups/${backupName}`);
+  execSync(`mkdir "${backupsLocation}/${backupName}"`);
 
   execSync(
-    `wget https://www.hyroxrelayplanner.com/api/data-management/backup --header "apiKey: ${apiKey}" -O ~/Dropbox/hyroxrelayplanner.com/backups/${backupName}/data.json`
+    `wget https://www.hyroxrelayplanner.com/api/data-management/backup --header "apiKey: ${apiKey}" -O "${backupsLocation}/${backupName}/data.json"`
   );
 };
 
