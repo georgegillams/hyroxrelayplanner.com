@@ -1,7 +1,8 @@
-export const CREATE_TEAM_FORM_ID = 'j2B4GEAl';
-export const CREATE_TEAM_FORM = `https://form.typeform.com/to/${CREATE_TEAM_FORM_ID}#teamid=TEAM_ID_PLACEHOLDER`;
-export const ATHLETE_PREFERENCE_FORM_ID = 'LOCwrctF';
-export const ATHLETE_PREFERENCE_FORM = `https://form.typeform.com/to/${ATHLETE_PREFERENCE_FORM_ID}#teamid=TEAM_ID_PLACEHOLDER&athleteid=ATHLETE_ID_PLACEHOLDER`;
+export const CREATE_TEAM_FORM_ORIGINAL_ID = 'j2B4GEAl';
+export const CREATE_TEAM_FORM_ORIGINAL = `https://form.typeform.com/to/${CREATE_TEAM_FORM_ORIGINAL_ID}#teamid=TEAM_ID_PLACEHOLDER`;
+export const ATHLETE_PREFERENCE_FORM_ORIGINAL_ID = 'LOCwrctF';
+export const ATHLETE_PREFERENCE_FORM_CUSTOM_ID = 'hyrox-athlete';
+export const ATHLETE_PREFERENCE_FORM_CUSTOM = `https://georgegillams.typeform.com/${ATHLETE_PREFERENCE_FORM_CUSTOM_ID}#teamid=TEAM_ID_PLACEHOLDER&athleteid=ATHLETE_ID_PLACEHOLDER`;
 
 export const HYROX_EXERCISES = [
   'ski-erg',
