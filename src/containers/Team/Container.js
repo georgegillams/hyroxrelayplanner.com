@@ -21,7 +21,11 @@ import {
 } from './team.styles';
 import Text, { SIZES } from '@george-gillams/components/text';
 import { PopupButton } from '@typeform/embed-react';
-import { ATHLETE_PREFERENCE_FORM, CREATE_TEAM_FORM_ID, HYROX_EXERCISES_MAP } from 'constants/form-constants';
+import {
+  ATHLETE_PREFERENCE_FORM_CUSTOM,
+  CREATE_TEAM_FORM_ORIGINAL_ID,
+  HYROX_EXERCISES_MAP,
+} from 'constants/form-constants';
 import { PropTypes } from 'prop-types';
 import Section from '@george-gillams/components/section';
 import TextLink from 'components/common/TextLink';
@@ -33,7 +37,7 @@ const padStart = (char, length, text) => {
 };
 
 const getAthleteFormLink = (teamId, athleteId) => {
-  let formUrl = ATHLETE_PREFERENCE_FORM.replace('TEAM_ID_PLACEHOLDER', teamId).replace(
+  let formUrl = ATHLETE_PREFERENCE_FORM_CUSTOM.replace('TEAM_ID_PLACEHOLDER', teamId).replace(
     'ATHLETE_ID_PLACEHOLDER',
     athleteId
   );
@@ -212,7 +216,7 @@ const TeamPage = props => {
       <PopupButton
         style={{ opacity: 0, width: 0, height: 0 }}
         aria-hidden
-        id={CREATE_TEAM_FORM_ID}
+        id={CREATE_TEAM_FORM_ORIGINAL_ID}
         buttonProps={{ id: 'tf-popup-button' }}
         hidden={{
           teamid: teamId,

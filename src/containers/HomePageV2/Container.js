@@ -11,7 +11,7 @@ import Steps from 'components/steps';
 import { MainCtaWrapper } from './home.styles';
 import Text, { SIZES } from '@george-gillams/components/text';
 import { PopupButton } from '@typeform/embed-react';
-import { CREATE_TEAM_FORM_ID } from 'constants/form-constants';
+import { CREATE_TEAM_FORM_ORIGINAL_ID } from 'constants/form-constants';
 import { PropTypes } from 'prop-types';
 import { isProduction } from 'helpers/appConfig';
 
@@ -77,7 +77,7 @@ const HomePage = props => {
       <PopupButton
         style={{ opacity: 0, width: 0, height: 0 }}
         aria-hidden
-        id={CREATE_TEAM_FORM_ID}
+        id={CREATE_TEAM_FORM_ORIGINAL_ID}
         buttonProps={{ id: 'tf-popup-button' }}
         hidden={{
           teamid: createTeamState.teamId,
