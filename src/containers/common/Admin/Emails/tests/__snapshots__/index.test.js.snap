@@ -134,14 +134,12 @@ exports[`<AdminEmails /> should render correctly with admin user 1`] = `
   fill: #9932cc;
 }
 
-.c2:focus-within,
-.c2:focus {
+.c2:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c2:focus-within::after,
-.c2:focus::after {
+.c2:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -149,7 +147,7 @@ exports[`<AdminEmails /> should render correctly with admin user 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -190,9 +188,9 @@ exports[`<AdminEmails /> should render correctly with admin user 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -200,15 +198,14 @@ exports[`<AdminEmails /> should render correctly with admin user 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
 }
 
-.c6:focus-within,
-.c6:focus {
+.c6:focus-visible {
   outline: none !important;
 }
 
-.c6:focus-within::after,
-.c6:focus::after {
+.c6:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -216,7 +213,7 @@ exports[`<AdminEmails /> should render correctly with admin user 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -225,6 +222,7 @@ exports[`<AdminEmails /> should render correctly with admin user 1`] = `
 .c6:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c6:active {
@@ -291,9 +289,8 @@ exports[`<AdminEmails /> should render correctly with admin user 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c2:focus-within::after,
-  .c2:focus::after {
-    border-color: #007dfa3C;
+  .c2:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -310,9 +307,8 @@ exports[`<AdminEmails /> should render correctly with admin user 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c6:focus-within::after,
-  .c6:focus::after {
-    border-color: #007dfa3C;
+  .c6:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -320,6 +316,7 @@ exports[`<AdminEmails /> should render correctly with admin user 1`] = `
   .c6 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -328,6 +325,7 @@ exports[`<AdminEmails /> should render correctly with admin user 1`] = `
   .c6:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -422,14 +420,12 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
   fill: #9932cc;
 }
 
-.c2:focus-within,
-.c2:focus {
+.c2:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c2:focus-within::after,
-.c2:focus::after {
+.c2:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -437,7 +433,7 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -507,9 +503,9 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -517,15 +513,14 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
 }
 
-.c6:focus-within,
-.c6:focus {
+.c6:focus-visible {
   outline: none !important;
 }
 
-.c6:focus-within::after,
-.c6:focus::after {
+.c6:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -533,7 +528,7 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -542,6 +537,7 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
 .c6:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c6:active {
@@ -585,7 +581,7 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
   position: relative;
   width: 100%;
   height: 100%;
-  border-radius: 0.35rem;
+  border-radius: 0.75rem;
   overflow: hidden;
 }
 
@@ -656,9 +652,27 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   border: none;
-  border-radius: 0.35rem;
+  border-radius: 0.75rem;
   background: none;
   text-align: left;
+}
+
+.c15:focus-visible {
+  position: relative;
+  outline: none !important;
+}
+
+.c15:focus-visible::after {
+  position: absolute;
+  top: -0.35rem;
+  right: -0.35rem;
+  bottom: -0.35rem;
+  left: -0.35rem;
+  content: '';
+  display: block;
+  border: solid #44aeff 0.2rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
 }
 
 .c15:disabled {
@@ -673,9 +687,8 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c2:focus-within::after,
-  .c2:focus::after {
-    border-color: #007dfa3C;
+  .c2:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -698,9 +711,8 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c6:focus-within::after,
-  .c6:focus::after {
-    border-color: #007dfa3C;
+  .c6:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -708,6 +720,7 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
   .c6 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -716,6 +729,7 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
   .c6:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -751,6 +765,12 @@ exports[`<AdminEmails /> should render correctly with emails 1`] = `
 @media (prefers-color-scheme:dark) {
   .c15 {
     box-shadow: 0.44rem 0.44rem 1rem 0 #00000000;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  .c15:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -1077,14 +1097,12 @@ exports[`<AdminEmails /> should render correctly with loadError 1`] = `
   fill: #9932cc;
 }
 
-.c2:focus-within,
-.c2:focus {
+.c2:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c2:focus-within::after,
-.c2:focus::after {
+.c2:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -1092,7 +1110,7 @@ exports[`<AdminEmails /> should render correctly with loadError 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1150,9 +1168,9 @@ exports[`<AdminEmails /> should render correctly with loadError 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -1160,15 +1178,14 @@ exports[`<AdminEmails /> should render correctly with loadError 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
 }
 
-.c6:focus-within,
-.c6:focus {
+.c6:focus-visible {
   outline: none !important;
 }
 
-.c6:focus-within::after,
-.c6:focus::after {
+.c6:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -1176,7 +1193,7 @@ exports[`<AdminEmails /> should render correctly with loadError 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1185,6 +1202,7 @@ exports[`<AdminEmails /> should render correctly with loadError 1`] = `
 .c6:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c6:active {
@@ -1251,9 +1269,8 @@ exports[`<AdminEmails /> should render correctly with loadError 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c2:focus-within::after,
-  .c2:focus::after {
-    border-color: #007dfa3C;
+  .c2:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -1277,9 +1294,8 @@ exports[`<AdminEmails /> should render correctly with loadError 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c6:focus-within::after,
-  .c6:focus::after {
-    border-color: #007dfa3C;
+  .c6:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -1287,6 +1303,7 @@ exports[`<AdminEmails /> should render correctly with loadError 1`] = `
   .c6 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -1295,6 +1312,7 @@ exports[`<AdminEmails /> should render correctly with loadError 1`] = `
   .c6:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -1400,14 +1418,12 @@ exports[`<AdminEmails /> should render correctly with loading=true 1`] = `
   fill: #9932cc;
 }
 
-.c2:focus-within,
-.c2:focus {
+.c2:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c2:focus-within::after,
-.c2:focus::after {
+.c2:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -1415,7 +1431,7 @@ exports[`<AdminEmails /> should render correctly with loading=true 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1632,9 +1648,9 @@ exports[`<AdminEmails /> should render correctly with loading=true 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -1642,16 +1658,15 @@ exports[`<AdminEmails /> should render correctly with loading=true 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
   cursor: default;
 }
 
-.c6:focus-within,
-.c6:focus {
+.c6:focus-visible {
   outline: none !important;
 }
 
-.c6:focus-within::after,
-.c6:focus::after {
+.c6:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -1659,7 +1674,7 @@ exports[`<AdminEmails /> should render correctly with loading=true 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1668,6 +1683,7 @@ exports[`<AdminEmails /> should render correctly with loading=true 1`] = `
 .c6:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c6:active {
@@ -1755,9 +1771,8 @@ exports[`<AdminEmails /> should render correctly with loading=true 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c2:focus-within::after,
-  .c2:focus::after {
-    border-color: #007dfa3C;
+  .c2:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -1780,9 +1795,8 @@ exports[`<AdminEmails /> should render correctly with loading=true 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c6:focus-within::after,
-  .c6:focus::after {
-    border-color: #007dfa3C;
+  .c6:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -1790,6 +1804,7 @@ exports[`<AdminEmails /> should render correctly with loading=true 1`] = `
   .c6 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -1798,6 +1813,7 @@ exports[`<AdminEmails /> should render correctly with loading=true 1`] = `
   .c6:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -1926,14 +1942,12 @@ exports[`<AdminEmails /> should render correctly with resendError 1`] = `
   fill: #9932cc;
 }
 
-.c2:focus-within,
-.c2:focus {
+.c2:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c2:focus-within::after,
-.c2:focus::after {
+.c2:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -1941,7 +1955,7 @@ exports[`<AdminEmails /> should render correctly with resendError 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1982,9 +1996,9 @@ exports[`<AdminEmails /> should render correctly with resendError 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -1992,15 +2006,14 @@ exports[`<AdminEmails /> should render correctly with resendError 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
 }
 
-.c6:focus-within,
-.c6:focus {
+.c6:focus-visible {
   outline: none !important;
 }
 
-.c6:focus-within::after,
-.c6:focus::after {
+.c6:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -2008,7 +2021,7 @@ exports[`<AdminEmails /> should render correctly with resendError 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -2017,6 +2030,7 @@ exports[`<AdminEmails /> should render correctly with resendError 1`] = `
 .c6:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c6:active {
@@ -2083,9 +2097,8 @@ exports[`<AdminEmails /> should render correctly with resendError 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c2:focus-within::after,
-  .c2:focus::after {
-    border-color: #007dfa3C;
+  .c2:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -2102,9 +2115,8 @@ exports[`<AdminEmails /> should render correctly with resendError 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c6:focus-within::after,
-  .c6:focus::after {
-    border-color: #007dfa3C;
+  .c6:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -2112,6 +2124,7 @@ exports[`<AdminEmails /> should render correctly with resendError 1`] = `
   .c6 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -2120,6 +2133,7 @@ exports[`<AdminEmails /> should render correctly with resendError 1`] = `
   .c6:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -2214,14 +2228,12 @@ exports[`<AdminEmails /> should render correctly with resending=true 1`] = `
   fill: #9932cc;
 }
 
-.c2:focus-within,
-.c2:focus {
+.c2:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c2:focus-within::after,
-.c2:focus::after {
+.c2:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -2229,7 +2241,7 @@ exports[`<AdminEmails /> should render correctly with resending=true 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -2270,9 +2282,9 @@ exports[`<AdminEmails /> should render correctly with resending=true 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -2280,15 +2292,14 @@ exports[`<AdminEmails /> should render correctly with resending=true 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
 }
 
-.c6:focus-within,
-.c6:focus {
+.c6:focus-visible {
   outline: none !important;
 }
 
-.c6:focus-within::after,
-.c6:focus::after {
+.c6:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -2296,7 +2307,7 @@ exports[`<AdminEmails /> should render correctly with resending=true 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -2305,6 +2316,7 @@ exports[`<AdminEmails /> should render correctly with resending=true 1`] = `
 .c6:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c6:active {
@@ -2371,9 +2383,8 @@ exports[`<AdminEmails /> should render correctly with resending=true 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c2:focus-within::after,
-  .c2:focus::after {
-    border-color: #007dfa3C;
+  .c2:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -2390,9 +2401,8 @@ exports[`<AdminEmails /> should render correctly with resending=true 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c6:focus-within::after,
-  .c6:focus::after {
-    border-color: #007dfa3C;
+  .c6:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -2400,6 +2410,7 @@ exports[`<AdminEmails /> should render correctly with resending=true 1`] = `
   .c6 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -2408,6 +2419,7 @@ exports[`<AdminEmails /> should render correctly with resending=true 1`] = `
   .c6:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -2502,14 +2514,12 @@ exports[`<AdminEmails /> should render correctly with user 1`] = `
   fill: #9932cc;
 }
 
-.c4:focus-within,
-.c4:focus {
+.c4:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c4:focus-within::after,
-.c4:focus::after {
+.c4:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -2517,7 +2527,7 @@ exports[`<AdminEmails /> should render correctly with user 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -2561,9 +2571,8 @@ exports[`<AdminEmails /> should render correctly with user 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c4:focus-within::after,
-  .c4:focus::after {
-    border-color: #007dfa3C;
+  .c4:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 

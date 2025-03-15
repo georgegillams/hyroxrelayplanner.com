@@ -69,9 +69,9 @@ exports[`<HomePage /> should render correctly 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -79,18 +79,18 @@ exports[`<HomePage /> should render correctly 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
   min-width: 7rem;
   padding: 0.455rem 1.4rem 0.345rem 1.4rem;
   font-size: 1.6rem;
+  border-radius: 0.75rem;
 }
 
-.c8:focus-within,
-.c8:focus {
+.c8:focus-visible {
   outline: none !important;
 }
 
-.c8:focus-within::after,
-.c8:focus::after {
+.c8:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -98,7 +98,7 @@ exports[`<HomePage /> should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -107,6 +107,7 @@ exports[`<HomePage /> should render correctly 1`] = `
 .c8:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c8:active {
@@ -126,9 +127,9 @@ exports[`<HomePage /> should render correctly 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -136,19 +137,17 @@ exports[`<HomePage /> should render correctly 1`] = `
   text-decoration-line: none;
   background-color: transparent;
   color: #1e1e1e;
+  box-shadow: none;
   min-width: unset;
   padding: 0.2rem 0.8rem;
-  font-weight: normal;
   display: inline-block;
 }
 
-.c10:focus-within,
-.c10:focus {
+.c10:focus-visible {
   outline: none !important;
 }
 
-.c10:focus-within::after,
-.c10:focus::after {
+.c10:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -156,20 +155,21 @@ exports[`<HomePage /> should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
 
 .c10:focus,
 .c10:hover {
-  background-color: #004F8C;
-  color: white;
+  background-color: #f4f4f4;
+  color: #1e1e1e;
+  box-shadow: none;
 }
 
 .c10:active {
-  background-color: #003E6F;
-  color: white;
+  background-color: #e6e6e6;
+  color: #1e1e1e;
 }
 
 .c10:disabled {
@@ -233,14 +233,12 @@ exports[`<HomePage /> should render correctly 1`] = `
   fill: white;
 }
 
-.c22:focus-within,
-.c22:focus {
+.c22:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c22:focus-within::after,
-.c22:focus::after {
+.c22:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -248,7 +246,7 @@ exports[`<HomePage /> should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #ffffff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -370,9 +368,8 @@ exports[`<HomePage /> should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c8:focus-within::after,
-  .c8:focus::after {
-    border-color: #007dfa3C;
+  .c8:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -380,6 +377,7 @@ exports[`<HomePage /> should render correctly 1`] = `
   .c8 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -388,6 +386,7 @@ exports[`<HomePage /> should render correctly 1`] = `
   .c8:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -406,9 +405,8 @@ exports[`<HomePage /> should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c10:focus-within::after,
-  .c10:focus::after {
-    border-color: #007dfa3C;
+  .c10:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -416,20 +414,22 @@ exports[`<HomePage /> should render correctly 1`] = `
   .c10 {
     background-color: transparent;
     color: white;
+    box-shadow: none;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c10:focus,
   .c10:hover {
-    background-color: #004479;
+    background-color: #191a1b;
     color: white;
+    box-shadow: 0px 0px 0px 1px #474747 inset;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c10:active {
-    background-color: #003965;
+    background-color: #242526;
     color: white;
   }
 }
@@ -442,9 +442,8 @@ exports[`<HomePage /> should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c22:focus-within::after,
-  .c22:focus::after {
-    border-color: #007dfa3C;
+  .c22:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 

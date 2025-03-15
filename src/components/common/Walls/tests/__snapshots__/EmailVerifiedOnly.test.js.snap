@@ -22,14 +22,12 @@ exports[`<EmailVerifiedOnly /> Should render correctly 1`] = `
   fill: #9932cc;
 }
 
-.c3:focus-within,
-.c3:focus {
+.c3:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c3:focus-within::after,
-.c3:focus::after {
+.c3:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -37,7 +35,7 @@ exports[`<EmailVerifiedOnly /> Should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -59,9 +57,8 @@ exports[`<EmailVerifiedOnly /> Should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c3:focus-within::after,
-  .c3:focus::after {
-    border-color: #007dfa3C;
+  .c3:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -129,14 +126,12 @@ exports[`<EmailVerifiedOnly /> Should render correctly with user 1`] = `
   fill: #9932cc;
 }
 
-.c3:focus-within,
-.c3:focus {
+.c3:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c3:focus-within::after,
-.c3:focus::after {
+.c3:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -144,7 +139,7 @@ exports[`<EmailVerifiedOnly /> Should render correctly with user 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -166,9 +161,8 @@ exports[`<EmailVerifiedOnly /> Should render correctly with user 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c3:focus-within::after,
-  .c3:focus::after {
-    border-color: #007dfa3C;
+  .c3:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 

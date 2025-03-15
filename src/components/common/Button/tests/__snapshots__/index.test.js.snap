@@ -8,9 +8,9 @@ exports[`<Button /> Should render correctly 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -18,16 +18,15 @@ exports[`<Button /> Should render correctly 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
   display: inline-block;
 }
 
-.c0:focus-within,
-.c0:focus {
+.c0:focus-visible {
   outline: none !important;
 }
 
-.c0:focus-within::after,
-.c0:focus::after {
+.c0:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -35,7 +34,7 @@ exports[`<Button /> Should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -44,6 +43,7 @@ exports[`<Button /> Should render correctly 1`] = `
 .c0:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c0:active {
@@ -68,9 +68,8 @@ exports[`<Button /> Should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c0:focus-within::after,
-  .c0:focus::after {
-    border-color: #007dfa3C;
+  .c0:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -78,6 +77,7 @@ exports[`<Button /> Should render correctly 1`] = `
   .c0 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -86,6 +86,7 @@ exports[`<Button /> Should render correctly 1`] = `
   .c0:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -123,9 +124,9 @@ exports[`<Button /> Should render correctly hrefExternal 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -133,16 +134,15 @@ exports[`<Button /> Should render correctly hrefExternal 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
   display: inline-block;
 }
 
-.c0:focus-within,
-.c0:focus {
+.c0:focus-visible {
   outline: none !important;
 }
 
-.c0:focus-within::after,
-.c0:focus::after {
+.c0:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -150,7 +150,7 @@ exports[`<Button /> Should render correctly hrefExternal 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -159,6 +159,7 @@ exports[`<Button /> Should render correctly hrefExternal 1`] = `
 .c0:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c0:active {
@@ -183,9 +184,8 @@ exports[`<Button /> Should render correctly hrefExternal 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c0:focus-within::after,
-  .c0:focus::after {
-    border-color: #007dfa3C;
+  .c0:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -193,6 +193,7 @@ exports[`<Button /> Should render correctly hrefExternal 1`] = `
   .c0 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -201,6 +202,7 @@ exports[`<Button /> Should render correctly hrefExternal 1`] = `
   .c0:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -240,9 +242,9 @@ exports[`<Button /> Should render with nextified href 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -250,16 +252,15 @@ exports[`<Button /> Should render with nextified href 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
   display: inline-block;
 }
 
-.c0:focus-within,
-.c0:focus {
+.c0:focus-visible {
   outline: none !important;
 }
 
-.c0:focus-within::after,
-.c0:focus::after {
+.c0:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -267,7 +268,7 @@ exports[`<Button /> Should render with nextified href 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -276,6 +277,7 @@ exports[`<Button /> Should render with nextified href 1`] = `
 .c0:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c0:active {
@@ -300,9 +302,8 @@ exports[`<Button /> Should render with nextified href 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c0:focus-within::after,
-  .c0:focus::after {
-    border-color: #007dfa3C;
+  .c0:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -310,6 +311,7 @@ exports[`<Button /> Should render with nextified href 1`] = `
   .c0 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -318,6 +320,7 @@ exports[`<Button /> Should render with nextified href 1`] = `
   .c0:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 

@@ -12,14 +12,12 @@ exports[`<TextLink /> Should render correctly 1`] = `
   fill: #9932cc;
 }
 
-.c0:focus-within,
-.c0:focus {
+.c0:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c0:focus-within::after,
-.c0:focus::after {
+.c0:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -27,7 +25,7 @@ exports[`<TextLink /> Should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -42,9 +40,8 @@ exports[`<TextLink /> Should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c0:focus-within::after,
-  .c0:focus::after {
-    border-color: #007dfa3C;
+  .c0:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -86,14 +83,12 @@ exports[`<TextLink /> Should render correctly with custom className 1`] = `
   fill: #9932cc;
 }
 
-.c0:focus-within,
-.c0:focus {
+.c0:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c0:focus-within::after,
-.c0:focus::after {
+.c0:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -101,7 +96,7 @@ exports[`<TextLink /> Should render correctly with custom className 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -116,9 +111,8 @@ exports[`<TextLink /> Should render correctly with custom className 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c0:focus-within::after,
-  .c0:focus::after {
-    border-color: #007dfa3C;
+  .c0:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -160,14 +154,12 @@ exports[`<TextLink /> Should render with nextified href 1`] = `
   fill: #9932cc;
 }
 
-.c0:focus-within,
-.c0:focus {
+.c0:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c0:focus-within::after,
-.c0:focus::after {
+.c0:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -175,7 +167,7 @@ exports[`<TextLink /> Should render with nextified href 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -190,9 +182,8 @@ exports[`<TextLink /> Should render with nextified href 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c0:focus-within::after,
-  .c0:focus::after {
-    border-color: #007dfa3C;
+  .c0:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 

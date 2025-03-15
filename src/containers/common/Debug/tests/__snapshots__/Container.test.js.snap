@@ -41,13 +41,11 @@ exports[`<Debug /> should render correctly 1`] = `
   appearance: none;
 }
 
-.c8:focus-within,
-.c8:focus {
+.c8:focus-visible {
   outline: none !important;
 }
 
-.c8:focus-within::after,
-.c8:focus::after {
+.c8:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -55,7 +53,7 @@ exports[`<Debug /> should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -138,9 +136,8 @@ exports[`<Debug /> should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c8:focus-within::after,
-  .c8:focus::after {
-    border-color: #007dfa3C;
+  .c8:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 

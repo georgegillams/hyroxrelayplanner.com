@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 
 import { StyledThemeProvider, STYLED_THEMES } from '@george-gillams/components/styled-theming';
 import { Container, StyledTechSpecs } from './footer.styles';
+import { HYROX_THEME } from 'constants/hyrox-theme';
 
 const Footer = props => {
   return (
     <Container id="footer" {...props}>
-      <StyledThemeProvider theme={STYLED_THEMES.white}>
+      <StyledThemeProvider theme={{ ...HYROX_THEME, ...STYLED_THEMES.white }}>
         <StyledTechSpecs />
       </StyledThemeProvider>
     </Container>

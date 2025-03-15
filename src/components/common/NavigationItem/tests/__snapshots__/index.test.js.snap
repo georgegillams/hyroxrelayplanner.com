@@ -8,9 +8,9 @@ exports[`<NavigationItem /> Should render correctly 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -18,19 +18,17 @@ exports[`<NavigationItem /> Should render correctly 1`] = `
   text-decoration-line: none;
   background-color: transparent;
   color: #1e1e1e;
+  box-shadow: none;
   min-width: unset;
   padding: 0.2rem 0.8rem;
-  font-weight: normal;
   display: inline-block;
 }
 
-.c0:focus-within,
-.c0:focus {
+.c0:focus-visible {
   outline: none !important;
 }
 
-.c0:focus-within::after,
-.c0:focus::after {
+.c0:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -38,20 +36,21 @@ exports[`<NavigationItem /> Should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
 
 .c0:focus,
 .c0:hover {
-  background-color: #004F8C;
-  color: white;
+  background-color: #f4f4f4;
+  color: #1e1e1e;
+  box-shadow: none;
 }
 
 .c0:active {
-  background-color: #003E6F;
-  color: white;
+  background-color: #e6e6e6;
+  color: #1e1e1e;
 }
 
 .c0:disabled {
@@ -80,9 +79,8 @@ exports[`<NavigationItem /> Should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c0:focus-within::after,
-  .c0:focus::after {
-    border-color: #007dfa3C;
+  .c0:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -90,20 +88,22 @@ exports[`<NavigationItem /> Should render correctly 1`] = `
   .c0 {
     background-color: transparent;
     color: white;
+    box-shadow: none;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0:focus,
   .c0:hover {
-    background-color: #004479;
+    background-color: #191a1b;
     color: white;
+    box-shadow: 0px 0px 0px 1px #474747 inset;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0:active {
-    background-color: #003965;
+    background-color: #242526;
     color: white;
   }
 }
@@ -138,9 +138,9 @@ exports[`<NavigationItem /> Should render correctly hrefExternal 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -148,19 +148,17 @@ exports[`<NavigationItem /> Should render correctly hrefExternal 1`] = `
   text-decoration-line: none;
   background-color: transparent;
   color: #1e1e1e;
+  box-shadow: none;
   min-width: unset;
   padding: 0.2rem 0.8rem;
-  font-weight: normal;
   display: inline-block;
 }
 
-.c0:focus-within,
-.c0:focus {
+.c0:focus-visible {
   outline: none !important;
 }
 
-.c0:focus-within::after,
-.c0:focus::after {
+.c0:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -168,20 +166,21 @@ exports[`<NavigationItem /> Should render correctly hrefExternal 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
 
 .c0:focus,
 .c0:hover {
-  background-color: #004F8C;
-  color: white;
+  background-color: #f4f4f4;
+  color: #1e1e1e;
+  box-shadow: none;
 }
 
 .c0:active {
-  background-color: #003E6F;
-  color: white;
+  background-color: #e6e6e6;
+  color: #1e1e1e;
 }
 
 .c0:disabled {
@@ -210,9 +209,8 @@ exports[`<NavigationItem /> Should render correctly hrefExternal 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c0:focus-within::after,
-  .c0:focus::after {
-    border-color: #007dfa3C;
+  .c0:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -220,20 +218,22 @@ exports[`<NavigationItem /> Should render correctly hrefExternal 1`] = `
   .c0 {
     background-color: transparent;
     color: white;
+    box-shadow: none;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0:focus,
   .c0:hover {
-    background-color: #004479;
+    background-color: #191a1b;
     color: white;
+    box-shadow: 0px 0px 0px 1px #474747 inset;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0:active {
-    background-color: #003965;
+    background-color: #242526;
     color: white;
   }
 }
@@ -270,9 +270,9 @@ exports[`<NavigationItem /> Should render correctly with custom className 1`] = 
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -280,19 +280,17 @@ exports[`<NavigationItem /> Should render correctly with custom className 1`] = 
   text-decoration-line: none;
   background-color: transparent;
   color: #1e1e1e;
+  box-shadow: none;
   min-width: unset;
   padding: 0.2rem 0.8rem;
-  font-weight: normal;
   display: inline-block;
 }
 
-.c0:focus-within,
-.c0:focus {
+.c0:focus-visible {
   outline: none !important;
 }
 
-.c0:focus-within::after,
-.c0:focus::after {
+.c0:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -300,20 +298,21 @@ exports[`<NavigationItem /> Should render correctly with custom className 1`] = 
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
 
 .c0:focus,
 .c0:hover {
-  background-color: #004F8C;
-  color: white;
+  background-color: #f4f4f4;
+  color: #1e1e1e;
+  box-shadow: none;
 }
 
 .c0:active {
-  background-color: #003E6F;
-  color: white;
+  background-color: #e6e6e6;
+  color: #1e1e1e;
 }
 
 .c0:disabled {
@@ -342,9 +341,8 @@ exports[`<NavigationItem /> Should render correctly with custom className 1`] = 
 }
 
 @media (prefers-color-scheme:dark) {
-  .c0:focus-within::after,
-  .c0:focus::after {
-    border-color: #007dfa3C;
+  .c0:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -352,20 +350,22 @@ exports[`<NavigationItem /> Should render correctly with custom className 1`] = 
   .c0 {
     background-color: transparent;
     color: white;
+    box-shadow: none;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0:focus,
   .c0:hover {
-    background-color: #004479;
+    background-color: #191a1b;
     color: white;
+    box-shadow: 0px 0px 0px 1px #474747 inset;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c0:active {
-    background-color: #003965;
+    background-color: #242526;
     color: white;
   }
 }

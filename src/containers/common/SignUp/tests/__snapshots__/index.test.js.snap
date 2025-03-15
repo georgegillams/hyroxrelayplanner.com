@@ -32,7 +32,7 @@ exports[`<SignUp /> should render correctly - index 1`] = `
   width: 12rem;
   height: 2.6rem;
   margin-bottom: 1.2rem;
-  border-radius: 0.25rem;
+  border-radius: 0.75rem;
   overflow: hidden;
 }
 
@@ -157,7 +157,7 @@ exports[`<SignUp /> should render correctly with initial state 1`] = `
   width: 12rem;
   height: 2.6rem;
   margin-bottom: 1.2rem;
-  border-radius: 0.25rem;
+  border-radius: 0.75rem;
   overflow: hidden;
 }
 
@@ -282,7 +282,7 @@ exports[`<SignUp /> should render correctly with signUpError 1`] = `
   width: 12rem;
   height: 2.6rem;
   margin-bottom: 1.2rem;
-  border-radius: 0.25rem;
+  border-radius: 0.75rem;
   overflow: hidden;
 }
 
@@ -407,7 +407,7 @@ exports[`<SignUp /> should render correctly with signUpResult 1`] = `
   width: 12rem;
   height: 2.6rem;
   margin-bottom: 1.2rem;
-  border-radius: 0.25rem;
+  border-radius: 0.75rem;
   overflow: hidden;
 }
 
@@ -532,7 +532,7 @@ exports[`<SignUp /> should render correctly with signingUp=true 1`] = `
   width: 12rem;
   height: 2.6rem;
   margin-bottom: 1.2rem;
-  border-radius: 0.25rem;
+  border-radius: 0.75rem;
   overflow: hidden;
 }
 
@@ -637,14 +637,12 @@ exports[`<SignUp /> should render correctly with user 1`] = `
   fill: #9932cc;
 }
 
-.c5:focus-within,
-.c5:focus {
+.c5:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c5:focus-within::after,
-.c5:focus::after {
+.c5:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -652,7 +650,7 @@ exports[`<SignUp /> should render correctly with user 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -708,9 +706,8 @@ exports[`<SignUp /> should render correctly with user 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c5:focus-within::after,
-  .c5:focus::after {
-    border-color: #007dfa3C;
+  .c5:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
