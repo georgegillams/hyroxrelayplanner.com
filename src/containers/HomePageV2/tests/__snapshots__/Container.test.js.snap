@@ -69,9 +69,9 @@ exports[`<Home /> should render correctly 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -79,18 +79,18 @@ exports[`<Home /> should render correctly 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
   min-width: 7rem;
   padding: 0.455rem 1.4rem 0.345rem 1.4rem;
   font-size: 1.6rem;
+  border-radius: 0.75rem;
 }
 
-.c6:focus-within,
-.c6:focus {
+.c6:focus-visible {
   outline: none !important;
 }
 
-.c6:focus-within::after,
-.c6:focus::after {
+.c6:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -98,7 +98,7 @@ exports[`<Home /> should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -107,6 +107,7 @@ exports[`<Home /> should render correctly 1`] = `
 .c6:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c6:active {
@@ -126,9 +127,9 @@ exports[`<Home /> should render correctly 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -136,19 +137,17 @@ exports[`<Home /> should render correctly 1`] = `
   text-decoration-line: none;
   background-color: transparent;
   color: #1e1e1e;
+  box-shadow: none;
   min-width: unset;
   padding: 0.2rem 0.8rem;
-  font-weight: normal;
   display: inline-block;
 }
 
-.c8:focus-within,
-.c8:focus {
+.c8:focus-visible {
   outline: none !important;
 }
 
-.c8:focus-within::after,
-.c8:focus::after {
+.c8:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -156,20 +155,21 @@ exports[`<Home /> should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
 
 .c8:focus,
 .c8:hover {
-  background-color: #004F8C;
-  color: white;
+  background-color: #f4f4f4;
+  color: #1e1e1e;
+  box-shadow: none;
 }
 
 .c8:active {
-  background-color: #003E6F;
-  color: white;
+  background-color: #e6e6e6;
+  color: #1e1e1e;
 }
 
 .c8:disabled {
@@ -271,9 +271,8 @@ exports[`<Home /> should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c6:focus-within::after,
-  .c6:focus::after {
-    border-color: #007dfa3C;
+  .c6:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -281,6 +280,7 @@ exports[`<Home /> should render correctly 1`] = `
   .c6 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -289,6 +289,7 @@ exports[`<Home /> should render correctly 1`] = `
   .c6:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -307,9 +308,8 @@ exports[`<Home /> should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c8:focus-within::after,
-  .c8:focus::after {
-    border-color: #007dfa3C;
+  .c8:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -317,20 +317,22 @@ exports[`<Home /> should render correctly 1`] = `
   .c8 {
     background-color: transparent;
     color: white;
+    box-shadow: none;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:focus,
   .c8:hover {
-    background-color: #004479;
+    background-color: #191a1b;
     color: white;
+    box-shadow: 0px 0px 0px 1px #474747 inset;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:active {
-    background-color: #003965;
+    background-color: #242526;
     color: white;
   }
 }
@@ -633,9 +635,9 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -643,18 +645,18 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   text-decoration-line: none;
   background-color: #0067B7;
   color: white;
+  box-shadow: none;
   min-width: 7rem;
   padding: 0.455rem 1.4rem 0.345rem 1.4rem;
   font-size: 1.6rem;
+  border-radius: 0.75rem;
 }
 
-.c6:focus-within,
-.c6:focus {
+.c6:focus-visible {
   outline: none !important;
 }
 
-.c6:focus-within::after,
-.c6:focus::after {
+.c6:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -662,7 +664,7 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -671,6 +673,7 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
 .c6:hover {
   background-color: #004F8C;
   color: white;
+  box-shadow: none;
 }
 
 .c6:active {
@@ -690,9 +693,9 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   -webkit-transition: filter 0.3s;
   transition: filter 0.3s;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   -webkit-text-decoration-color: transparent;
   text-decoration-color: transparent;
@@ -700,19 +703,17 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   text-decoration-line: none;
   background-color: transparent;
   color: #1e1e1e;
+  box-shadow: none;
   min-width: unset;
   padding: 0.2rem 0.8rem;
-  font-weight: normal;
   display: inline-block;
 }
 
-.c8:focus-within,
-.c8:focus {
+.c8:focus-visible {
   outline: none !important;
 }
 
-.c8:focus-within::after,
-.c8:focus::after {
+.c8:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -720,20 +721,21 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
 
 .c8:focus,
 .c8:hover {
-  background-color: #004F8C;
-  color: white;
+  background-color: #f4f4f4;
+  color: #1e1e1e;
+  box-shadow: none;
 }
 
 .c8:active {
-  background-color: #003E6F;
-  color: white;
+  background-color: #e6e6e6;
+  color: #1e1e1e;
 }
 
 .c8:disabled {
@@ -835,9 +837,8 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c6:focus-within::after,
-  .c6:focus::after {
-    border-color: #007dfa3C;
+  .c6:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -845,6 +846,7 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   .c6 {
     background-color: #025CA2;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -853,6 +855,7 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   .c6:hover {
     background-color: #004479;
     color: white;
+    box-shadow: none;
   }
 }
 
@@ -871,9 +874,8 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c8:focus-within::after,
-  .c8:focus::after {
-    border-color: #007dfa3C;
+  .c8:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -881,20 +883,22 @@ exports[`<Home /> should render correctly with no teamId 1`] = `
   .c8 {
     background-color: transparent;
     color: white;
+    box-shadow: none;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:focus,
   .c8:hover {
-    background-color: #004479;
+    background-color: #191a1b;
     color: white;
+    box-shadow: 0px 0px 0px 1px #474747 inset;
   }
 }
 
 @media (prefers-color-scheme:dark) {
   .c8:active {
-    background-color: #003965;
+    background-color: #242526;
     color: white;
   }
 }

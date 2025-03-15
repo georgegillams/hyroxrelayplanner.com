@@ -654,14 +654,12 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   fill: #9932cc;
 }
 
-.c15:focus-within,
-.c15:focus {
+.c15:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c15:focus-within::after,
-.c15:focus::after {
+.c15:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -669,7 +667,7 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -962,9 +960,8 @@ exports[`<MagicLogin /> should render correctly with logInError 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c15:focus-within::after,
-  .c15:focus::after {
-    border-color: #007dfa3C;
+  .c15:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -1401,14 +1398,12 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   fill: #9932cc;
 }
 
-.c5:focus-within,
-.c5:focus {
+.c5:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c5:focus-within::after,
-.c5:focus::after {
+.c5:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -1416,7 +1411,7 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -1704,9 +1699,8 @@ exports[`<MagicLogin /> should render correctly with user 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c5:focus-within::after,
-  .c5:focus::after {
-    border-color: #007dfa3C;
+  .c5:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 

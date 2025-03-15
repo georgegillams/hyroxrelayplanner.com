@@ -34,14 +34,12 @@ exports[`<AdminOnly /> Should render correctly 1`] = `
   fill: #9932cc;
 }
 
-.c4:focus-within,
-.c4:focus {
+.c4:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c4:focus-within::after,
-.c4:focus::after {
+.c4:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -49,7 +47,7 @@ exports[`<AdminOnly /> Should render correctly 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -71,9 +69,8 @@ exports[`<AdminOnly /> Should render correctly 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c4:focus-within::after,
-  .c4:focus::after {
-    border-color: #007dfa3C;
+  .c4:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 
@@ -165,14 +162,12 @@ exports[`<AdminOnly /> Should render correctly with user 1`] = `
   fill: #9932cc;
 }
 
-.c4:focus-within,
-.c4:focus {
+.c4:focus-visible {
   position: relative;
   outline: none !important;
 }
 
-.c4:focus-within::after,
-.c4:focus::after {
+.c4:focus-visible::after {
   position: absolute;
   top: -0.35rem;
   right: -0.35rem;
@@ -180,7 +175,7 @@ exports[`<AdminOnly /> Should render correctly with user 1`] = `
   left: -0.35rem;
   content: '';
   display: block;
-  border: solid #007dfa3C 0.2rem;
+  border: solid #44aeff 0.2rem;
   border-radius: 0.5rem;
   pointer-events: none;
 }
@@ -202,9 +197,8 @@ exports[`<AdminOnly /> Should render correctly with user 1`] = `
 }
 
 @media (prefers-color-scheme:dark) {
-  .c4:focus-within::after,
-  .c4:focus::after {
-    border-color: #007dfa3C;
+  .c4:focus-visible::after {
+    border-color: #ffffff;
   }
 }
 

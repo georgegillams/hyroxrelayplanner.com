@@ -5,6 +5,7 @@ export const hyroxBlack = '#000000';
 export const hyroxWhite = '#ffffff';
 
 export const HYROX_THEME = {
+  focusOutlineColor: hyroxWhite,
   textLinkColor: hyroxYellow,
   textLinkColorHover: hyroxYellowDark1,
   textLinkColorActive: hyroxYellowDark2,
