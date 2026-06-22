@@ -25,7 +25,7 @@ docker exec $dockerArgs $containerId tar -xzf $projectName.tar.gz --directory $p
 
 # prepare project
 if ! [ $skipNpm ]; then
-  docker exec $dockerArgs -w $destinationDirectory $containerId yarn install --frozen-lockfile
+  docker exec $dockerArgs -w $destinationDirectory $containerId yarn install --frozen-lockfile --ignore-engines
 fi
 docker exec $dockerArgs -w $destinationDirectory $containerId yarn build:test
 

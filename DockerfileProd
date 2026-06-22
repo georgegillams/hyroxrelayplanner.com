@@ -26,7 +26,7 @@ WORKDIR /opt/app
 
 COPY . .
 RUN rm -rf node_modules
-RUN PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true yarn install --frozen-lockfile --network-timeout 300000
+RUN PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true yarn install --frozen-lockfile --ignore-engines --network-timeout 300000
 RUN yarn build
 EXPOSE 3000
 CMD ["npm", "run", "start"]
