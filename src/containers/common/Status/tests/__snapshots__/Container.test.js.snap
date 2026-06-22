@@ -103,10 +103,10 @@ exports[`<Status /> should render correctly 1`] = `
       />
       <br />
       Built 
-      almost 55 years ago
+      about 56 years ago
       <br />
       Started 
-      almost 55 years ago
+      about 56 years ago
       <br />
       Environment 
       test-node-env
